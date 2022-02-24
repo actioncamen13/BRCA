@@ -1,0 +1,34 @@
+.infocard {
+  width: calc(198 / 1918 * 100vw);
+  height: calc(450 / 1412 * 100vh);
+  padding: 0.75%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffbfb;
+  border-radius: calc(15 / 1918 * 100vw);
+  margin-left: 0.75%;
+}
+.photo {
+  width: 100%;
+  height: calc(173 / 246.21 * 100%);
+}
+.photo > img {
+  width: 100%;
+  height: 100%;
+}
+.infocard > h2 {
+  font-size: 1.5em;
+}
+.infocard > h3 {
+  font-size: 1em;
+  margin-top: calc(-4%);
+  color: #6a6565;
+}
+.infocard__bottom > .MuiSvgIcon-root {
+  margin-top: 2%;
+  height: 80%;
+  width: 15%;
+  margin-right: 7.5%;
+  cursor: pointer;
+  color: #6a6565;
+}
