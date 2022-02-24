@@ -24,7 +24,7 @@ body {
 
 /*icon properties*/
 .box > img {
-    position: absolute;
+    position: relative;
     text-align: center;
     display: flex;
     height: 250px;
@@ -37,17 +37,20 @@ body {
 .b2 > img, .b3 > img {
     margin-left: 10%;
 }
+
 .sicons {
-    height: 40px;
+    height: 50px;
     margin-top: 35px;
     margin-left: 25px;
     margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .box > p {
     position: absolute;
     color: black;
-    margin-top: 260px;
+    margin-top: 0px;
     margin-left: 60px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -57,4 +60,8 @@ body {
 }
 .b3 > p {
     margin-left: 40px;
+}
+.box:hover {
+    transform: scale(1.1);
+    transition-duration: 1.2s;
 }
