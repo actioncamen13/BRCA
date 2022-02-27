@@ -66,16 +66,24 @@ body {
 }
 
 /* Frame 15 */
-.heading{
+.rhead{
 
-    font-family: 'Raleway', sans-serif;
-    font-size: max(5.39vw,67);
-    font-weight: bolder;
+    font-family: 'Raleway';
+    font-size: 60px;
+    font-weight: 900;
     line-height: 85px;
     letter-spacing: 2px;
     color: #FFFFFF;
     margin-top: 100px;
     margin-bottom: 42px;
+}
+.bgg {
+    overflow: hidden;
+    background-color: rgba(134, 134, 134, 0.25);
+    height: auto;
+    width: 100%;
+    align-items: center;
+    padding: 30px 50px 40px 50px;
 }
 
 .ybtn {
