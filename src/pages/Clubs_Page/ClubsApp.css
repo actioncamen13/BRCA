@@ -1,0 +1,144 @@
+.clubsapp__body {
+  width: 100vw;
+  height: calc(1248 / 1621 * 100vh);
+  display: flex;
+  flex-direction: column;
+  padding-top: calc(138 / 1621 * 100vh);
+}
+.clubsapp__body__row1 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+}
+.clubsapp__body__text {
+  width: 100vw;
+  height: calc(246 / 1621 * 100vh);
+  background-image: url("./Text\ Background.png");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clubsapp__body__text > img {
+  height: 80%;
+}
+.clubsapp__body__row2 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+}
+.danceclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Dance.png");
+  background-size: 100% 100%;
+}
+.litclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Lit.png");
+  background-size: 100% 100%;
+}
+.designclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Design.png");
+  background-size: 100% 100%;
+}
+.debateclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Debate.png");
+  background-size: 100% 100%;
+}
+.pfcclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./PFC.png");
+  background-size: 100% 100%;
+}
+.clubsapp__body__row2 > .danceclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./PFC 2.png");
+  background-size: 100% 100%;
+}
+.clubsapp__body__row2 > .litclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Debate 2.png");
+  background-size: 100% 100%;
+}
+.clubsapp__body__row2 > .designclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Design 2.png");
+  background-size: 100% 100%;
+}
+.clubsapp__body__row2 > .debateclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Lit 2.png");
+  background-size: 100% 100%;
+}
+.clubsapp__body__row2 > .pfcclub {
+  width: 20%;
+  height: 100%;
+  background-image: url("./Dance 2.png");
+  background-size: 100% 100%;
+}
+.clubsapp__body__row1,
+.clubsapp__body__row2 > div {
+  cursor: pointer;
+}
+.club__content {
+  height: 50%;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 36.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circular__container {
+  width: 70%;
+  height: 70%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.club__content__text {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.danceclub > .club__content > .circular__container {
+  background-image: url("./Dance\ Logo.png");
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.litclub > .club__content > .circular__container {
+  background-image: url("./Lit\ Logo.png");
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.designclub > .club__content > .circular__container {
+  background-image: url("./Design\ Logo.png");
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.debateclub > .club__content > .circular__container {
+  background-image: url("./Debate\ Logo.png");
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pfcclub > .club__content > .circular__container {
+  background-image: url("./PFC\ Logo.png");
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
