@@ -8,9 +8,9 @@ import SacBooking from './frame5/SacBooking';
 function App() {
   return (
     <div className="App">
-      <Recognitions/>
+      {/* <Recognitions/> */}
       {/* <SacBooking /> */}
-      {/* <Teams/> */}
+      <Teams/>
 
     </div>
   );

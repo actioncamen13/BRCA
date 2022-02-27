@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "./css/style.css";
+import "./css/stylesTeam.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Frame1 from "./images/Frame1.png";
 import Frame2 from "./images/Frame2.png";
