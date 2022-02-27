@@ -1,5 +1,6 @@
 body {
-    background-color: #24315E;
+    background-image: url(/images/background.png);
+    color: white;
 }
 .bgimg {
     position: absolute;
@@ -37,7 +38,7 @@ body {
     max-width: 100%;
 }
 .b1 > img {
-    margin-left: 20%;
+    margin-left: 30%;
 }
 .b2 > img, .b3 > img {
     margin-left: 10%;
@@ -53,6 +54,7 @@ body {
     font-style: normal;
     font-size: 20px;
     line-height: 26px;
+    
 }
 .b3 > p {
     margin-left: 50px;
@@ -76,7 +78,7 @@ body {
     margin-bottom: 42px;
 }
 
-.btn {
+.ybtn {
     opacity: 1;
     overflow: visible;
     width: 134px;
@@ -89,4 +91,77 @@ body {
 }
 a:hover {
     text-decoration: none !important;
+}
+
+/*Home Page*/
+.texts {
+    position: absolute;
+    top: 180px;
+}
+.hhead {
+    font-weight: 800;
+    font-size:60px;
+    text-transform:uppercase;
+    top: 200px;
+    line-height: 120%;
+    
+}
+.hhead .iit {
+    color: #F76D6D;
+}
+.shead {
+    font-weight: bolder;
+    line-height: 120%;
+    font-family: 'Raleway';
+}
+.texts > p {
+    font-family: 'Raleway';
+    font-weight: 100;
+    margin-right: 20px;
+}
+.exp {
+    overflow: visible;
+    width: 250px;
+    border-radius: 50px;
+    padding: 10px 0 10px 0;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F76D6D;
+    height: 50px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.fa {
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.s_icons {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.fa-instagram:hover {
+    color: #E4405F;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 5px white
+
+}
+.fa-facebook:hover {
+    color: #1877F2;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 5px white
+
+}
+.fa-twitter:hover {
+    color: #1DA1F2;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 5px white
+    
 }
