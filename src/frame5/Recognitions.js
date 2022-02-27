@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/style.css";
+import "./css/stylesRecognitions.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Recognitions() {
