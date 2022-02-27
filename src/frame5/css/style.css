@@ -42,7 +42,8 @@ body {
 
 .box > p {
     position: absolute;
-    color: white;
+    color: #FFFFFF;
+    font-weight: 700;
     margin: 0 50px 0 70px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
