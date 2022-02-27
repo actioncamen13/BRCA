@@ -1,6 +1,6 @@
 body {
     background-color: #24315E;
-    background-image: url(/images/pattern-01.png);
+    /* background-image: url('images/pattern-01.png'); */
 }
 .box {
     margin-top: 120px;
@@ -60,10 +60,10 @@ body {
 }
 
 /* Frame 15 */
-h1 {
+.heading{
 
     font-family: 'Raleway', sans-serif;
-    font-size: 60px;
+    font-size: max(5.39vw,60);
     font-weight: 900;
     line-height: 85px;
     color: #FFFFFF;
@@ -75,14 +75,13 @@ h1 {
     height: auto;
     width: 100%;
     align-items: center;
-    padding: 30px 50px 40px 50px;
+    padding: 30px 0px 40px 0px;
 }
-button {
+.btn {
     opacity: 1;
     overflow: visible;
     border-radius: 40px !important ;
     margin: 40px 40px 10px 40px;
-    padding: 5px;
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     background-color: #F76D6D;
