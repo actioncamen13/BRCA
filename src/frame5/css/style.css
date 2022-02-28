@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/background.png);
+    background-image: url(/src/frame5/images/background.png);
     color: white;
     max-width: 100%;
 }
@@ -190,7 +190,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
     body {
-        background-image: url(/images/background2.png);
+        background-image: url(/src/frame5/images/background2.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
