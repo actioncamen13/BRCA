@@ -1,13 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./css/stylesHome.css";
+import 'font-awesome/css/font-awesome.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "../components/Navbar/Navbar";
+
 
 function Home(){
     return(
         <div>
-<Navbar/>
                 <div className="container">
         <div className="row">
             <div className="texts">
@@ -28,9 +29,9 @@ function Home(){
         
     </div>
     <div className="s_icons text-right">
-        <a href="" className="fa fa-twitter" target="blank"></a>
-        <a href="https://www.facebook.com/cultureIITD/?ref=page_internal" className="fa fa-facebook" target="blank"></a>
-        <a href="https://www.instagram.com/brcaiitd/?hl=en" className="fa fa-instagram" target="blank"></a>
+        <a href="" className="fa fa-twitter lg" target="blank"><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+        <a href="https://www.facebook.com/cultureIITD/?ref=page_internal" className="fa fa-facebook" target="blank"><FontAwesomeIcon icon/></a>
+        <a href="https://www.instagram.com/brcaiitd/?hl=en" className="fa fa-instagram" target="blank"><FontAwesomeIcon icon/></a>
     </div>
         </div>
     );
