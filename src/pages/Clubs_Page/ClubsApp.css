@@ -213,3 +213,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.spicmacayclub > .club__content > .circular__container {
+  background-image: url("./Spic\ Macay\ Logo.png");
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
