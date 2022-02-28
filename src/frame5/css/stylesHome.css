@@ -148,6 +148,7 @@
     transition-duration: 0.5s;
     text-shadow: 2px 2px  white;
   }
+}
   @media only screen and (max-width: 992px) {
     .texts {
       position: absolute;
