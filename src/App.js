@@ -3,25 +3,26 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./frame5/Home";
 import LayoutApp from "./pages/Teams_Page/LayoutApp";
 import ClubsApp from "./pages/Clubs_Page/ClubsApp";
 import SacBooking from "./frame5/SacBooking";
 import Recognitions from "./frame5/Recognitions";
 import Teams from "./frame5/Teams";
-import Home from "./frame5/Home";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/clubs" element={<ClubsApp />} />
           <Route path="/teamsecy" element={<LayoutApp />} />
           <Route path="/sacbooking" element={<SacBooking />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/recognitions" element={<Recognitions />} />
-          <Route path="/home" element={<Home />}/>
-         </Routes>
+          <Route path="/home" element={<Home />} />
+        </Routes>
       </div>
     </Router>
   );

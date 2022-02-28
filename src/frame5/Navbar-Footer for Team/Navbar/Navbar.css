@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: calc(133 / 1412 * 100vh);
+  height: calc(138 / 1621 * 100vh);
   background-image: url("Onboarding Investment App.png");
   background-size: contain;
   display: flex;
@@ -15,15 +15,16 @@
   bottom: 0;
   right: 0;
   border-bottom: calc(3 / 1412 * 100vh) solid #ffffff;
-  width: calc(953.34 / 1918 * 100%);
+  width: calc(953.34 / 1921 * 100%);
 }
 .navbar__logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100% !important;
-  width: 9% !important;
+  height: 100%;
+  width: 12%;
   margin-left: 1.5%;
+  margin-top: 0.02%;
   cursor: pointer;
   background-image: url("Front Design-01 6.png");
   background-size: 100% 100%;
@@ -50,7 +51,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 100%;
 }
 .navbar__text {
   color: rgba(255, 255, 255, 1);
@@ -62,11 +62,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: calc(40 / 1918 * 100vw);
-  padding-right: calc(40 / 1918 * 100vw);
+  padding-left: calc(40 / 1921 * 100vw);
+  padding-right: calc(40 / 1921 * 100vw);
 }
 #navbar__rightmost {
-  margin-right: calc(60 / 1918 * 100vw);
+  margin-right: calc(60 / 1921 * 100vw);
 }
 .rendezvous__inner {
   display: flex;
@@ -74,7 +74,7 @@
   padding: 10%;
   justify-content: center;
   align-items: center;
-  border-radius: 5px !important;
+  border-radius: 10px;
   background-color: #f76d6d;
 }
 .navbar__text:hover {
@@ -88,8 +88,8 @@
     font-size: 0.85em;
   }
   .navbar__logo {
-    height: 120% !important;
-    margin-top: -0.2% !important;
+    height: 80%;
+    margin-top: 0.55%;
   }
 }
 @media screen and (max-width: 940px) {
