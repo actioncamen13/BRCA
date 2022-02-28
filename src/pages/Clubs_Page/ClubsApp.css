@@ -9,6 +9,7 @@
   width: 100vw;
   height: calc(501 / 1621 * 100vh);
   display: flex;
+  justify-content: center;
 }
 .clubsapp__body__text {
   width: 100vw;
@@ -26,70 +27,77 @@
   width: 100vw;
   height: calc(501 / 1621 * 100vh);
   display: flex;
+  justify-content: center;
 }
 .danceclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Dance.png");
   background-size: 100% 100%;
 }
 .litclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Lit.png");
   background-size: 100% 100%;
 }
 .designclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Design.png");
   background-size: 100% 100%;
 }
 .debateclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Debate.png");
   background-size: 100% 100%;
 }
 .pfcclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./PFC.png");
   background-size: 100% 100%;
 }
 .clubsapp__body__row2 > .danceclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./PFC 2.png");
   background-size: 100% 100%;
 }
 .clubsapp__body__row2 > .litclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Debate 2.png");
   background-size: 100% 100%;
 }
 .clubsapp__body__row2 > .designclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Design 2.png");
   background-size: 100% 100%;
 }
 .clubsapp__body__row2 > .debateclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Lit 2.png");
   background-size: 100% 100%;
 }
 .clubsapp__body__row2 > .pfcclub {
-  width: 20%;
+  width: calc(100% / 6);
   height: 100%;
   background-image: url("./Dance 2.png");
   background-size: 100% 100%;
 }
-.clubsapp__body__row1,
+.clubsapp__body__row1 > div,
 .clubsapp__body__row2 > div {
   cursor: pointer;
+  transition-duration: 0.2s;
+}
+.clubsapp__body__row1 > div:hover,
+.clubsapp__body__row2 > div:hover {
+  transform: scale(1.1);
+  z-index: 2;
 }
 .club__content {
   height: 50%;

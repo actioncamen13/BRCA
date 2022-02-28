@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer" style={{ position: "relative" }}>
+    <div className="footer">
       <div className="footer__logo"></div>
       <div className="footer__text1">
         <h3>Contact us on</h3>

@@ -3,12 +3,12 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./frame5/Home";
+import Home from "./pages/Homepage/Home";
 import LayoutApp from "./pages/Teams_Page/LayoutApp";
 import ClubsApp from "./pages/Clubs_Page/ClubsApp";
 import SacBooking from "./frame5/SacBooking";
-import Recognitions from "./frame5/Recognitions";
-import Teams from "./frame5/Teams";
+import Recognitions from "./pages/Recognition_Page/Recognitions";
+import Teams from "./pages/Secy_Page/Teams";
 
 function App() {
   return (
