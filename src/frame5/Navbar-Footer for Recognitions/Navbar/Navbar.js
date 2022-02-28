@@ -19,7 +19,9 @@ function Navbar() {
           <div className="navbar__text">CLUBS</div>
         </Link>
         <Link to="/recognitions" style={{ textDecoration: "none" }}>
-          <div className="navbar__text">BRCA RECOGNITIONS</div>
+          <div className="navbar__text" style={{ color: "#f76d6d" }}>
+            BRCA RECOGNITIONS
+          </div>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="navbar__text">SAC BOOKINGS</div>

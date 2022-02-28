@@ -1,6 +1,6 @@
 .clubsapp__body {
   width: 100vw;
-  height: calc(1248 / 1621 * 100vh);
+  height: calc(1386 / 1621 * 100vh);
   display: flex;
   flex-direction: column;
   padding-top: calc(138 / 1621 * 100vh);

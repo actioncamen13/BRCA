@@ -9,21 +9,21 @@ function LayoutApp() {
   return (
     <div className="layoutapp">
       <Navbar />
-      <div className="body">
-        <div className="body__title">
+      <div className="layoutappbody">
+        <div className="layoutappbody__title">
           <h1>CULTURAL SECRETARIES</h1>
         </div>
-        <div className="first__row">
+        <div className="layoutappfirst__row">
           <Infocard />
         </div>
-        <div className="second__row">
+        <div className="layoutappsecond__row">
           <Infocard />
           <Infocard />
           <Infocard />
           <Infocard />
           <Infocard />
         </div>
-        <div className="third__row">
+        <div className="layoutappthird__row">
           <Infocard />
           <Infocard />
           <Infocard />
