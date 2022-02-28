@@ -74,10 +74,14 @@
   padding: 10%;
   justify-content: center;
   align-items: center;
-  background-color: #161b33;
+  border-radius: 10px;
+  background-color: #f76d6d;
 }
 .navbar__text:hover {
-  background-color: rgba(196, 196, 196, 1);
+  color: #f76d6d;
+}
+#navbar__rightmost:hover {
+  color: rgba(255, 255, 255, 1);
 }
 @media screen and (max-width: 1080px) {
   .navbar__text {
