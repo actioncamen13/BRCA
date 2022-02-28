@@ -4,7 +4,7 @@
 .texts {
   position: absolute;
   top: 10vw;
-  margin-left: 4%;
+  margin-left: 5%;
   width: 50%;
 }
 .hhead {
@@ -76,12 +76,21 @@
   transition-duration: 0.5s;
   text-shadow: 2px 2px 5px white;
 }
+.section2{
+  display: flex;
+}
+.images{
+  width: 40.26vw;
+  height: 36.6vw;
+  margin: 6.58vw 0 0 54vw;
+}
 @media only screen and (max-width: 992px) {
   .texts {
     position: absolute;
     left: 0;
     margin-left: 6%;
   }
+
 }
 @media only screen and (max-width: 768px) {
   body {
