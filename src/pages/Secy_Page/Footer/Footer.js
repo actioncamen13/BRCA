@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer(style={position:"relative!important"}) {
+function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" style={{ position: "relative", top: "18vh" }}>
       <div className="footer__logo"></div>
       <div className="footer__text1">
         <h3>Contact us on</h3>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ position: "relative" }}>
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
       <div className="navbar__logo"></div>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
