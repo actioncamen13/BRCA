@@ -61,7 +61,6 @@ body {
 }
 
 /* Recognitions */
-<<<<<<< HEAD
 .rhead{
 
     font-family: 'Raleway';
@@ -72,17 +71,6 @@ body {
     color: #FFFFFF;
     margin-top: 100px;
     margin-bottom: 42px;
-=======
-.rhead {
-  font-family: "Raleway";
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 85px;
-  letter-spacing: 2px;
-  color: #ffffff;
-  margin-top: 100px;
-  margin-bottom: 42px;
->>>>>>> 27b0b6e773889f6249d83944c88bb66e2a1c0732
 }
 .bgg {
   overflow: hidden;
@@ -94,7 +82,6 @@ body {
 }
 
 .ybtn {
-<<<<<<< HEAD
     opacity: 1;
     overflow: visible;
     width: 134px;
@@ -115,25 +102,6 @@ body {
 }
 
 
-=======
-  opacity: 1;
-  overflow: visible;
-  width: 134px;
-  border-radius: 40px !important ;
-  font-weight: 500;
-  margin: 40px 40px 10px 40px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  background-color: #f76d6d;
-}
-.btn:hover,
-button:hover {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none !important;
-}
->>>>>>> 27b0b6e773889f6249d83944c88bb66e2a1c0732
 
 /*Home Page*/
 
@@ -145,18 +113,10 @@ a:hover {
   width: 50%;
 }
 .hhead {
-<<<<<<< HEAD
     font-weight: 800;
     font-size:5vw;
     text-transform:uppercase;
     line-height: 120%;    
-=======
-  font-weight: 800;
-  font-size: 5vw;
-  text-transform: uppercase;
-  top: 200px;
-  line-height: 120%;
->>>>>>> 27b0b6e773889f6249d83944c88bb66e2a1c0732
 }
 .hhead .iit {
   color: #f76d6d;
@@ -229,7 +189,6 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-<<<<<<< HEAD
     body {
         background-image: url(/images/background2.png);
         background-size: cover;
@@ -263,34 +222,3 @@ a:hover {
         font-size: 8vw;
     }
   }
-=======
-  body {
-    background-image: url("/src/frame5/images/background2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .texts {
-    top: 25vh;
-    width: 100vw;
-  }
-  .hhead {
-    font-size: 7vw;
-  }
-  .shead {
-    font-size: 3vw;
-  }
-  .texts > p {
-    font-size: 2vw;
-    margin-right: 20vw;
-    line-height: 3vw;
-  }
-  .exp {
-    width: 50vw;
-    font-size: 3vw;
-    height: 7.5vw;
-  }
-  .fa {
-    font-size: 7vw;
-  }
-}
->>>>>>> 27b0b6e773889f6249d83944c88bb66e2a1c0732
