@@ -1,7 +1,7 @@
 body {
-    background-image: url(/src/frame5/images/background.png);
-    color: white;
-    max-width: 100%;
+  background-image: url("../images/background.png");
+  color: white;
+  max-width: 100%;
 }
 .box {
   margin-top: 120px;
@@ -186,48 +186,20 @@ button:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-    body {
-        background-image: url(/src/frame5/images/background2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .texts {
-        top: 15vw;
-        width: 100vw;
-    }
-    .hhead {
-        font-size: 7vw;
-    }
-    .shead {
-        font-size: 3vw;
-    }
-    .texts > p {
-        font-size: 2vw;
-        margin-right: 20vw;
-        line-height: 3vw;
-    }
-    .exp {
-        width: 50vw;
-        font-size: 3vw;
-        height: 7.5vw;
-    }
-    .fa {
-        font-size:7vw;
-    }
-    /*for recognition page*/
-    .rhead {
-        font-size: 8vw;
-    }
-    .bgg {
-      width: 80%;
-      align-items: center;
-      margin-bottom: 4vw;
-    }
-    .ybtn {
-      align-items: center;
-      margin-left:4vw;
-      margin-right:4vw;
-    }
+  body {
+    background-image: url("../images/background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .texts {
+    top: 15vw;
+    width: 100vw;
+  }
+  .hhead {
+    font-size: 7vw;
+  }
+  .shead {
+    font-size: 3vw;
   }
   .texts > p {
     font-size: 2vw;
