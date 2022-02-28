@@ -1,5 +1,5 @@
 body {
-    /* background-image: url(/images/background.png); */
+    background-image: url(/images/background.png);
     color: white;
     max-width: 100%;
 }
@@ -61,15 +61,16 @@ body {
 }
 
 /* Recognitions */
-.rhead {
-  font-family: "Raleway";
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 85px;
-  letter-spacing: 2px;
-  color: #ffffff;
-  margin-top: 100px;
-  margin-bottom: 42px;
+.rhead{
+
+    font-family: 'Raleway';
+    font-size: 5vw;
+    font-weight: 1000;
+    line-height: 8vw;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 42px;
 }
 .bgg {
   overflow: hidden;
@@ -81,23 +82,26 @@ body {
 }
 
 .ybtn {
-  opacity: 1;
-  overflow: visible;
-  width: 134px;
-  border-radius: 40px !important ;
-  font-weight: 500;
-  margin: 40px 40px 10px 40px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  background-color: #f76d6d;
+    opacity: 1;
+    overflow: visible;
+    width: 134px;
+    border-radius: 40px !important ;
+    font-weight:500;
+    margin: 40px 40px 10px 40px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F76D6D;
 }
-.btn:hover,
-button:hover {
-  text-decoration: none;
+.btn:hover, button:hover {
+    text-decoration: none;
+    -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.85);
+    color: white;
+
 }
-a:hover {
-  text-decoration: none !important;
-}
+
+
 
 /*Home Page*/
 
@@ -109,11 +113,10 @@ a:hover {
   width: 50%;
 }
 .hhead {
-  font-weight: 800;
-  font-size: 5vw;
-  text-transform: uppercase;
-  top: 200px;
-  line-height: 120%;
+    font-weight: 800;
+    font-size:5vw;
+    text-transform:uppercase;
+    line-height: 120%;    
 }
 .hhead .iit {
   color: #f76d6d;
@@ -132,6 +135,7 @@ a:hover {
   margin-right: 5vw;
   justify-content: left;
 }
+
 .exp {
   overflow: visible;
   font-weight: 200;
@@ -185,32 +189,46 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-  body {
-    background-image: url("/src/frame5/images/background2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    body {
+        background-image: url(/images/background2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .texts {
+        top: 15vw;
+        width: 100vw;
+    }
+    .hhead {
+        font-size: 7vw;
+    }
+    .shead {
+        font-size: 3vw;
+    }
+    .texts > p {
+        font-size: 2vw;
+        margin-right: 20vw;
+        line-height: 3vw;
+    }
+    .exp {
+        width: 50vw;
+        font-size: 3vw;
+        height: 7.5vw;
+    }
+    .fa {
+        font-size:7vw;
+    }
+    /*for recognition page*/
+    .rhead {
+        font-size: 8vw;
+    }
+    .bgg {
+      width: 80%;
+      align-items: center;
+      margin-bottom: 4vw;
+    }
+    .ybtn {
+      align-items: center;
+      margin-left:4vw;
+      margin-right:4vw;
+    }
   }
-  .texts {
-    top: 25vh;
-    width: 100vw;
-  }
-  .hhead {
-    font-size: 7vw;
-  }
-  .shead {
-    font-size: 3vw;
-  }
-  .texts > p {
-    font-size: 2vw;
-    margin-right: 20vw;
-    line-height: 3vw;
-  }
-  .exp {
-    width: 50vw;
-    font-size: 3vw;
-    height: 7.5vw;
-  }
-  .fa {
-    font-size: 7vw;
-  }
-}
