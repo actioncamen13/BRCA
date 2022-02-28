@@ -45,6 +45,15 @@ function ClubsApp() {
               <div className="club__content__text">PFC</div>
             </div>
           </div>
+          <div className="litclub">
+            <div className="club__content">
+              <div
+                className="circular__container"
+                style={{ opacity: 0.65 }}
+              ></div>
+              <div className="club__content__text">LIT</div>
+            </div>
+          </div>
         </div>
         <div className="clubsapp__body__text">
           <img src={BRCA_CLUBS} alt="Text saying BRCA Clubs" />

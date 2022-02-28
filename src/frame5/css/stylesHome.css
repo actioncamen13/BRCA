@@ -83,10 +83,10 @@
     margin-left: 6%;
   }
   .hhead {
-      font-weight: 800;
-      font-size:5vw;
-      text-transform:uppercase;
-      line-height: 120%;    
+    font-weight: 800;
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height: 120%;
   }
   .texts {
     top: 25vh;
@@ -103,7 +103,7 @@
     margin-right: 20vw;
     line-height: 3vw;
   }
-  
+
   .exp {
     overflow: visible;
     font-weight: 200;
@@ -134,55 +134,55 @@
     color: #e4405f;
     text-decoration: none;
     transition-duration: 0.5s;
-    text-shadow: 2px 2px  white;
+    text-shadow: 2px 2px white;
   }
   .fa-facebook:hover {
     color: #1877f2;
     text-decoration: none;
     transition-duration: 0.5s;
-    text-shadow: 2px 2px  white;
+    text-shadow: 2px 2px white;
   }
   .fa-twitter:hover {
     color: #1da1f2;
     text-decoration: none;
     transition-duration: 0.5s;
-    text-shadow: 2px 2px  white;
+    text-shadow: 2px 2px white;
   }
 }
-  @media only screen and (max-width: 992px) {
-    .texts {
-      position: absolute;
-      left: 0;
-      margin-left: 6%;
-    }
+@media only screen and (max-width: 992px) {
+  .texts {
+    position: absolute;
+    left: 0;
+    margin-left: 6%;
   }
-  @media only screen and (max-width: 768px) {
-      body {
-          background-image: url(/src/frame5/images/background2.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-      }
-      .texts {
-          top: 15vw;
-          width: 100vw;
-      }
-      .hhead {
-          font-size: 7vw;
-      }
-      .shead {
-          font-size: 3vw;
-      }
-      .texts > p {
-          font-size: 2vw;
-          margin-right: 20vw;
-          line-height: 3vw;
-      }
-      .exp {
-          width: 50vw;
-          font-size: 3vw;
-          height: 7.5vw;
-      }
-      .fa {
-          font-size:7vw;
-      }
-    }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(/src/frame5/images/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .texts {
+    top: 15vw;
+    width: 100vw;
+  }
+  .hhead {
+    font-size: 7vw;
+  }
+  .shead {
+    font-size: 3vw;
+  }
+  .texts > p {
+    font-size: 2vw;
+    margin-right: 20vw;
+    line-height: 3vw;
+  }
+  .exp {
+    width: 50vw;
+    font-size: 3vw;
+    height: 7.5vw;
+  }
+  .fa {
+    font-size: 7vw;
+  }
+}
