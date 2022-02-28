@@ -14,11 +14,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          {/* <Recognitions/>
-      <SacBooking />
-      <Teams/> */}
           <Route path="/clubs" element={<ClubsApp />} />
-          <Route path="/team" element={<LayoutApp />} />
+          <Route path="/teamsecy" element={<LayoutApp />} />
           <Route path="/sacbooking" element={<SacBooking />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/recognitions" element={<Recognitions />} />
