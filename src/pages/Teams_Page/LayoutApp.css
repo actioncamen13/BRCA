@@ -9,7 +9,8 @@
 .body {
   width: 100vw;
   padding-top: calc(90 / 1412 * 100%);
-  background-color: #c4c3d0;
+  background-image: url("Background\ Pattern.png");
+  background-size: 100% 100%;
 }
 .body__title {
   width: 100%;
