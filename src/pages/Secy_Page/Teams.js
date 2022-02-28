@@ -15,7 +15,7 @@ function Teams() {
       <Navbar />
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
             <a href="/teamsecy" class="box b1">
               <img src={Frame1} className="text-center" />
               <p>
@@ -23,7 +23,7 @@ function Teams() {
               </p>
             </a>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
             <a href="/teamsecy" class="box b2">
               <img src={Frame2} alt="image" class="text-center" />
               <p>
@@ -31,7 +31,15 @@ function Teams() {
               </p>
             </a>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+            <a href="/teamsecy" class="box b2">
+              <img src={Frame2} alt="image" class="text-center" />
+              <p>
+                Professors <br /> 
+              </p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
             <a href="/teamsecy" class="box b3">
               <img src={Frame3} alt="image" class="text-center" />
               <p>

@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./css/stylesHome.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../components/Navbar/Navbar";
+import vector from "./images/vector.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
@@ -29,26 +30,28 @@ function Home() {
               <button className="btn btn-lg exp">Start Exploring</button>
             </a>
           </div>
-          <div className="images"></div>
+          <div className="images">
+          <img src={vector}/>
+          </div>
         </div>
       </div>
       <div className="s_icons text-right">
         <a href="" className="fa fa-twitter lg" target="blank">
-          <FontAwesomeIcon icon="fa-brands fa-twitter" />
+        
         </a>
         <a
           href="https://www.facebook.com/cultureIITD/?ref=page_internal"
           className="fa fa-facebook"
           target="blank"
         >
-          <FontAwesomeIcon icon />
+        
         </a>
         <a
           href="https://www.instagram.com/brcaiitd/?hl=en"
           className="fa fa-instagram"
           target="blank"
         >
-          <FontAwesomeIcon icon />
+    
         </a>
       </div>
     </div>
