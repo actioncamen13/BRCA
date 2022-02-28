@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Recognitions() {
   return (
-    <div className="">
+    <div className="mainSection">
     <h1 className =" heading text-center mb-2">BRCA RECOGNITIONS</h1>
     <div className ="bgg text-center">
         <a href="/"><button className="btn btn-lg ybtn">2021-22</button></a>

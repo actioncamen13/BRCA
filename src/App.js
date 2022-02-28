@@ -8,6 +8,7 @@ import ClubsApp from "./pages/Clubs_Page/ClubsApp";
 import SacBooking from "./frame5/SacBooking";
 import Recognitions from "./frame5/Recognitions";
 import Teams from "./frame5/Teams";
+import Home from "./frame5/Home";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           <Route path="/sacbooking" element={<SacBooking />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/recognitions" element={<Recognitions />} />
-        </Routes>
+          <Route path="/home" element={<Home />}/>
+         </Routes>
       </div>
     </Router>
   );
