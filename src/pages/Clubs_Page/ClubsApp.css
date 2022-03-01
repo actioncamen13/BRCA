@@ -161,31 +161,31 @@
 }
 .danceclub > .club__content > .circular__container {
   background-image: url("./Dance\ Logo.png");
-  background-size: 80% 80%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .litclub > .club__content > .circular__container {
   background-image: url("./Lit\ Logo.png");
-  background-size: 70% 70%;
+  background-size: 85% 85%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .designclub > .club__content > .circular__container {
   background-image: url("./Design\ Logo.png");
-  background-size: 70% 70%;
+  background-size: 80% 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .debateclub > .club__content > .circular__container {
   background-image: url("./Debate\ Logo.png");
-  background-size: 70% 70%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pfcclub > .club__content > .circular__container {
   background-image: url("./PFC\ Logo.png");
-  background-size: 70% 70%;
+  background-size: 80% 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -197,19 +197,25 @@
 }
 .musicclub > .club__content > .circular__container {
   background-image: url("./music\ club\ logo\ light\ bg.png");
-  background-size: 100% 100%;
+  background-size: 115% 115%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .quizclub > .club__content > .circular__container {
   background-image: url("./qc_green.png");
-  background-size: 70% 70%;
+  background-size: 80% 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .hindisamiticlub > .club__content > .circular__container {
   background-image: url("./Hindi\ Samiti\ Logo.png");
-  background-size: 70% 70%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.faccclub > .club__content > .circular__container {
+  background-image: url("./FACC\ Logo.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
