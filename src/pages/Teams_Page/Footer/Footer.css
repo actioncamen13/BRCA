@@ -1,11 +1,12 @@
 .footer {
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100vw;
   height: calc(235 / 1412 * 100vh);
-  background-color: rgba(38, 38, 81, 1);
   display: flex;
   justify-content: space-around;
+  border-top: 3px solid #ffffff;
 }
 .footer__logo {
   display: flex;
@@ -40,11 +41,11 @@
 /* .footer > img:hover {
     background-color: yellowgreen;
   } */
-.footer__text1,
-.footer__text2,
-.footer__text3 {
+.footer__text1 > h3,
+.footer__text2 > h3,
+.footer__text3 > h3 {
   color: rgba(255, 255, 255, 1);
-  font-size: 0.65em;
+  font-size: 1.5em;
 }
 .footer__text1 {
   display: flex;

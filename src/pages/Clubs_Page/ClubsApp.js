@@ -36,13 +36,19 @@ function ClubsApp() {
           <div className="debateclub">
             <div className="club__content">
               <div className="circular__container"></div>
-              <div className="club__content__text">DEBATE</div>
+              <div className="club__content__text">DEBSOC</div>
             </div>
           </div>
           <div className="pfcclub">
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">PFC</div>
+            </div>
+          </div>
+          <div className="faccclub">
+            <div className="club__content">
+              <div className="circular__container"></div>
+              <div className="club__content__text">FACC</div>
             </div>
           </div>
         </div>
@@ -50,34 +56,44 @@ function ClubsApp() {
           <img src={BRCA_CLUBS} alt="Text saying BRCA Clubs" />
         </div>
         <div className="clubsapp__body__row2">
-          <div className="danceclub">
+          <div className="musicclub">
             <div className="club__content">
               <div className="circular__container"></div>
-              <div className="club__content__text">DANCE</div>
+              <div className="club__content__text">MUSIC</div>
             </div>
           </div>
-          <div className="litclub">
+          <div className="dramaclub">
             <div className="club__content">
               <div className="circular__container"></div>
-              <div className="club__content__text">LIT</div>
+              <div className="club__content__text">DRAMA</div>
             </div>
           </div>
-          <div className="designclub">
+          <div className="hindisamiticlub">
             <div className="club__content">
               <div className="circular__container"></div>
-              <div className="club__content__text">DESIGN</div>
+              <div
+                className="club__content__text"
+                style={{ fontSize: "1.2em" }}
+              >
+                HINDI SAMITI
+              </div>
             </div>
           </div>
-          <div className="debateclub">
+          <div className="quizclub">
             <div className="club__content">
               <div className="circular__container"></div>
-              <div className="club__content__text">DEBATE</div>
+              <div className="club__content__text">QC</div>
             </div>
           </div>
-          <div className="pfcclub">
+          <div className="spicmacayclub">
             <div className="club__content">
               <div className="circular__container"></div>
-              <div className="club__content__text">PFC</div>
+              <div
+                className="club__content__text"
+                style={{ fontSize: "1.3em" }}
+              >
+                SPIC MACAY
+              </div>
             </div>
           </div>
         </div>

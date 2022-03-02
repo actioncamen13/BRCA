@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: calc(133 / 1412 * 100vh);
+  height: calc(138 / 1621 * 100vh);
   background-image: url("Onboarding Investment App.png");
   background-size: contain;
   display: flex;
@@ -15,7 +15,7 @@
   bottom: 0;
   right: 0;
   border-bottom: calc(3 / 1412 * 100vh) solid #ffffff;
-  width: calc(953.34 / 1918 * 100%);
+  width: calc(953.34 / 1921 * 100%);
 }
 .navbar__logo {
   display: flex;
@@ -62,11 +62,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: calc(40 / 1918 * 100vw);
-  padding-right: calc(40 / 1918 * 100vw);
+  padding-left: calc(40 / 1921 * 100vw);
+  padding-right: calc(40 / 1921 * 100vw);
 }
 #navbar__rightmost {
-  margin-right: calc(60 / 1918 * 100vw);
+  margin-right: calc(60 / 1921 * 100vw);
 }
 .rendezvous__inner {
   display: flex;
@@ -74,10 +74,14 @@
   padding: 10%;
   justify-content: center;
   align-items: center;
-  background-color: #161b33;
+  border-radius: 10px;
+  background-color: #f76d6d;
 }
 .navbar__text:hover {
-  background-color: rgba(196, 196, 196, 1);
+  color: #f76d6d;
+}
+#navbar__rightmost:hover {
+  color: rgba(255, 255, 255, 1);
 }
 @media screen and (max-width: 1080px) {
   .navbar__text {

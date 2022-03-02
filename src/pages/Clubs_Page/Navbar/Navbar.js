@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,14 +9,28 @@ function Navbar() {
       <div className="navbar__logo"></div>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="navbar__right">
-        <div className="navbar__text">HOME</div>
-        <div className="navbar__text">TEAMS</div>
-        <div className="navbar__text">CLUBS</div>
-        <div className="navbar__text">BRCA RECOGNITIONS</div>
-        <div className="navbar__text">SAC BOOKINGS</div>
-        <div className="navbar__text" id="navbar__rightmost">
-          <div className="rendezvous__inner">RENDEZVOUS</div>
-        </div>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="navbar__text">HOME</div>
+        </Link>
+        <Link to="/teams" style={{ textDecoration: "none" }}>
+          <div className="navbar__text">TEAMS</div>
+        </Link>
+        <Link to="/clubs" style={{ textDecoration: "none" }}>
+          <div className="navbar__text" style={{ color: "#f76d6d" }}>
+            CLUBS
+          </div>
+        </Link>
+        <Link to="/recognitions" style={{ textDecoration: "none" }}>
+          <div className="navbar__text">BRCA RECOGNITIONS</div>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="navbar__text">SAC BOOKINGS</div>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="navbar__text" id="navbar__rightmost">
+            <div className="rendezvous__inner">RENDEZVOUS</div>
+          </div>
+        </Link>
       </div>
     </div>
   );

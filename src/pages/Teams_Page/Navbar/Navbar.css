@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: calc(133 / 1412 * 100vh);
-  background-image: url("Onboarding Investment App.png");
+  background-image: none !important;
   background-size: contain;
   display: flex;
   justify-content: space-between;
@@ -21,10 +21,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 12%;
+  height: 100% !important;
+  width: 9% !important;
   margin-left: 1.5%;
-  margin-top: 0.02%;
   cursor: pointer;
   background-image: url("Front Design-01 6.png");
   background-size: 100% 100%;
@@ -51,6 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 100%;
 }
 .navbar__text {
   color: rgba(255, 255, 255, 1);
@@ -74,7 +74,7 @@
   padding: 10%;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px !important;
   background-color: #f76d6d;
 }
 .navbar__text:hover {
@@ -88,8 +88,8 @@
     font-size: 0.85em;
   }
   .navbar__logo {
-    height: 80%;
-    margin-top: 0.55%;
+    height: 120% !important;
+    margin-top: -0.2% !important;
   }
 }
 @media screen and (max-width: 940px) {
