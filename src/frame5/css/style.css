@@ -143,7 +143,7 @@ button:hover {
   font-family: "Poppins", sans-serif;
   background-color: #f76d6d;
   height: 5vw;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 1.5vw;
 }
 /* .images {
@@ -200,7 +200,6 @@ button:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-<<<<<<< HEAD
     body {
         background-image: url(/images/background2.png);
         background-size: cover;
@@ -315,7 +314,6 @@ a > .long:hover, button.btn:hover {
 	-moz-transform: rotate(180deg);
 	transform: rotate(180deg);
   transition-duration: 0.5s;
-=======
   body {
     background-image: url(/src/frame5/images/background2.png);
     background-size: cover;
@@ -386,5 +384,4 @@ a > .long:hover, button.btn:hover {
     margin-left: 4vw;
     margin-right: 4vw;
   }
->>>>>>> bafde13fbfc0d33f6c7382ec572ea3fd9be21c24
 }
