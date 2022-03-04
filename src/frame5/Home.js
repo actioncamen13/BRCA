@@ -35,7 +35,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="s_icons text-right">
+      {/* <div className="s_icons text-right">
         <a href="" className="fa fa-twitter lg" target="blank">
         
         </a>
@@ -53,7 +53,7 @@ function Home() {
         >
     
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
