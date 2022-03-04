@@ -1,7 +1,8 @@
 body {
-  background-image: url(/src/frame5/images/background.png);
+  background-image: url(/images/background.png);
   color: white;
   max-width: 100%;
+  animation-duration: 3s;
 }
 .box {
   margin-top: 120px;
@@ -143,7 +144,7 @@ button:hover {
   font-family: "Poppins", sans-serif;
   background-color: #f76d6d;
   height: 5vw;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 1.5vw;
 }
 /* .images {
@@ -200,74 +201,132 @@ button:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-  body {
-    background-image: url(/src/frame5/images/background2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .texts {
-    top: 15vw;
-    width: 100vw;
-  }
-  .hhead {
-    font-size: 7vw;
-  }
-  .shead {
-    font-size: 3vw;
-  }
-  .texts > p {
-    font-size: 2vw;
-    margin-right: 20vw;
-    line-height: 3vw;
-  }
-  .exp {
-    width: 50vw;
-    font-size: 3vw;
-    height: 7.5vw;
-  }
-  .fa {
-    font-size: 7vw;
-  }
-  /*for recognition page*/
-  .rhead {
-    font-size: 8vw;
-  }
-  .bgg {
-    width: 80%;
-    align-items: center;
-    margin-bottom: 4vw;
-  }
-  .ybtn {
-    align-items: center;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    body {
+        background-image: url(/images/background2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .texts {
+        top: 15vw;
+        width: 100vw;
+    }
+    .hhead {
+        font-size: 7vw;
+    }
+    .shead {
+        font-size: 3vw;
+    }
+    .texts > p {
+        font-size: 2vw;
+        margin-right: 20vw;
+        line-height: 3vw;
+    }
+    .exp {
+        width: 50vw;
+        font-size: 3vw;
+        height: 7.5vw;
+    }
+    .s_icons {
+      position: absolute;
+      top: 120vw;
+    }
+    .fa {
+        font-size:7vw;
+    }
+    /*for recognition page*/
+    .rhead {
+        font-size: 8vw;
+    }
+    
+    .ybtn {
+      align-items: center;
+      margin-left:4vw;
+      margin-right:4vw;
+    }
+    
+    /* .images {
+      margin: 0;
+      position: absolute;
+      top: 70vw;
+      right: 0;
+    }
+    .cover {
+      font-size: 120vw;
+    }
+     */
   }
 
-  .texts > p {
-    font-size: 2vw;
-    margin-right: 20vw;
-    line-height: 3vw;
+
+
+.long {
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin: 1em 10% 1em 10%;
+  padding: 1em;
+  background-color: #f76d6d;
+  color: white;
+  border: 0;
+  font-size: 1em;
+}
+a > .long:hover, button.btn:hover {
+  text-decoration: none;
+}
+
+
+/*SAC_Booking Page*/
+.wrapper{
+  width:70%;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:80%;
+} 
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-body {
+  color: black;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  border: none;
+  border-radius: 4px;
+  color:white;
+  background-color: #f76d6d;
+  text-align: center;
+  font-size:16px;
+  font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+
+
+
+@keyframes animate__slideInUp {
+  from {
+    opacity: 0;
   }
-  .exp {
-    width: 50vw;
-    font-size: 3vw;
-    height: 7.5vw;
-  }
-  .fa {
-    font-size: 7vw;
-  }
-  /*for recognition page*/
-  .rhead {
-    font-size: 8vw;
-  }
-  .bgg {
-    width: 80%;
-    align-items: center;
-    margin-bottom: 4vw;
-  }
-  .ybtn {
-    align-items: center;
-    margin-left: 4vw;
-    margin-right: 4vw;
+  to {
+    opacity: 1;
   }
 }
