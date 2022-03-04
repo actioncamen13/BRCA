@@ -10,6 +10,7 @@ function Sac_Booking(){
     
     <div className="wrapper center-block">
       <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <Accordion>
       <div className="panel panel-default">
         <div className="panel-heading" role="tab" id="headingOne">
           <h4 className="panel-title">
@@ -33,6 +34,7 @@ function Sac_Booking(){
           </div>
         </div>
       </div>
+</Accordion>
       <div className="panel panel-default">
         <div className="panel-heading" role="tab" id="headingTwo">
           <h4 className="panel-title">
