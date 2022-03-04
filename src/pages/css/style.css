@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/background.png");
+  background-image: url(/src/frame5/images/background.png);
   color: white;
   max-width: 100%;
 }
@@ -146,6 +146,20 @@ button:hover {
   margin-top: 20px;
   font-size: 1.5vw;
 }
+/* .images {
+  position: absolute; 
+  top: 8vw; 
+  right: 2vw;
+}
+.vector {
+  position: relative;
+  max-width: 20vw;
+} */
+/* .images {
+  background-image: url(/images/Vector.png) !important;
+  overflow: hidden;
+  background-size: cover;
+} */
 
 .fa {
   color: white;
@@ -187,7 +201,7 @@ button:hover {
 }
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url("../images/background2.png");
+    background-image: url(/src/frame5/images/background2.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -201,6 +215,34 @@ button:hover {
   .shead {
     font-size: 3vw;
   }
+  .texts > p {
+    font-size: 2vw;
+    margin-right: 20vw;
+    line-height: 3vw;
+  }
+  .exp {
+    width: 50vw;
+    font-size: 3vw;
+    height: 7.5vw;
+  }
+  .fa {
+    font-size: 7vw;
+  }
+  /*for recognition page*/
+  .rhead {
+    font-size: 8vw;
+  }
+  .bgg {
+    width: 80%;
+    align-items: center;
+    margin-bottom: 4vw;
+  }
+  .ybtn {
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+
   .texts > p {
     font-size: 2vw;
     margin-right: 20vw;
