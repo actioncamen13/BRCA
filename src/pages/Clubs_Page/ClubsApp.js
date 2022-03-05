@@ -1,5 +1,6 @@
 import "./ClubsApp.css";
 import React from "react";
+import "../css/animate.css";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import BRCA_CLUBS from "./BRCA CLUBS.png";
@@ -9,7 +10,7 @@ function ClubsApp() {
     <div className="clubsapp">
       <Navbar />
       <div className="clubsapp__body ">
-        <div className="clubsapp__body__row1">
+        <div className=" animate__animated animate__slideInLeft clubsapp__body__row1">
           <div className="danceclub">
             <div className="club__content">
               <div
@@ -56,7 +57,7 @@ function ClubsApp() {
         <div className="clubsapp__body__text">
           <img src={BRCA_CLUBS} alt="Text saying BRCA Clubs" />
         </div>
-        <div className="clubsapp__body__row2">
+        <div className=" animate__animated animate__slideInRight clubsapp__body__row2">
           <div className="musicclub">
             <div className="club__content">
               <div className="circular__container"></div>
