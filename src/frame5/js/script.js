@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 $('.panel-collapse').on('show.bs.collapse', function () {
   $(this).siblings('.panel-heading').addClass('active');
 });
