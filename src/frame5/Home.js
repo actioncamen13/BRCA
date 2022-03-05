@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
   return (
-    <div>
+    <div className="mainSecHome">
       <Navbar />
       <div className="container">
         <div className="row">

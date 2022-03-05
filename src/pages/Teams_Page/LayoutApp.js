@@ -2,6 +2,7 @@ import "./LayoutApp.css";
 // import BRCA_Logo from "./Front Design-01 6.png";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
+import React from "react";
 // import Altfooter from "./AlternateFooter/Altfooter";
 import Infocard from "./Infocard/Infocard";
 import Aashita from "./Aashita Gupta_Himadri-min.jpeg";

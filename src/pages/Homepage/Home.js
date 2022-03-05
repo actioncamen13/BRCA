@@ -9,7 +9,7 @@ import Navbar from "./Navbar/Navbar";
 
 function Home() {
   return (
-    <div>
+    <div className="mainSecHome">
       <Navbar />
       <div className="">
         <div className="section2">

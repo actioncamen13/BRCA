@@ -63,3 +63,10 @@ body {
     transition-duration: 1.2s;
     text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+    body {
+      background-image: url("/src/frame5/images/background2.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+}

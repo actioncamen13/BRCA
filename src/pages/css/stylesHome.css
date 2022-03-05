@@ -1,6 +1,17 @@
 /*Home Page*/
 
 /*Left portion having texts*/
+.mainSecHome{
+  color: #ffffff;
+  overflow: hidden;
+}
+.texts {
+  position: absolute;
+  top: 10vw;
+  color: #ffffff !important;
+  margin-left: 4%;
+  width: 50%;
+}
 .texts {
   position: absolute;
   top: 10vw;
@@ -44,7 +55,14 @@
   margin-top: 20px;
   font-size: 1.5vw;
 }
-
+.btn:hover,
+button:hover {
+  text-decoration: none!important;
+  -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.85)!important;
+  -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.85)!important;
+  box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.85)!important;
+  color: white!important;
+}
 .fa {
   color: white;
   padding: 1vw;
@@ -93,14 +111,13 @@
 
 }
 @media only screen and (max-width: 768px) {
-  body {
-    background-image: url("/src/frame5/images/background2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+
+  .section2{
+    flex-direction: row;
   }
+  
   .texts {
-    top: 25vh;
-    width: 100vw;
+    width: auto;
   }
   .hhead {
     font-size: 7vw;
@@ -114,11 +131,16 @@
     line-height: 3vw;
   }
   .exp {
-    width: 50vw;
+    width: 45vw !important;
     font-size: 3vw;
     height: 7.5vw;
   }
   .fa {
     font-size: 7vw;
   }
+  .images {
+    width: 62.26vw;
+    height: 40.6vw;
+    margin: 60.58vw 0 0 15vw;
+}
 }
