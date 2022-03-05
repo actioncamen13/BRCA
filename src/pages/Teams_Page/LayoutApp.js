@@ -1,6 +1,5 @@
 import "./LayoutApp.css";
 // import BRCA_Logo from "./Front Design-01 6.png";
-import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 // import Altfooter from "./AlternateFooter/Altfooter";
