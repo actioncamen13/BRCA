@@ -1,5 +1,6 @@
 body {
-  /* background-image: url(/images/background.png); */
+  background-image: url("/src/frame5/images/background.png");
+  background-color: #1da1f2;
   color: white;
   max-width: 100%;
   animation-duration: 3s;
