@@ -8,7 +8,7 @@ function ClubsApp() {
   return (
     <div className="clubsapp">
       <Navbar />
-      <div className="clubsapp__body">
+      <div className="clubsapp__body ">
         <div className="clubsapp__body__row1">
           <div className="danceclub">
             <div className="club__content">

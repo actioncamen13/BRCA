@@ -13,7 +13,7 @@ function Teams() {
   return (
     <div>
       <Navbar />
-      <div class="container">
+      <div class="container animate__animated animate__fadeIn">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
             <a href="/teamsecy" class="box b1">

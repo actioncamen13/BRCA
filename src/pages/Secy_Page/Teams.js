@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "../css/stylesTeam.css";
+import "../css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Frame1 from "../images/Frame1.png";
 import Frame2 from "../images/Frame2.png";
@@ -11,9 +12,9 @@ import Footer from "./Footer/Footer";
 
 function Teams() {
   return (
-    <div>
+    <div class="">
       <Navbar />
-      <div class="container">
+      <div class="container animate__animated animate__zoomIn">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
             <a href="/teamsecy" class="box b1">

@@ -61,3 +61,16 @@
         background-color: #ffffff;
         color: black;
     }
+    @keyframes animate__slideInUp {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+  
+    }
+    /* This only changes this particular animation duration */
+.animate__animated.animate__slideInUp {
+  --animate-duration: 0.5s;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/styleBooking.css";
+import "./css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Accordion from 'react-bootstrap/Accordion'
 // import $ from 'jquery';
@@ -8,10 +9,10 @@ function Sac_Booking (){
   return (
     <div className="mainSecBooking">
     <h1 class="text-center mainheading">SAC BOOKING</h1>
-      <Accordion className="wrapper center-block" defaultActiveKey="0">
-   <Accordion.Item  eventKey="0">
+      <Accordion className="wrapper center-block" defaultActiveKey="">
+   <Accordion.Item   className="animate__animated animate__slideInUp" eventKey="0">
      <Accordion.Header >Criteria and Conditions</Accordion.Header>
-     <Accordion.Body>
+     <Accordion.Body aria-expanded="false">
        <ul>
          <li> No personal events can be organized in SAC premises.</li>
          <li>The priority will be given to the BRCA club events followed by other student events, community events, alumni and outside respectively.</li>
@@ -24,7 +25,7 @@ function Sac_Booking (){
        </ul>
      </Accordion.Body>
    </Accordion.Item>
-   <Accordion.Item eventKey="1">
+   <Accordion.Item  className="animate__delay-1s animate__animated animate__slideInUp"eventKey="1">
      <Accordion.Header>Rent Charges</Accordion.Header>
      <Accordion.Body>
      <ul>
@@ -39,7 +40,7 @@ function Sac_Booking (){
        </ul>
      </Accordion.Body>
    </Accordion.Item>
-   <Accordion.Item eventKey="2">
+   <Accordion.Item className="animate__delay-2s animate__animated animate__slideInUp" eventKey="2">
      <Accordion.Header>Availability Calender</Accordion.Header>
      <Accordion.Body>
      <ul>
@@ -54,7 +55,7 @@ function Sac_Booking (){
        </ul>
      </Accordion.Body>
    </Accordion.Item>
-   <Accordion.Item eventKey="3">
+   <Accordion.Item className="animate__delay-3s animate__animated animate__slideInUp" eventKey="3">
      <Accordion.Header>Online Booking Form</Accordion.Header>
      <Accordion.Body>
      <ul>
@@ -69,7 +70,7 @@ function Sac_Booking (){
        </ul>
      </Accordion.Body>
    </Accordion.Item>
-   <Accordion.Item eventKey="4">
+   <Accordion.Item  className="animate__delay-4s animate__animated animate__slideInUp"eventKey="4">
      <Accordion.Header>Booking Process</Accordion.Header>
      <Accordion.Body>
      <ul>

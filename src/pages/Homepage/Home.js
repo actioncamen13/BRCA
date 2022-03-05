@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "../css/stylesHome.css";
+import "../css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import vector from "../images/Vector.png";
 import Navbar from "./Navbar/Navbar";
@@ -9,10 +10,10 @@ import Navbar from "./Navbar/Navbar";
 
 function Home() {
   return (
-    <div className="mainSecHome">
+    <div className="mainSecHome animate__animated animate__fadeIn">
       <Navbar />
       <div className="">
-        <div className="section2">
+        <div className="section2 ">
           <div className="texts">
             <h1 className="hhead">
               BRCA, <span className="iit"> IIT Delhi </span>
