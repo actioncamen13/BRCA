@@ -18,10 +18,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/clubs" element={<ClubsApp />} />
           <Route path="/teamsecy" element={<LayoutApp />} />
-          <Route path="/sacbooking" element={<SacBooking />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/recognitions" element={<Recognitions />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/sacbooking" element={<SacBooking />}/>
         </Routes>
       </div>
     </Router>

@@ -4,19 +4,19 @@ import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 // import Altfooter from "./AlternateFooter/Altfooter";
 import Infocard from "./Infocard/Infocard";
-import Aashita from "./Aashita Gupta_Himadri.jpeg";
-import Aditya from "./Aditya Vishal _ Nilgiri.jpg";
-import Anisha from "./Anisha__Kailash.jpg";
-import Diwakar from "./Diwakar_Karakoram.jpeg";
-import Keshav from "./Keshav_Shivalik.jpg";
-import Nishant from "./Nishant Bansal_Jwalamukhi.jpg";
-import Prem from "./Prem Khandelwal_Kumaon.jpg";
-import Priyanshu from "./Priyanshu_Girnar.jpg";
-import Rishi from "./Rishi_Aravali.jpg";
-import Ritik from "./Ritik Yadav_Satpura.JPG";
-import Sagar from "./Sagar_Vindhyachal.jpg";
-import Somya from "./Somya Maheshwari_Udaigiri.PNG";
-import Tarun from "./TarunGaur_Zanskar.jpg";
+import Aashita from "./Aashita Gupta_Himadri-min.jpeg";
+import Aditya from "./Aditya Vishal _ Nilgiri-min.jpg";
+import Anisha from "./Anisha__Kailash-min.jpg";
+import Diwakar from "./Diwakar_Karakoram-min.jpeg";
+import Keshav from "./Keshav_Shivalik-min.jpg";
+import Nishant from "./Nishant Bansal_Jwalamukhi-min.jpg";
+import Prem from "./Prem Khandelwal_Kumaon-min.jpg";
+import Priyanshu from "./Priyanshu_Girnar-min.jpg";
+import Rishi from "./Rishi_Aravali-min.jpg";
+import Ritik from "./Ritik Yadav_Satpura-min.JPG";
+import Sagar from "./Sagar_Vindhyachal-min.jpg";
+import Somya from "./Somya Maheshwari_Udaigiri-min.PNG";
+import Tarun from "./TarunGaur_Zanskar-min.jpg";
 import DefaultPic from "./Infocard/Rectangle 103.png";
 
 function LayoutApp() {
@@ -38,7 +38,7 @@ function LayoutApp() {
             name="Priyanshu Jangid"
             position="Position"
           />
-          <Infocard image={Somya} name="Somya Maheshwari" position="Position" />
+          <Infocard image={Somya} name="S.Maheshwari" position="Position" />
           <Infocard image={Diwakar} name="Diwakar Singh" position="Position" />
         </div>
         <div className="layoutappthird__row">
@@ -51,7 +51,7 @@ function LayoutApp() {
           <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
           <Infocard
             image={DefaultPic}
-            name="Aman Kumar Lohia"
+            name="Aman Lohia"
             position="Position"
           />
         </div>
