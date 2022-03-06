@@ -49,7 +49,7 @@ function TeamsNavbar() {
           <a href="/recognitions" className="teamsnavbardropdowncontent">
             BRCA RECOGNITIONS
           </a>
-          <a href="/sac" className="teamsnavbardropdowncontent">
+          <a href="/sacbooking" className="teamsnavbardropdowncontent">
             SAC BOOKINGS
           </a>
           <a

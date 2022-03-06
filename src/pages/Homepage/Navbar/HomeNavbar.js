@@ -51,7 +51,7 @@ function HomeNavbar() {
           <a href="/recognitions" className="homenavbardropdowncontent">
             BRCA RECOGNITIONS
           </a>
-          <a href="/sac" className="homenavbardropdowncontent">
+          <a href="/sacbooking" className="homenavbardropdowncontent">
             SAC BOOKINGS
           </a>
           <a

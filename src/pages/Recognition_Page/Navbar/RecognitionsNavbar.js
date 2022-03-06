@@ -57,7 +57,7 @@ function RecognitionsNavbar() {
           >
             BRCA RECOGNITIONS
           </a>
-          <a href="/sac" className="recognitionsnavbardropdowncontent">
+          <a href="/sacbooking" className="recognitionsnavbardropdowncontent">
             SAC BOOKINGS
           </a>
           <a

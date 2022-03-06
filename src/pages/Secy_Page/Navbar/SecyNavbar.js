@@ -51,7 +51,7 @@ function SecyNavbar() {
           <a href="/recognitions" className="secynavbardropdowncontent">
             BRCA RECOGNITIONS
           </a>
-          <a href="/sac" className="secynavbardropdowncontent">
+          <a href="/sacbooking" className="secynavbardropdowncontent">
             SAC BOOKINGS
           </a>
           <a

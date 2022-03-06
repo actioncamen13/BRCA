@@ -51,7 +51,7 @@ function ClubsNavbar() {
           <a href="/recognitions" className="clubsnavbardropdowncontent">
             BRCA RECOGNITIONS
           </a>
-          <a href="/sac" className="clubsnavbardropdowncontent">
+          <a href="/sacbooking" className="clubsnavbardropdowncontent">
             SAC BOOKINGS
           </a>
           <a

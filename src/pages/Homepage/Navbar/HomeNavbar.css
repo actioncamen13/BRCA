@@ -173,7 +173,6 @@
   .homenavbarcontainer:hover .homenavbardropdown {
     display: block;
     background-color: #ffffff;
-    opacity: 0.8;
     right: 0px;
   }
   /* .homenavbardropdown:hover .homenavbarbutton{
@@ -181,7 +180,6 @@
   } */
   .homenavbarbutton:hover {
     background-color: #ffffff;
-    opacity: 0.8;
     color: #f76d6d;
   }
   #homespecialcontainer:hover {
