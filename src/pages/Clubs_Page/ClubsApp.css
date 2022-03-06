@@ -103,7 +103,7 @@
 .clubsapp__body__row1 > div:hover,
 .clubsapp__body__row2 > div:hover {
   transform: scale(1.1);
-  z-index: 2;
+  z-index: 1;
 }
 .danceclub:hover {
   background-image: url("./Dance.jpeg");

@@ -83,6 +83,9 @@
 #navbar__rightmost:hover {
   color: rgba(255, 255, 255, 1);
 }
+.navbarcontainer {
+  display: none;
+}
 @media screen and (max-width: 1080px) {
   .navbar__text {
     font-size: 0.85em;
@@ -95,5 +98,58 @@
 @media screen and (max-width: 940px) {
   .navbar__text {
     font-size: 0.65em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .navbar__logo {
+    height: 100%;
+    width: 40%;
+  }
+  .navbar__right {
+    display: none;
+  }
+  .navbarbutton {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .navbarcontainer {
+    position: relative;
+    display: inline-block;
+    z-index: 1000;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .navbardropdown {
+    display: none;
+    position: absolute;
+    background-color: #3c3c3c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+
+  /* Links inside the dropdown */
+  .navbardropdown > div {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .navbardropdown > div:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show the dropdown menu on hover */
+  .navbarcontainer:hover .navbardropdown {
+    display: block;
   }
 }

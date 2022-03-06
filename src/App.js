@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Homepage/Home";
 import LayoutApp from "./pages/Teams_Page/LayoutApp";
 import ClubsApp from "./pages/Clubs_Page/ClubsApp";
-import SacBooking from "./frame5/SacBooking";
+import SacBooking from "./pages/SacBooking/SacBooking";
 import Recognitions from "./pages/Recognition_Page/Recognitions";
 import Teams from "./pages/Secy_Page/Teams";
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/teams" element={<Teams />} />
           <Route path="/recognitions" element={<Recognitions />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/sacbooking" element={<SacBooking />}/>
+          <Route path="/sacbooking" element={<SacBooking />} />
         </Routes>
       </div>
     </Router>

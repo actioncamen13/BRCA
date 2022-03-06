@@ -1,15 +1,15 @@
 import React from "react";
-import "./Footer.css";
+import "./SecyFooter.css";
 
-function Footer() {
+function SecyFooter() {
   return (
-    <div className="footer" style={{ position: "relative" }}>
-      <div className="footer__logo"></div>
-      <div className="footer__text1">
+    <div className="secyfooter" style={{ position: "relative", top: "18vh" }}>
+      <div className="secyfooter__logo"></div>
+      <div className="secyfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>
       </div>
-      <div className="footer__text2">
+      <div className="secyfooter__text2">
         <h3>HOME</h3>
         <h3>TEAMS</h3>
         <h3>CLUBS</h3>
@@ -17,7 +17,7 @@ function Footer() {
         <h3>SAC BOOKINGS</h3>
         <h3>RENDEZVOUS</h3>
       </div>
-      <div className="footer__text3">
+      <div className="secyfooter__text3">
         <h3>Website created by</h3>
         <h3>LIST DEVELOPERS AND DESIGNERS</h3>
       </div>
@@ -25,4 +25,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default SecyFooter;

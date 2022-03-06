@@ -1,7 +1,7 @@
 import "./LayoutApp.css";
 // import BRCA_Logo from "./Front Design-01 6.png";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import TeamsNavbar from "./Navbar/TeamsNavbar";
+import TeamsFooter from "./Footer/TeamsFooter";
 import React from "react";
 // import Altfooter from "./AlternateFooter/Altfooter";
 import Infocard from "./Infocard/Infocard";
@@ -23,7 +23,7 @@ import DefaultPic from "./Infocard/Rectangle 103.png";
 function LayoutApp() {
   return (
     <div className="layoutapp">
-      <Navbar />
+      <TeamsNavbar />
       <div className="layoutappbody">
         <div className="layoutappbody__title">
           <h1>CULTURAL SECRETARIES</h1>
@@ -50,14 +50,10 @@ function LayoutApp() {
           <Infocard image={Anisha} name="Anisha Banthia" position="Position" />
           <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
           <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
-          <Infocard
-            image={DefaultPic}
-            name="Aman Lohia"
-            position="Position"
-          />
+          <Infocard image={DefaultPic} name="Aman Lohia" position="Position" />
         </div>
       </div>
-      <Footer />
+      <TeamsFooter />
       {/* <Altfooter /> */}
     </div>
   );
