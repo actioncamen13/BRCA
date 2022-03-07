@@ -37,7 +37,7 @@ function Home() {
             <img className="images" src={vector} />
           </div>
         </div>
-      </div>
+     
       <div className="s_icons text-right">
         <a href=""  target="blank"  className="fa fa-twitter">
 
@@ -57,6 +57,7 @@ function Home() {
           {" "}
         </a>
       </div>
+    </div>
     </div>
   );
 }

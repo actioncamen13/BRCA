@@ -7,7 +7,7 @@
 }
 .texts {
   position: absolute;
-  top: 10vw;
+  top: 12vw !important;
   color: #ffffff !important;
   margin-left: 4%;
   width: 50%;
@@ -81,33 +81,49 @@ button:hover {
   color: #e4405f;
   text-decoration: none;
   transition-duration: 0.5s;
-  text-shadow: 2px 2px 5px white;
+  /* text-shadow: 2px 2px white; */
 }
 .fa-facebook:hover {
   color: #1877f2;
   text-decoration: none;
   transition-duration: 0.5s;
-  text-shadow: 2px 2px 5px white;
+  /* text-shadow: 2px 2px 5px white; */
 }
 .fa-twitter:hover {
   color: #1da1f2;
   text-decoration: none;
   transition-duration: 0.5s;
-  text-shadow: 2px 2px 5px white;
+  /* text-shadow: 2px 2px 5px white; */
 }
 .section2{
   display: flex;
 }
 .images{
   width: 40.26vw;
-  height: 36.6vw;
-  margin: 6.58vw 0 0 54vw;
+  height: 28.6vw;
+  margin: 10.78vw 0 0 54vw;
 }
 @media only screen and (max-width: 992px) {
+  /* .mainSecHome{
+    background-image: url("/src/frame5/images/background2.png")!important;
+    height: fit-content !important;
+    background-repeat: no-repeat !important;
+  } */
+  .mainSecHome{
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-image: url("/src/frame5/images/background2.png")!important;
+    background-size: inherit !important;
+    min-height: fit-content;
+  }
   .texts {
     position: absolute;
+    top:140px !important;
     left: 0;
     margin-left: 6%;
+  }
+  .images{
+    margin-top:140px;
   }
 
 }
@@ -116,21 +132,25 @@ button:hover {
   .section2{
     flex-direction: row;
   }
-  
+  .s_icons{
+    margin: 0 0 0 75%;
+    position: inherit;
+  }
   .texts {
     width: auto;
+    
   }
   .hhead {
-    font-size: 7vw;
+    font-size: 10vw;
   }
   .shead {
-    font-size: 3vw;
+    font-size: 3.8vw;
   }
   .texts > p {
-    font-size: 2vw;
+    font-size: 2.4vw;
     margin-right: 20vw;
-    line-height: 3vw;
-  }
+    line-height: 3.5vw;
+}
   .exp {
     width: 45vw !important;
     font-size: 3vw;
@@ -140,8 +160,37 @@ button:hover {
     font-size: 7vw;
   }
   .images {
-    width: 62.26vw;
-    height: 40.6vw;
-    margin: 60.58vw 0 0 15vw;
+    width: 80%;
+    height: 40%;
+    margin: 80vw 0 0 5vw;
 }
+}
+@media only screen and (max-width: 635px) {
+  .images{
+    
+    margin: 88vw 0 0 2vw;
+  }
+  .s_icons{
+    margin: 0 0 0 68%;
+    position: inherit;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .images{
+ 
+    margin: 98vw 0 0 0vw;
+   
+  }
+  .s_icons{
+    margin: 0 0 0 65%;
+    position: inherit;
+  }
+}
+@media only screen and (max-width: 403px) {
+  .images{
+    margin:110vw 0 0 0;
+  }
+  .s_icons{
+    margin: 15% 0 0 58%;
+  }
 }
