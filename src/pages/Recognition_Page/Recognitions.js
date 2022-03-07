@@ -2,13 +2,13 @@ import React from "react";
 import "../css/stylesRecognitions.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/animate.css";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import RecognitionsNavbar from "./Navbar/RecognitionsNavbar";
+import RecognitionsFooter from "./Footer/RecognitionsFooter";
 
 function Recognitions() {
   return (
     <div className="mainSection">
-      <Navbar />
+      <RecognitionsNavbar />
 
       <h1 className=" heading text-center mb-2">BRCA RECOGNITIONS</h1>
       <div className=" animate__animated animate__fadeIn bgg text-center">
@@ -40,7 +40,7 @@ function Recognitions() {
           <button className="btn btn-lg ybtn animate__delay-1s  animate__animated animate__fadeIn ">2013-14</button>
         </a>
       </div>
-      <Footer />
+      <RecognitionsFooter />
     </div>
   );
 }

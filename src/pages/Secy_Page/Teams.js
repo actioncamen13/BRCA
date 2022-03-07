@@ -7,13 +7,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Frame1 from "../images/Frame1.png";
 import Frame2 from "../images/Frame2.png";
 import Frame3 from "../images/Frame3.png";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import SecyNavbar from "./Navbar/SecyNavbar";
+import SecyFooter from "./Footer/SecyFooter";
 
 function Teams() {
   return (
     <div class="">
-      <Navbar />
+      <SecyNavbar />
       <div class="container animate__animated animate__zoomIn">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
@@ -36,7 +36,7 @@ function Teams() {
             <a href="/teamsecy" class="box b2">
               <img src={Frame2} alt="image" class="text-center" />
               <p>
-                Professors <br /> 
+                Professors <br />
               </p>
             </a>
           </div>
@@ -50,7 +50,7 @@ function Teams() {
           </div>
         </div>
       </div>
-      <Footer />
+      <SecyFooter />
     </div>
   );
 }

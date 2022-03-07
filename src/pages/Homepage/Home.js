@@ -5,13 +5,13 @@ import "../css/stylesHome.css";
 import "../css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import vector from "../images/Vector.png";
-import Navbar from "./Navbar/Navbar";
+import HomeNavbar from "./Navbar/HomeNavbar";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
   return (
     <div className="mainSecHome animate__animated animate__fadeIn">
-      <Navbar />
+      <HomeNavbar />
       <div className="">
         <div className="section2 ">
           <div className="texts">

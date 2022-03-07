@@ -1,14 +1,14 @@
 import "./ClubsApp.css";
 import React from "react";
 import "../css/animate.css";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import ClubsNavbar from "./Navbar/ClubsNavbar";
+import ClubsFooter from "./Footer/ClubsFooter";
 import BRCA_CLUBS from "./BRCA CLUBS.png";
 
 function ClubsApp() {
   return (
     <div className="clubsapp">
-      <Navbar />
+      <ClubsNavbar />
       <div className="clubsapp__body ">
         <div className=" animate__animated animate__slideInLeft clubsapp__body__row1">
           <div className="danceclub">
@@ -100,7 +100,7 @@ function ClubsApp() {
           </div>
         </div>
       </div>
-      <Footer />
+      <ClubsFooter />
     </div>
   );
 }
