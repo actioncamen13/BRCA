@@ -67,6 +67,6 @@ body {
     body {
       background-image: url("/src/frame5/images/background2.png");
       background-size: cover;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
     }
 }

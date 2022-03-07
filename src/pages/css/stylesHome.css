@@ -66,7 +66,8 @@ button:hover {
 .fa {
   color: white;
   padding: 1vw;
-  font-size: 5vw;
+  font: 16px FontAwesome !important;
+  font-size: xxx-large !important;
   text-align: center;
   text-decoration: none;
 }

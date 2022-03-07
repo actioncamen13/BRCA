@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import vector from "../images/Vector.png";
 import HomeNavbar from "./Navbar/HomeNavbar";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faTwitter,faFacebook,faInstagram } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   return (
@@ -37,9 +38,9 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="s_icons text-right">
-        <a href="" className="fa fa-twitter lg" target="blank">
-          {" "}
+      <div className="s_icons text-right">
+        <a href=""  target="blank"  className="fa fa-twitter">
+
         </a>
         <a
           href="https://www.facebook.com/cultureIITD/?ref=page_internal"
@@ -55,7 +56,7 @@ function Home() {
         >
           {" "}
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }
