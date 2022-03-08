@@ -26,6 +26,9 @@ body {
 .b3 {
     background-color: #466BFF;
 }
+.b4{
+    background-color: #50C878;
+}
 
 /*icon properties*/
 .box > img {
@@ -42,12 +45,15 @@ body {
 .b2 > img, .b3 > img {
     margin-left: 10%;
 }
-
+.b4 >img{
+    height: 280px;
+    margin: -10% 0 0 0 ;
+}
 
 .box > p {
     position: absolute;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 50px 0 70px;
     text-align: center;
     font-family: 'Raleway', sans-serif;

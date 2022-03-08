@@ -5,6 +5,7 @@ import "../css/stylesHome.css";
 import "../css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import vector from "../images/Vector.png";
+import girl from "../images/girl.jpg";
 import HomeNavbar from "./Navbar/HomeNavbar";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTwitter,faFacebook,faInstagram } from '@fortawesome/free-solid-svg-icons'
@@ -35,6 +36,8 @@ function Home() {
           </div>
           <div>
             <img className="images" src={vector} />
+            {/* <img className="image2" src={girl} /> */}
+
           </div>
         </div>
      

@@ -103,19 +103,15 @@ button:hover {
   height: 28.6vw;
   margin: 10.78vw 0 0 54vw;
 }
+.image2{
+  width: 39.26vw;
+
+  height: 30.6vw;
+  
+  margin: -30vw 0 0 54vw;
+}
 @media only screen and (max-width: 992px) {
-  /* .mainSecHome{
-    background-image: url("/src/frame5/images/background2.png")!important;
-    height: fit-content !important;
-    background-repeat: no-repeat !important;
-  } */
-  .mainSecHome{
-    height: 100%;
-    background-repeat: no-repeat !important;
-    background-image: url("/src/frame5/images/background2.png")!important;
-    background-size: inherit !important;
-    min-height: fit-content;
-  }
+
   .texts {
     position: absolute;
     top:140px !important;
@@ -128,13 +124,20 @@ button:hover {
 
 }
 @media only screen and (max-width: 768px) {
+  .mainSecHome{
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-image: url("/src/frame5/images/background2.png")!important;
+    background-size: inherit !important;
+    min-height: fit-content;
+  }
 
   .section2{
     flex-direction: row;
   }
   .s_icons{
     margin: 0 0 0 75%;
-    position: inherit;
+    position: static;
   }
   .texts {
     width: auto;
@@ -178,7 +181,7 @@ button:hover {
 @media only screen and (max-width: 500px) {
   .images{
  
-    margin: 98vw 0 0 0vw;
+    margin: 98vw 0 0 2vw;
    
   }
   .s_icons{
@@ -188,9 +191,17 @@ button:hover {
 }
 @media only screen and (max-width: 403px) {
   .images{
-    margin:110vw 0 0 0;
+    margin:110vw 0 0 2vw;
   }
   .s_icons{
-    margin: 15% 0 0 58%;
+    margin: 15% 0 0 65%;
   }
+  .fa{
+    font-size: xx-large !important;
+  }
+}
+@media only screen and (max-width: 303px) {
+.images{
+  margin-top:125vw ;
+}
 }

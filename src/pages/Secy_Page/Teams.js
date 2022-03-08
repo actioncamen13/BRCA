@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Frame1 from "../images/Frame1.png";
 import Frame2 from "../images/Frame2.png";
 import Frame3 from "../images/Frame3.png";
+import Frame4 from "../images/prof.png";
 import SecyNavbar from "./Navbar/SecyNavbar";
 import SecyFooter from "./Footer/SecyFooter";
 
@@ -33,10 +34,10 @@ function Teams() {
             </a>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
-            <a href="/teamsecy" class="box b2">
-              <img src={Frame2} alt="image" class="text-center" />
+            <a href="/teamsecy" class="box b4">
+              <img src={Frame4} alt="image" class="text-center" />
               <p>
-                Professors <br />
+                Faculty Head <br />
               </p>
             </a>
           </div>

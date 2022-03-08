@@ -61,7 +61,7 @@ function Sac_Booking() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item
-            className="animate__delay-1s animate__animated animate__slideInUp"
+            className=" animate__animated animate__slideInUp"
             eventKey="1"
           >
             <Accordion.Header>Rent Charges</Accordion.Header>
@@ -107,7 +107,7 @@ function Sac_Booking() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item
-            className="animate__delay-2s animate__animated animate__slideInUp"
+            className=" animate__animated animate__slideInUp"
             eventKey="2"
           >
             <Accordion.Header>Availability Calender</Accordion.Header>
@@ -153,7 +153,7 @@ function Sac_Booking() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item
-            className="animate__delay-3s animate__animated animate__slideInUp"
+            className=" animate__animated animate__slideInUp"
             eventKey="3"
           >
             <Accordion.Header>Online Booking Form</Accordion.Header>
@@ -199,7 +199,7 @@ function Sac_Booking() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item
-            className="animate__delay-4s animate__animated animate__slideInUp"
+            className=" animate__animated animate__slideInUp"
             eventKey="4"
           >
             <Accordion.Header>Booking Process</Accordion.Header>
