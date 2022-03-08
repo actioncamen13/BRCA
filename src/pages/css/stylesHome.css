@@ -185,8 +185,11 @@ button:hover {
    
   }
   .s_icons{
-    margin: 4% 0 0 66%;
+    margin: 4% 0 0 74%;
     position: inherit;
+  }
+  .fa{
+    font-size: xx-large !important;
   }
 }
 @media only screen and (max-width: 403px) {
@@ -194,7 +197,7 @@ button:hover {
     margin:110vw 0 0 2vw;
   }
   .s_icons{
-    margin: 15% 0 0 65%;
+    margin: 15% 0 0 70%;
   }
   .fa{
     font-size: xx-large !important;
