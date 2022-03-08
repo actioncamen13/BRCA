@@ -41,7 +41,9 @@ function Home() {
         </div>
 
         <div className="s_icons text-right">
-          <a href="" target="blank" className="fa fa-twitter"></a>
+          <a href="" target="blank" className="fa fa-twitter">
+            {" "}
+          </a>
           <a
             href="https://www.facebook.com/cultureIITD/?ref=page_internal"
             className="fa fa-facebook"
