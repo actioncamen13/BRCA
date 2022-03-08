@@ -37,30 +37,27 @@ function Home() {
           <div>
             <img className="images" src={vector} />
             {/* <img className="image2" src={girl} /> */}
-
           </div>
         </div>
-     
-      <div className="s_icons text-right">
-        <a href=""  target="blank"  className="fa fa-twitter">
 
-        </a>
-        <a
-          href="https://www.facebook.com/cultureIITD/?ref=page_internal"
-          className="fa fa-facebook"
-          target="blank"
-        >
-          {" "}
-        </a>
-        <a
-          href="https://www.instagram.com/brcaiitd/?hl=en"
-          className="fa fa-instagram"
-          target="blank"
-        >
-          {" "}
-        </a>
+        <div className="s_icons text-right">
+          <a href="" target="blank" className="fa fa-twitter"></a>
+          <a
+            href="https://www.facebook.com/cultureIITD/?ref=page_internal"
+            className="fa fa-facebook"
+            target="blank"
+          >
+            {" "}
+          </a>
+          <a
+            href="https://www.instagram.com/brcaiitd/?hl=en"
+            className="fa fa-instagram"
+            target="blank"
+          >
+            {" "}
+          </a>
+        </div>
       </div>
-    </div>
     </div>
   );
 }
