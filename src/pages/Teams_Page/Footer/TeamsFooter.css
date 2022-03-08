@@ -78,3 +78,10 @@
     display: none;
   }
 }
+@media screen and (max-height: 800px) {
+  .teamsfooter__text1 > h3,
+  .teamsfooter__text2 > h3,
+  .teamsfooter__text3 > h3 {
+    font-size: 0.7em;
+  }
+}

@@ -7,6 +7,12 @@
 }
 .clubsapp__body__title {
   display: none;
+  font-size: 4em;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: Poppins;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .clubsapp__body__row1 {
   width: 100vw;
@@ -228,8 +234,208 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.smallview {
+  display: none;
+}
+.clubsapp__body__row3 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row4 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row5 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row6 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row3 > div,
+.clubsapp__body__row4 > div,
+.clubsapp__body__row5 > div,
+.clubsapp__body__row6 > div {
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.clubsapp__body__row3 > div:hover,
+.clubsapp__body__row4 > div:hover,
+.clubsapp__body__row5 > div:hover,
+.clubsapp__body__row6 > div:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.smallerview {
+  display: none;
+}
+.clubsapp__body__row7 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row8 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row9 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row10 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row11 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row12 {
+  width: 100vw;
+  height: calc(501 / 1621 * 100vh);
+  display: flex;
+  justify-content: center;
+}
+.clubsapp__body__row7 > div,
+.clubsapp__body__row8 > div,
+.clubsapp__body__row9 > div,
+.clubsapp__body__row10 > div,
+.clubsapp__body__row11 > div,
+.clubsapp__body__row12 > div {
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.clubsapp__body__row7 > div:hover,
+.clubsapp__body__row8 > div:hover,
+.clubsapp__body__row9 > div:hover,
+.clubsapp__body__row10 > div:hover,
+.clubsapp__body__row11 > div:hover,
+.clubsapp__body__row12 > div:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
 @media screen and (max-width: 1000px) {
   .clubsapp__body__text {
     display: none;
+  }
+  .clubsapp__body__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clubsapp__body__row1 {
+    display: none;
+  }
+  .clubsapp__body__row2 {
+    display: none;
+  }
+  .smallview {
+    display: flex;
+    flex-direction: column;
+  }
+  .danceclub {
+    width: 30%;
+  }
+  .musicclub {
+    width: 30%;
+  }
+  .debateclub {
+    width: 30%;
+  }
+  .pfcclub {
+    width: 30%;
+  }
+  .quizclub {
+    width: 30%;
+  }
+  .spicmacayclub {
+    width: 30%;
+  }
+  .hindisamiticlub {
+    width: 30%;
+  }
+  .dramaclub {
+    width: 30%;
+  }
+  .faccclub {
+    width: 30%;
+  }
+  .litclub {
+    width: 30%;
+  }
+  .designclub {
+    width: 30%;
+  }
+  .club__content__text {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .clubsapp__body__title {
+    font-size: 2.8em;
+  }
+}
+@media screen and (max-width: 520px) {
+  .smallview {
+    display: none;
+  }
+  .smallerview {
+    display: flex;
+    flex-direction: column;
+  }
+  .danceclub {
+    width: 45%;
+  }
+  .musicclub {
+    width: 45%;
+  }
+  .debateclub {
+    width: 45%;
+  }
+  .pfcclub {
+    width: 45%;
+  }
+  .quizclub {
+    width: 45%;
+  }
+  .spicmacayclub {
+    width: 45%;
+  }
+  .hindisamiticlub {
+    width: 45%;
+  }
+  .dramaclub {
+    width: 45%;
+  }
+  .faccclub {
+    width: 45%;
+  }
+  .litclub {
+    width: 45%;
+  }
+  .designclub {
+    width: 45%;
+  }
+  .club__content__text {
+    font-size: 1.1em;
   }
 }
