@@ -5,7 +5,7 @@ import "../css/stylesHome.css";
 import "../css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import vector from "../images/Vector.png";
-import girl from "../images/girl.jpg";
+// import girl from "../images/girl.jpg";
 import HomeNavbar from "./Navbar/HomeNavbar";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTwitter,faFacebook,faInstagram } from '@fortawesome/free-solid-svg-icons'
@@ -37,30 +37,29 @@ function Home() {
           <div>
             <img className="images" src={vector} />
             {/* <img className="image2" src={girl} /> */}
-
           </div>
         </div>
-     
-      <div className="s_icons text-right">
-        <a href=""  target="blank"  className="fa fa-twitter">
 
-        </a>
-        <a
-          href="https://www.facebook.com/cultureIITD/?ref=page_internal"
-          className="fa fa-facebook"
-          target="blank"
-        >
-          {" "}
-        </a>
-        <a
-          href="https://www.instagram.com/brcaiitd/?hl=en"
-          className="fa fa-instagram"
-          target="blank"
-        >
-          {" "}
-        </a>
+        <div className="s_icons text-right">
+          <a href="" target="blank" className="fa fa-twitter">
+            {" "}
+          </a>
+          <a
+            href="https://www.facebook.com/cultureIITD/?ref=page_internal"
+            className="fa fa-facebook"
+            target="blank"
+          >
+            {" "}
+          </a>
+          <a
+            href="https://www.instagram.com/brcaiitd/?hl=en"
+            className="fa fa-instagram"
+            target="blank"
+          >
+            {" "}
+          </a>
+        </div>
       </div>
-    </div>
     </div>
   );
 }

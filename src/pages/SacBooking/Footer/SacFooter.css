@@ -79,3 +79,10 @@
     display: none;
   }
 }
+@media screen and (max-height: 800px) {
+  .sacfooter__text1 > h3,
+  .sacfooter__text2 > h3,
+  .sacfooter__text3 > h3 {
+    font-size: 0.7em;
+  }
+}

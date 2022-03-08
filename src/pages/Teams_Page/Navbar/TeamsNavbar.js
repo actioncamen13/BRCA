@@ -13,7 +13,9 @@ function TeamsNavbar() {
           <div className="teamsnavbar__text">HOME</div>
         </Link>
         <Link to="/teams" style={{ textDecoration: "none" }}>
-          <div className="teamsnavbar__text">TEAMS</div>
+          <div className="teamsnavbar__text" style={{ color: "#f76d6d" }}>
+            TEAMS
+          </div>
         </Link>
         <Link to="/clubs" style={{ textDecoration: "none" }}>
           <div className="teamsnavbar__text">CLUBS</div>

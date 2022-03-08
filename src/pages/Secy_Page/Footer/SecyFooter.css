@@ -78,10 +78,10 @@
     display: none;
   }
 }
-/* @media screen and (max-height: 780px) {
-  .secyfooter__text1>h3,
-  .secyfooter__text2,
-  .secyfooter__text3 {
-    font-size: 0.2vh;
+@media screen and (max-height: 800px) {
+  .secyfooter__text1 > h3,
+  .secyfooter__text2 > h3,
+  .secyfooter__text3 > h3 {
+    font-size: 0.7em;
   }
-} */
+}

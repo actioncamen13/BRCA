@@ -79,3 +79,22 @@
     display: none;
   }
 }
+@media screen and (max-width: 1000px) {
+  .clubsfooter {
+    position: relative;
+    top: 75vh;
+  }
+}
+@media screen and (max-width: 520px) {
+  .clubsfooter {
+    position: relative;
+    top: 135vh;
+  }
+}
+@media screen and (max-height: 800px) {
+  .clubsfooter__text1 > h3,
+  .clubsfooter__text2 > h3,
+  .clubsfooter__text3 > h3 {
+    font-size: 0.7em;
+  }
+}

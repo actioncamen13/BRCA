@@ -78,9 +78,16 @@
     display: none;
   }
 }
-@media screen and (max-width: 650px){
-  .recognitionsfooter{
+@media screen and (max-width: 650px) {
+  .recognitionsfooter {
     position: relative;
     top: 80px;
+  }
+}
+@media screen and (max-height: 800px) {
+  .recognitionsfooter__text1 > h3,
+  .recognitionsfooter__text2 > h3,
+  .recognitionsfooter__text3 > h3 {
+    font-size: 0.7em;
   }
 }
