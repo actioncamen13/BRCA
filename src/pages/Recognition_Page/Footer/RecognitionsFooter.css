@@ -78,3 +78,9 @@
     display: none;
   }
 }
+@media screen and (max-width: 650px){
+  .recognitionsfooter{
+    position: relative;
+    top: 80px;
+  }
+}
