@@ -10,6 +10,7 @@ function ClubsApp() {
     <div className="clubsapp">
       <ClubsNavbar />
       <div className="clubsapp__body ">
+        <div className="clubsapp__body__title">BRCA CLUBS</div>
         <div className=" animate__animated animate__slideInLeft clubsapp__body__row1">
           <div className="danceclub">
             <div className="club__content">

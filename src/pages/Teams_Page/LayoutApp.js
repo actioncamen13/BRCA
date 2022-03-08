@@ -28,29 +28,259 @@ function LayoutApp() {
         <div className="layoutappbody__title">
           <h1>CULTURAL SECRETARIES</h1>
         </div>
-        <div className="layoutappfirst__row">
-          <Infocard image={Aashita} name="Aashita Gupta" position="Position" />
+        <div className="format1">
+          <div className="layoutappfirst__row1">
+            <Infocard
+              image={Aashita}
+              name="Aashita Gupta"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappsecond__row1">
+            <Infocard image={Rishi} name="Rishi Shah" position="Position" />
+            <Infocard image={Keshav} name="Keshav Gupta" position="Position" />
+            <Infocard
+              image={Priyanshu}
+              name="Priyanshu Jangid"
+              position="Position"
+            />
+            <Infocard image={Somya} name="S.Maheshwari" position="Position" />
+            <Infocard
+              image={Diwakar}
+              name="Diwakar Singh"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappthird__row1">
+            <Infocard
+              image={Nishant}
+              name="Nishant Bansal"
+              position="Position"
+            />
+            <Infocard image={Sagar} name="Sagar" position="Position" />
+            <Infocard image={Aditya} name="Aditya Vishal" position="Position" />
+            <Infocard image={Tarun} name="Tarun Gaur" position="Position" />
+            <Infocard
+              image={Anisha}
+              name="Anisha Banthia"
+              position="Position"
+            />
+            <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
+            <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
+            <Infocard
+              image={DefaultPic}
+              name="Aman Lohia"
+              position="Position"
+            />
+          </div>
         </div>
-        <div className="layoutappsecond__row">
-          <Infocard image={Rishi} name="Rishi Shah" position="Position" />
-          <Infocard image={Keshav} name="Keshav Gupta" position="Position" />
-          <Infocard
-            image={Priyanshu}
-            name="Priyanshu Jangid"
-            position="Position"
-          />
-          <Infocard image={Somya} name="S.Maheshwari" position="Position" />
-          <Infocard image={Diwakar} name="Diwakar Singh" position="Position" />
+        <div className="format2">
+          <div className="layoutappfirst__row2">
+            <Infocard
+              image={Aashita}
+              name="Aashita Gupta"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappsecond__row2">
+            <Infocard image={Rishi} name="Rishi Shah" position="Position" />
+            <Infocard image={Keshav} name="Keshav Gupta" position="Position" />
+            <Infocard
+              image={Priyanshu}
+              name="Priyanshu Jangid"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappthird__row2">
+            <Infocard image={Somya} name="S.Maheshwari" position="Position" />
+            <Infocard
+              image={Diwakar}
+              name="Diwakar Singh"
+              position="Position"
+            />
+            <Infocard
+              image={Nishant}
+              name="Nishant Bansal"
+              position="Position"
+            />
+            <Infocard image={Sagar} name="Sagar" position="Position" />
+            <Infocard image={Aditya} name="Aditya Vishal" position="Position" />
+          </div>
+          <div className="layoutappfourth__row2">
+            <Infocard image={Tarun} name="Tarun Gaur" position="Position" />
+            <Infocard
+              image={Anisha}
+              name="Anisha Banthia"
+              position="Position"
+            />
+            <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
+            <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
+            <Infocard
+              image={DefaultPic}
+              name="Aman Lohia"
+              position="Position"
+            />
+          </div>
         </div>
-        <div className="layoutappthird__row">
-          <Infocard image={Nishant} name="Nishant Bansal" position="Position" />
-          <Infocard image={Sagar} name="Sagar" position="Position" />
-          <Infocard image={Aditya} name="Aditya Vishal" position="Position" />
-          <Infocard image={Tarun} name="Tarun Gaur" position="Position" />
-          <Infocard image={Anisha} name="Anisha Banthia" position="Position" />
-          <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
-          <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
-          <Infocard image={DefaultPic} name="Aman Lohia" position="Position" />
+        <div className="format3">
+          <div className="layoutappfirst__row3">
+            <Infocard
+              image={Aashita}
+              name="Aashita Gupta"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappsecond__row3">
+            <Infocard image={Rishi} name="Rishi Shah" position="Position" />
+            <Infocard image={Keshav} name="Keshav Gupta" position="Position" />
+          </div>
+          <div className="layoutappthird__row3">
+            <Infocard
+              image={Priyanshu}
+              name="Priyanshu Jangid"
+              position="Position"
+            />
+            <Infocard image={Somya} name="S.Maheshwari" position="Position" />
+            <Infocard
+              image={Diwakar}
+              name="Diwakar Singh"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappfourth__row3">
+            <Infocard
+              image={Nishant}
+              name="Nishant Bansal"
+              position="Position"
+            />
+            <Infocard image={Sagar} name="Sagar" position="Position" />
+            <Infocard image={Aditya} name="Aditya Vishal" position="Position" />
+            <Infocard image={Tarun} name="Tarun Gaur" position="Position" />
+          </div>
+          <div className="layoutappfifth__row3">
+            <Infocard
+              image={Anisha}
+              name="Anisha Banthia"
+              position="Position"
+            />
+            <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
+            <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
+            <Infocard
+              image={DefaultPic}
+              name="Aman Lohia"
+              position="Position"
+            />
+          </div>
+        </div>
+        <div className="format4">
+          <div className="layoutappfirst__row4">
+            <Infocard
+              image={Aashita}
+              name="Aashita Gupta"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappsecond__row4">
+            <Infocard image={Rishi} name="Rishi Shah" position="Position" />
+            <Infocard image={Keshav} name="Keshav Gupta" position="Position" />
+          </div>
+          <div className="layoutappthird__row4">
+            <Infocard
+              image={Priyanshu}
+              name="Priyanshu Jangid"
+              position="Position"
+            />
+            <Infocard image={Somya} name="S.Maheshwari" position="Position" />
+          </div>
+          <div className="layoutappfourth__row4">
+            <Infocard
+              image={Diwakar}
+              name="Diwakar Singh"
+              position="Position"
+            />
+            <Infocard
+              image={Nishant}
+              name="Nishant Bansal"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappfifth__row4">
+            <Infocard image={Sagar} name="Sagar" position="Position" />
+            <Infocard image={Aditya} name="Aditya Vishal" position="Position" />
+          </div>
+          <div className="layoutappsixth__row4">
+            <Infocard image={Tarun} name="Tarun Gaur" position="Position" />
+            <Infocard
+              image={Anisha}
+              name="Anisha Banthia"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappseventh__row4">
+            <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
+            <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
+            <Infocard
+              image={DefaultPic}
+              name="Aman Lohia"
+              position="Position"
+            />
+          </div>
+        </div>
+        <div className="format5">
+          <div className="layoutappfirst__row5">
+            <Infocard
+              image={Aashita}
+              name="Aashita Gupta"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappsecond__row5">
+            <Infocard image={Rishi} name="Rishi Shah" position="Position" />
+          </div>
+          <div className="layoutappthird__row5">
+            <Infocard image={Keshav} name="Keshav Gupta" position="Position" />
+            <Infocard
+              image={Priyanshu}
+              name="Priyanshu Jangid"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappfourth__row5">
+            <Infocard image={Somya} name="S.Maheshwari" position="Position" />
+            <Infocard
+              image={Diwakar}
+              name="Diwakar Singh"
+              position="Position"
+            />
+          </div>
+          <div className="layoutappfifth__row5">
+            <Infocard
+              image={Nishant}
+              name="Nishant Bansal"
+              position="Position"
+            />
+            <Infocard image={Sagar} name="Sagar" position="Position" />
+          </div>
+          <div className="layoutappsixth__row5">
+            <Infocard image={Aditya} name="Aditya Vishal" position="Position" />
+            <Infocard image={Tarun} name="Tarun Gaur" position="Position" />
+          </div>
+          <div className="layoutappseventh__row5">
+            <Infocard
+              image={Anisha}
+              name="Anisha Banthia"
+              position="Position"
+            />
+            <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
+          </div>
+          <div className="layoutappeighth__row5">
+            <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
+            <Infocard
+              image={DefaultPic}
+              name="Aman Lohia"
+              position="Position"
+            />
+          </div>
         </div>
       </div>
       <TeamsFooter />
