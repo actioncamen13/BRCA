@@ -1,5 +1,6 @@
 import React from "react";
 import "./SacFooter.css";
+import { Link } from "react-router-dom";
 
 function SacFooter() {
   return (
@@ -10,12 +11,31 @@ function SacFooter() {
         <h3>enter email</h3>
       </div>
       <div className="sacfooter__text2">
-        <h3>HOME</h3>
-        <h3>TEAMS</h3>
-        <h3>CLUBS</h3>
-        <h3>BRCA RECOGNITIONS</h3>
-        <h3>SAC BOOKINGS</h3>
-        <h3>RENDEZVOUS</h3>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <h3 className="footerinnertext">HOME</h3>
+        </Link>
+        <Link to="/teams" style={{ textDecoration: "none" }}>
+          <h3 className="footerinnertext">TEAMS</h3>
+        </Link>
+        <Link to="/clubs" style={{ textDecoration: "none" }}>
+          <h3 className="footerinnertext">CLUBS</h3>
+        </Link>
+        <Link to="/recognitions" style={{ textDecoration: "none" }}>
+          <h3 className="footerinnertext">BRCA RECOGNITIONS</h3>
+        </Link>
+        <Link to="/sacbooking" style={{ textDecoration: "none" }}>
+          <h3 className="footerinnertext" style={{ color: "#f76d6d" }}>
+            SAC BOOKINGS
+          </h3>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <h3
+            className="footerinnertext"
+            style={{ backgroundColor: "#f76d6d", color: "#ffffff" }}
+          >
+            RENDEZVOUS
+          </h3>
+        </Link>
       </div>
       <div className="sacfooter__text3">
         <h3>Website created by</h3>

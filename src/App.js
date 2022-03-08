@@ -10,6 +10,7 @@ import SacBooking from "./pages/SacBooking/SacBooking";
 import Recognitions from "./pages/Recognition_Page/Recognitions";
 // import PFC from "./pages/All_Clubs/pfc/pfc";
 import Teams from "./pages/Secy_Page/Teams";
+import Faculty from "./pages/Faculty_Page/Faculty";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/clubs" element={<ClubsApp />} />
           <Route path="/teamsecy" element={<LayoutApp />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/faculty" element={<Faculty />} />
           <Route path="/recognitions" element={<Recognitions />} />
           <Route path="/home" element={<Home />} />
           <Route path="/sacbooking" element={<SacBooking />} />

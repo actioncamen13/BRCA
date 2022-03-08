@@ -30,7 +30,7 @@ function Home() {
               conducts Rendezvous each year, which is one of the largest college
               cultural festivals in India.
             </p>
-            <a href="#">
+            <a href="/clubs">
               <button className="btn btn-lg exp">Start Exploring</button>
             </a>
           </div>

@@ -34,7 +34,7 @@ function Teams() {
             </a>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
-            <a href="/teamsecy" class="box b4">
+            <a href="/faculty" class="box b4">
               <img src={Frame4} alt="image" class="text-center" />
               <p>
                 Faculty Head <br />

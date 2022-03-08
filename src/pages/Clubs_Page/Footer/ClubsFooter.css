@@ -49,6 +49,14 @@
   font-size: 0.81em;
   margin-bottom: 0.8%;
 }
+.footerinnertext {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.81em;
+  margin-bottom: 0.8%;
+}
+.footerinnertext:hover {
+  color: #f76d6d;
+}
 .clubsfooter__text1 {
   display: flex;
   flex-direction: column;
@@ -95,6 +103,9 @@
   .clubsfooter__text1 > h3,
   .clubsfooter__text2 > h3,
   .clubsfooter__text3 > h3 {
+    font-size: 0.7em;
+  }
+  .footerinnertext {
     font-size: 0.7em;
   }
 }
