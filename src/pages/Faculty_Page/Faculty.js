@@ -17,12 +17,12 @@ function Faculty() {
         <div className="faculty__body__content">
           <Infocard
             image={Sandeep}
-            name="Prof. Sandeep Kumar Jha"
+            name="Prof. Sandeep K. Jha"
             position="President, BRCA"
           />
           <Infocard
             image={Rajendra}
-            name="Prof. Rajendra Singh Dhaka"
+            name="Prof. Rajendra Dhaka"
             position="Vice-President, BRCA"
           />
         </div>
