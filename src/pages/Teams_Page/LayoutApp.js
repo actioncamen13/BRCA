@@ -6,6 +6,7 @@ import React from "react";
 // import Altfooter from "./AlternateFooter/Altfooter";
 import Infocard from "./Infocard/Infocard";
 import Aashita from "./Aashita Gupta_Himadri-min.jpeg";
+import Aman from "./Aman.jpeg";
 import Aditya from "./Aditya Vishal _ Nilgiri-min.jpg";
 import Anisha from "./Anisha__Kailash-min.jpg";
 import Diwakar from "./Diwakar_Karakoram-min.jpeg";
@@ -31,9 +32,9 @@ function LayoutApp() {
         <div className="format1">
           <div className="layoutappfirst__row1">
             <Infocard
-              image={Aashita}
-              name="Aashita Gupta"
-              position="Position"
+              image={Aman}
+              name="Aman Lohia"
+              position="G.Secy"
             />
           </div>
           <div className="layoutappsecond__row1">
@@ -68,8 +69,8 @@ function LayoutApp() {
             <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
             <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
             <Infocard
-              image={DefaultPic}
-              name="Aman Lohia"
+              image={Aashita}
+              name="Aashita Gupta"
               position="Position"
             />
           </div>
@@ -77,9 +78,9 @@ function LayoutApp() {
         <div className="format2">
           <div className="layoutappfirst__row2">
             <Infocard
-              image={Aashita}
-              name="Aashita Gupta"
-              position="Position"
+              image={Aman}
+              name="Aman Lohia"
+              position="G.Secy"
             />
           </div>
           <div className="layoutappsecond__row2">
@@ -116,18 +117,18 @@ function LayoutApp() {
             <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
             <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
             <Infocard
-              image={DefaultPic}
-              name="Aman Lohia"
+              image={Aashita}
+              name="Aashita Gupta"
               position="Position"
             />
           </div>
         </div>
         <div className="format3">
           <div className="layoutappfirst__row3">
-            <Infocard
-              image={Aashita}
-              name="Aashita Gupta"
-              position="Position"
+          <Infocard
+              image={Aman}
+              name="Aman Lohia"
+              position="G.Secy"
             />
           </div>
           <div className="layoutappsecond__row3">
@@ -166,18 +167,18 @@ function LayoutApp() {
             <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
             <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
             <Infocard
-              image={DefaultPic}
-              name="Aman Lohia"
+              image={Aashita}
+              name="Aashita Gupta"
               position="Position"
             />
           </div>
         </div>
         <div className="format4">
           <div className="layoutappfirst__row4">
-            <Infocard
-              image={Aashita}
-              name="Aashita Gupta"
-              position="Position"
+          <Infocard
+              image={Aman}
+              name="Aman Lohia"
+              position="G.Secy"
             />
           </div>
           <div className="layoutappsecond__row4">
@@ -220,18 +221,18 @@ function LayoutApp() {
             <Infocard image={Ritik} name="Ritik Yadav" position="Position" />
             <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
             <Infocard
-              image={DefaultPic}
-              name="Aman Lohia"
+              image={Aashita}
+              name="Aashita Gupta"
               position="Position"
             />
           </div>
         </div>
         <div className="format5">
           <div className="layoutappfirst__row5">
-            <Infocard
-              image={Aashita}
-              name="Aashita Gupta"
-              position="Position"
+          <Infocard
+              image={Aman}
+              name="Aman Lohia"
+              position="G.Secy"
             />
           </div>
           <div className="layoutappsecond__row5">
@@ -276,8 +277,8 @@ function LayoutApp() {
           <div className="layoutappeighth__row5">
             <Infocard image={Prem} name="Prem Khandelwal" position="Position" />
             <Infocard
-              image={DefaultPic}
-              name="Aman Lohia"
+              image={Aashita}
+              name="Aashita Gupta"
               position="Position"
             />
           </div>
