@@ -66,7 +66,7 @@ function Sac_Booking() {
           >
             <Accordion.Header>Rent Charges</Accordion.Header>
             <Accordion.Body>
-              <iFrame style={{width:"100%"}} src="https://docs.google.com/spreadsheets/d/1YA5-QGzKbfIdqWD7sCIB1eyu4ZFSghvWzMe18BI312Q/pubhtml?gid=0&single=true"></iFrame>
+              <iFrame style={{width:"100%", height:"400px"}} src="https://docs.google.com/spreadsheets/d/1YA5-QGzKbfIdqWD7sCIB1eyu4ZFSghvWzMe18BI312Q/pubhtml?gid=0&single=true"></iFrame>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item
@@ -75,7 +75,7 @@ function Sac_Booking() {
           >
             <Accordion.Header>Availability Calender</Accordion.Header>
             <Accordion.Body>
-        <iFrame style={{width:"100%", height:"100%", }} src="https://www.google.com/calendar/embed?showPrint=0&showCalendars=0&height=600&wkst=1&bgcolor=%23FFFFFF&src=officebrca%40gmail.com&color=%231B887A&ctz=Asia%2FCalcutta"></iFrame>
+        <iFrame style={{width:"100%", height:"300px", }} src="https://www.google.com/calendar/embed?showPrint=0&showCalendars=0&height=600&wkst=1&bgcolor=%23FFFFFF&src=officebrca%40gmail.com&color=%231B887A&ctz=Asia%2FCalcutta"></iFrame>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item
@@ -84,7 +84,7 @@ function Sac_Booking() {
           >
             <Accordion.Header>Online Booking Form</Accordion.Header>
             <Accordion.Body>
-            <iFrame style={{width:"100%", height:"100%", }} src="https://docs.google.com/forms/d/e/1FAIpQLSetUlkoZ8LT8acvuVenKZ8bTUJ8IY4QApPhLW9Qip_g862AlQ/viewform?embedded=true"></iFrame>
+            <iFrame style={{width:"100%", height:"400px", }} src="https://docs.google.com/forms/d/e/1FAIpQLSetUlkoZ8LT8acvuVenKZ8bTUJ8IY4QApPhLW9Qip_g862AlQ/viewform?embedded=true"></iFrame>
             
             </Accordion.Body>
           </Accordion.Item>

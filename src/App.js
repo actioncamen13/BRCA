@@ -8,6 +8,7 @@ import LayoutApp from "./pages/Teams_Page/LayoutApp";
 import ClubsApp from "./pages/Clubs_Page/ClubsApp";
 import SacBooking from "./pages/SacBooking/SacBooking";
 import Recognitions from "./pages/Recognition_Page/Recognitions";
+// import PFC from "./pages/All_Clubs/pfc/pfc";
 import Teams from "./pages/Secy_Page/Teams";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/recognitions" element={<Recognitions />} />
           <Route path="/home" element={<Home />} />
           <Route path="/sacbooking" element={<SacBooking />} />
+          {/* <Route path="/pfc" element={<PFC/>} /> */}
         </Routes>
       </div>
     </Router>
