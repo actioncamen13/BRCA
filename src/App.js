@@ -10,6 +10,8 @@ import ClubsApp from "./pages/Clubs_Page/ClubsApp";
 import SacBooking from "./pages/SacBooking/SacBooking";
 import Recognitions from "./pages/Recognition_Page/Recognitions";
 import PFC from "./pages/pfc/pfc";
+import Dance from "./pages/dance/dance";
+import Design from "./pages/design/design";
 import Teams from "./pages/Secy_Page/Teams";
 import Faculty from "./pages/Faculty_Page/Faculty";
 
@@ -28,6 +30,8 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/sacbooking" element={<SacBooking />} />
           <Route path="/pfc" element={<PFC/>} />
+          <Route path="/dance" element={<Dance/>} />
+          <Route path="/design" element={<Design/>} />
         </Routes>
       </div>
     </Router>
