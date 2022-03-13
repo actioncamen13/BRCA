@@ -51,7 +51,7 @@ function PFC(){
             </div>
         </div>
     <div className="slideshow-container">
-        <div className="mySlides fade">
+        <div className="mySlides">
             <div className="eventname">
                 <h3>Event Name1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -60,7 +60,7 @@ function PFC(){
                 <img src={image1} style={{width:"100"}} />
             </div>
         </div>
-        <div className="mySlides fade">
+        <div className="mySlides ">
             <div className="eventname">
                 <h3>Event Name2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -69,7 +69,7 @@ function PFC(){
                 <img src={image2} style={{width:"100"}} />
             </div>
         </div>
-        <div className="mySlides fade">
+        <div className="mySlides ">
             <div className="eventname">
                 <h3>Event Name3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
