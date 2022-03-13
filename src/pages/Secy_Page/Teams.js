@@ -26,7 +26,7 @@ function Teams() {
             </a>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
-            <a href="/teamsecy" class="box b2">
+            <a href="/clubsecy" class="box b2">
               <img src={Frame2} alt="image" class="text-center" />
               <p>
                 Club <br /> Secretaries
