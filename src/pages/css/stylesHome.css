@@ -4,6 +4,7 @@
 .mainSecHome{
   color: #ffffff;
   overflow: hidden;
+  
 }
 .texts {
   position: absolute;
@@ -77,16 +78,16 @@ button:hover {
   bottom: 20px;
   right: 30px;
 }
-.fa-instagram:hover {
-  color: #e4405f;
-  text-decoration: none;
-  transition-duration: 0.5s;
+.instahome:hover {
+  color: #e4405f !important;
+  text-decoration: none !important;
+  transition-duration: 0.5s !important;
   /* text-shadow: 2px 2px white; */
 }
-.fa-facebook:hover {
-  color: #1877f2;
-  text-decoration: none;
-  transition-duration: 0.5s;
+.fbhome:hover {
+  color: #1877f2 !important;
+  text-decoration: none !important;
+  transition-duration: 0.5s !important;
   /* text-shadow: 2px 2px 5px white; */
 }
 .fa-twitter:hover {

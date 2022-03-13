@@ -46,14 +46,14 @@ function Home() {
           </a>
           <a
             href="https://www.facebook.com/cultureIITD/?ref=page_internal"
-            className="fa fa-facebook"
+            className=" fbhome fa fa-facebook "
             target="blank"
           >
             {" "}
           </a>
           <a
             href="https://www.instagram.com/brcaiitd/?hl=en"
-            className="fa fa-instagram"
+            className=" instahome fa fa-instagram "
             target="blank"
           >
             {" "}

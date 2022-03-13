@@ -13,7 +13,7 @@ import SecyFooter from "./Footer/SecyFooter";
 
 function Teams() {
   return (
-    <div class="">
+    <div class="mainSecTeam">
       <SecyNavbar />
       <div class="container animate__animated animate__zoomIn">
         <div class="row">
