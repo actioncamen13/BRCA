@@ -1,0 +1,112 @@
+.pfcfooter {
+  position: relative;
+  top: 1100px;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(235 / 1621 * 100vh);
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid #ffffff;
+  z-index: -1;
+}
+.pfcfooter__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 21%;
+  background-image: url("Front Design-01 6.png");
+  background-size: 100% 100%;
+  margin-left: -5vw;
+  cursor: pointer;
+  /* transition: 0.3s; */
+}
+.pfcfooter__logo:hover {
+  background-image: url("BRCA Logo New.png");
+  background-size: 100% 100%;
+}
+/* .footer > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(-130 / 1918 * 100vw);
+    cursor: pointer;
+  } */
+@media screen and (max-width: 1100px) {
+  .pfcfooter__logo {
+    height: 70%;
+    margin-top: 2%;
+    margin-left: calc(-80 / 1921 * 100%);
+  }
+}
+/* .footer > img:hover {
+    background-color: yellowgreen;
+  } */
+.pfcfooter__text1 > h3,
+.pfcfooter__text2 > h3,
+.pfcfooter__text3 > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.81em;
+  margin-bottom: 0.8%;
+}
+.footerinnertext {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.81em;
+  margin-bottom: 0.8%;
+}
+.footerinnertext:hover {
+  color: #f76d6d;
+}
+.pfcfooter__text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.pfcfooter__text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.pfcfooter__text3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1%;
+}
+@media screen and (max-width: 900px) {
+  .pfcfooter__text1,
+  .pfcfooter__text2,
+  .pfcfooter__text3 {
+    font-size: 0.81em;
+  }
+}
+@media screen and (max-width: 820px) {
+  .pfcfooter__logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pfcfooter {
+    position: relative;
+    top: 75vh;
+  }
+}
+@media screen and (max-width: 520px) {
+  .pfcfooter {
+    position: relative;
+    top: 135vh;
+  }
+}
+@media screen and (max-height: 800px) {
+  .pfcfooter__text1 > h3,
+  .pfcfooter__text2 > h3,
+  .pfcfooter__text3 > h3 {
+    font-size: 0.7em;
+  }
+  .footerinnertext {
+    font-size: 0.7em;
+  }
+}

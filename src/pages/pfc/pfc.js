@@ -85,7 +85,7 @@
 //     for (i = 0; i < dots.length; i++) {
 //         dots[i].className = dots[i].className.replace(" active", "");
 //     }
-    
+
 //     slides[slideIndex - 1].style.display = "block";
 //     dots[slideIndex-1].className += " active";
 
@@ -103,8 +103,6 @@
 //       slideIndex = n;
 //     showSlides(slideIndex);
 //   }
-
-
 
 //   return (
 //     <div className="pfcbody">
@@ -181,9 +179,9 @@
 
 // export default PFC;
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Zoom } from 'react-slideshow-image';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Zoom } from "react-slideshow-image";
 import "./css/stylePFC.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
@@ -191,84 +189,214 @@ import imagee from "../pfc/images/pfclogo.png";
 import image1 from "./images/pfci1.png";
 import image2 from "./images/pfci2.png";
 import image3 from "./images/pfci3.png";
+import PFCNavbar from "./Navbar/PFCNavbar";
+import PFCFooter from "./Footer/PFCFooter";
+import Infocard from "./Infocard/Infocard";
+import DefaultPic from "./Infocard/Rectangle 103.png";
 
 const PFC = () => {
-  const images = [
-    {image1},
-
-  ];
+  const images = [{ image1 }];
 
   const zoomOutProperties = {
     indicators: true,
-    scale: 0.4
-  }
+    scale: 0.4,
+  };
   return (
-    <div>
-    <div className="pfcbody">
-      <div className="containerpfc animate__animated animate__fadeIn">
-        <div className="section1">
-          <img src={imagee} alt="logo" />
-          <h3>Photography and Films Club</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea{" "}
-          </p>
-          <div class="social_icons">
-            <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
-            <a href="" className="instapfc fa fa-instagram" target="blank"></a>
-            <a href="" className="fa fa-youtube"></a>
+    <div className="pfcpage">
+      <div className="pfcnavbar1">
+        <PFCNavbar />
+      </div>
+      <div className="pfcbody">
+        <div className="containerpfc animate__animated animate__fadeIn">
+          <div className="section1">
+            <img src={imagee} alt="logo" />
+            <h3>Photography and Films Club</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea{" "}
+            </p>
+            <div class="social_icons">
+              <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
+              <a
+                href=""
+                className="instapfc fa fa-instagram"
+                target="blank"
+              ></a>
+              <a href="" className="fa fa-youtube"></a>
+            </div>
+          </div>
+          <Zoom
+            className="slideshow-container "
+            {...zoomOutProperties}
+            style={{}}
+          >
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3>Event Name3</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image1}
+                />
+              </div>
+            ))}
+
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3>Event Name2</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image2}
+                />
+              </div>
+            ))}
+
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3>Event Name1</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image3}
+                />
+              </div>
+            ))}
+          </Zoom>
+        </div>
+        <div className="pfcteam">
+          <div className="pfcteamtitle">
+            <h1>TEAM</h1>
+          </div>
+          <div className="pfcteamcontent">
+            <div className="pfcformat1">
+              <div className="pfcformat1_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Gauransh Soni"
+                  position="Secretary"
+                />
+              </div>
+              <div className="pfcformat1_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Gunjit Jindal"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Rohan Gupta"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Bansal"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Ayush Kanaujia"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat1_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Akshat Shukla"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Tanish Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aayush Gupta"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Udit Batish"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aditya Singh"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="S.Malhotra"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat1_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Tushar Kant Sao"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Saurav K. Singh"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Asmita Mehta"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Pranjal Sachan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aryan Kumar"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Varikuti V. Reddy"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Adarsh Roy"
+                  position="Representative"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      <Zoom className="slideshow-container " {...zoomOutProperties} style={{}}>
-
-        {images.map((each, index) => (
-           
-          <div key={index} className="carousel">
-           <div className="eventname">
-               <h3>Event Name3</h3>
-               <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                 eiusmod tempor.
-               </p>
-           </div>
-            <img className="imgs" style={{ objectFit: "cover"}} src={image1} />
-          </div>
-        ))}
-        
-        {images.map((each, index) => (
-           
-           <div key={index}  className="carousel">
-            <div className="eventname">
-                <h3>Event Name2</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor.
-                </p>
-            </div>
-             <img className="imgs" style={{ objectFit: "cover"}} src={image2} />
-           </div>
-         ))}
-         
-        {images.map((each, index) => (
-           
-           <div key={index}  className="carousel">
-            <div className="eventname">
-                <h3>Event Name1</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor.
-                </p>
-            </div>
-             <img className="imgs" style={{ objectFit: "cover"}} src={image3} />
-           </div>
-         ))}
-      </Zoom>
+      </div>
+      <div className="pfcfooter1">
+        <PFCFooter />
+      </div>
     </div>
-    </div>
-    </div>
-  )
-}
+  );
+};
 
 export default PFC;

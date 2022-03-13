@@ -38,14 +38,26 @@ function LayoutApp() {
             />
           </div>
           <div className="layoutappsecond__row1">
-            <Infocard image={Rishi} name="Rishi Shah"  position="Cultural Secretary" />
-            <Infocard image={Keshav} name="Keshav Gupta"  position="Cultural Secretary"/>
+            <Infocard
+              image={Rishi}
+              name="Rishi Shah"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Keshav}
+              name="Keshav Gupta"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Priyanshu}
               name="Priyanshu Jangid"
               position="Cultural Secretary"
             />
-            <Infocard image={Somya} name="S.Maheshwari"  position="Cultural Secretary"/>
+            <Infocard
+              image={Somya}
+              name="S.Maheshwari"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
@@ -58,16 +70,36 @@ function LayoutApp() {
               name="Nishant Bansal"
               position="Cultural Secretary"
             />
-            <Infocard image={Sagar} name="Sagar"  position="Cultural Secretary"/>
-            <Infocard image={Aditya} name="Aditya Vishal"  position="Cultural Secretary" />
-            <Infocard image={Tarun} name="Tarun Gaur"  position="Cultural Secretary" />
+            <Infocard
+              image={Sagar}
+              name="Sagar"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Aditya}
+              name="Aditya Vishal"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Tarun}
+              name="Tarun Gaur"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Anisha}
               name="Anisha Banthia"
               position="Cultural Secretary"
             />
-            <Infocard image={Ritik} name="Ritik Yadav" position="Cultural Secretary" />
-            <Infocard image={Prem} name="Prem Khandelwal"  position="Cultural Secretary" />
+            <Infocard
+              image={Ritik}
+              name="Ritik Yadav"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Prem}
+              name="Prem Khandelwal"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
@@ -84,8 +116,16 @@ function LayoutApp() {
             />
           </div>
           <div className="layoutappsecond__row2">
-            <Infocard image={Rishi} name="Rishi Shah"  position="Cultural Secretary" />
-            <Infocard image={Keshav} name="Keshav Gupta" position="Cultural Secretary" />
+            <Infocard
+              image={Rishi}
+              name="Rishi Shah"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Keshav}
+              name="Keshav Gupta"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Priyanshu}
               name="Priyanshu Jangid"
@@ -93,7 +133,11 @@ function LayoutApp() {
             />
           </div>
           <div className="layoutappthird__row2">
-            <Infocard image={Somya} name="S.Maheshwari"  position="Cultural Secretary"/>
+            <Infocard
+              image={Somya}
+              name="S.Maheshwari"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
@@ -104,18 +148,38 @@ function LayoutApp() {
               name="Nishant Bansal"
               position="Cultural Secretary"
             />
-            <Infocard image={Sagar} name="Sagar"  position="Cultural Secretary" />
-            <Infocard image={Aditya} name="Aditya Vishal"  position="Cultural Secretary" />
+            <Infocard
+              image={Sagar}
+              name="Sagar"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Aditya}
+              name="Aditya Vishal"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappfourth__row2">
-            <Infocard image={Tarun} name="Tarun Gaur"  position="Cultural Secretary" />
+            <Infocard
+              image={Tarun}
+              name="Tarun Gaur"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Anisha}
               name="Anisha Banthia"
               position="Position"
             />
-            <Infocard image={Ritik} name="Ritik Yadav"  position="Cultural Secretary" />
-            <Infocard image={Prem} name="Prem Khandelwal"  position="Cultural Secretary"/>
+            <Infocard
+              image={Ritik}
+              name="Ritik Yadav"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Prem}
+              name="Prem Khandelwal"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
@@ -125,15 +189,23 @@ function LayoutApp() {
         </div>
         <div className="format3">
           <div className="layoutappfirst__row3">
-          <Infocard
+            <Infocard
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
             />
           </div>
           <div className="layoutappsecond__row3">
-            <Infocard image={Rishi} name="Rishi Shah"  position="Cultural Secretary"/>
-            <Infocard image={Keshav} name="Keshav Gupta"  position="Cultural Secretary" />
+            <Infocard
+              image={Rishi}
+              name="Rishi Shah"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Keshav}
+              name="Keshav Gupta"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappthird__row3">
             <Infocard
@@ -141,7 +213,11 @@ function LayoutApp() {
               name="Priyanshu Jangid"
               position="Cultural Secretary"
             />
-            <Infocard image={Somya} name="S.Maheshwari" position="Cultural Secretary" />
+            <Infocard
+              image={Somya}
+              name="S.Maheshwari"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
@@ -152,11 +228,23 @@ function LayoutApp() {
             <Infocard
               image={Nishant}
               name="Nishant Bansal"
-             position="Cultural Secretary"
+              position="Cultural Secretary"
             />
-            <Infocard image={Sagar} name="Sagar"  position="Cultural Secretary" />
-            <Infocard image={Aditya} name="Aditya Vishal"  position="Cultural Secretary" />
-            <Infocard image={Tarun} name="Tarun Gaur"  position="Cultural Secretary" />
+            <Infocard
+              image={Sagar}
+              name="Sagar"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Aditya}
+              name="Aditya Vishal"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Tarun}
+              name="Tarun Gaur"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappfifth__row3">
             <Infocard
@@ -164,8 +252,16 @@ function LayoutApp() {
               name="Anisha Banthia"
               position="Cultural Secretary"
             />
-            <Infocard image={Ritik} name="Ritik Yadav"  position="Cultural Secretary" />
-            <Infocard image={Prem} name="Prem Khandelwal"  position="Cultural Secretary" />
+            <Infocard
+              image={Ritik}
+              name="Ritik Yadav"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Prem}
+              name="Prem Khandelwal"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
@@ -175,15 +271,23 @@ function LayoutApp() {
         </div>
         <div className="format4">
           <div className="layoutappfirst__row4">
-          <Infocard
+            <Infocard
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
             />
           </div>
           <div className="layoutappsecond__row4">
-            <Infocard image={Rishi} name="Rishi Shah"  position="Cultural Secretary"/>
-            <Infocard image={Keshav} name="Keshav Gupta"  position="Cultural Secretary" />
+            <Infocard
+              image={Rishi}
+              name="Rishi Shah"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Keshav}
+              name="Keshav Gupta"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappthird__row4">
             <Infocard
@@ -191,7 +295,11 @@ function LayoutApp() {
               name="Priyanshu Jangid"
               position="Cultural Secretary"
             />
-            <Infocard image={Somya} name="S.Maheshwari"  position="Cultural Secretary" />
+            <Infocard
+              image={Somya}
+              name="S.Maheshwari"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappfourth__row4">
             <Infocard
@@ -206,11 +314,23 @@ function LayoutApp() {
             />
           </div>
           <div className="layoutappfifth__row4">
-            <Infocard image={Sagar} name="Sagar"  position="Cultural Secretary" />
-            <Infocard image={Aditya} name="Aditya Vishal"  position="Cultural Secretary" />
+            <Infocard
+              image={Sagar}
+              name="Sagar"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Aditya}
+              name="Aditya Vishal"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappsixth__row4">
-            <Infocard image={Tarun} name="Tarun Gaur"  position="Cultural Secretary" />
+            <Infocard
+              image={Tarun}
+              name="Tarun Gaur"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Anisha}
               name="Anisha Banthia"
@@ -218,8 +338,16 @@ function LayoutApp() {
             />
           </div>
           <div className="layoutappseventh__row4">
-            <Infocard image={Ritik} name="Ritik Yadav"  position="Cultural Secretary"/>
-            <Infocard image={Prem} name="Prem Khandelwal"  position="Cultural Secretary" />
+            <Infocard
+              image={Ritik}
+              name="Ritik Yadav"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Prem}
+              name="Prem Khandelwal"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
@@ -229,17 +357,25 @@ function LayoutApp() {
         </div>
         <div className="format5">
           <div className="layoutappfirst__row5">
-          <Infocard
+            <Infocard
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
             />
           </div>
           <div className="layoutappsecond__row5">
-            <Infocard image={Rishi} name="Rishi Shah"  position="Cultural Secretary" />
+            <Infocard
+              image={Rishi}
+              name="Rishi Shah"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappthird__row5">
-            <Infocard image={Keshav} name="Keshav Gupta" position="Cultural Secretary" />
+            <Infocard
+              image={Keshav}
+              name="Keshav Gupta"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Priyanshu}
               name="Priyanshu Jangid"
@@ -247,7 +383,11 @@ function LayoutApp() {
             />
           </div>
           <div className="layoutappfourth__row5">
-            <Infocard image={Somya} name="S.Maheshwari"  position="Cultural Secretary" />
+            <Infocard
+              image={Somya}
+              name="S.Maheshwari"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
@@ -260,11 +400,23 @@ function LayoutApp() {
               name="Nishant Bansal"
               position="Cultural Secretary"
             />
-            <Infocard image={Sagar} name="Sagar"  position="Cultural Secretary" />
+            <Infocard
+              image={Sagar}
+              name="Sagar"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappsixth__row5">
-            <Infocard image={Aditya} name="Aditya Vishal"  position="Cultural Secretary" />
-            <Infocard image={Tarun} name="Tarun Gaur"  position="Cultural Secretary" />
+            <Infocard
+              image={Aditya}
+              name="Aditya Vishal"
+              position="Cultural Secretary"
+            />
+            <Infocard
+              image={Tarun}
+              name="Tarun Gaur"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappseventh__row5">
             <Infocard
@@ -272,10 +424,18 @@ function LayoutApp() {
               name="Anisha Banthia"
               position="Cultural Secretary"
             />
-            <Infocard image={Ritik} name="Ritik Yadav"  position="Cultural Secretary" />
+            <Infocard
+              image={Ritik}
+              name="Ritik Yadav"
+              position="Cultural Secretary"
+            />
           </div>
           <div className="layoutappeighth__row5">
-            <Infocard image={Prem} name="Prem Khandelwal" position="Cultural Secretary" />
+            <Infocard
+              image={Prem}
+              name="Prem Khandelwal"
+              position="Cultural Secretary"
+            />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
