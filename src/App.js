@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Homepage/Home";
 import LayoutApp from "./pages/Teams_Page/LayoutApp";
+import ClubSecy from "./pages/ClubSecy_Page/LayoutApp";
 import ClubsApp from "./pages/Clubs_Page/ClubsApp";
 import SacBooking from "./pages/SacBooking/SacBooking";
 import Recognitions from "./pages/Recognition_Page/Recognitions";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/clubs" element={<ClubsApp />} />
           <Route path="/teamsecy" element={<LayoutApp />} />
+          <Route path="/clubsecy" element={<ClubSecy />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/recognitions" element={<Recognitions />} />

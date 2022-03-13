@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Infocard.css";
 import Photo from "./Rectangle 103.png";
@@ -14,9 +15,9 @@ function Infocard() {
       <h2>Name</h2>
       <h3>Position</h3>
       <div className="infocard__bottom">
-        <FacebookIcon />
-        <InstagramIcon />
-        <LinkedInIcon />
+        <a href=""><FacebookIcon /></a>
+        <a href=""> <InstagramIcon /> </a>
+        <a href=""><LinkedInIcon /></a>
       </div>
     </div>
   );
