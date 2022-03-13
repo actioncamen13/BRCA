@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap");
-
+@import "react-slideshow-image/dist/styles.css";
 * {
   box-sizing: border-box;
 }
@@ -46,12 +46,13 @@
 .slideshow-container {
   max-width: 60%;
   margin: auto;
+  margin-top:15%;
   text-align: center;
   /* display: inline-block; */
 }
 .eventname {
   display: inline-block;
-  width: 50%;
+  width: 40%;
 }
 .imgs {
   width: 40%;
@@ -106,6 +107,16 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
 @-webkit-keyframes fade {
   from {
@@ -126,6 +137,40 @@
 }
 
 /* On smaller screens, decrease text size */
+@media(max-width:1050px){
+  .slideshow-container{
+    margin: auto;
+  }
+}
+@media(max-width:820px){
+  .containerpfc {
+    display: contents;
+  }
+  .section1{
+    width: auto;
+  }
+  .slideshow-container{
+    max-width: 85%;
+    margin-top: 5%;
+    padding: 0%;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 10%;
+  }
+  .eventname{
+    width: 80%;
+  }
+  .imgs{
+    width: 80%;
+  }
+  .zoom-wrapper{
+    margin: 10% !important;
+  }
+  
+}
 @media only screen and (max-width: 300px) {
   .prev,
   .next,
