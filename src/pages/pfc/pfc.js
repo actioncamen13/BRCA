@@ -185,6 +185,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Zoom } from 'react-slideshow-image';
 import "./css/stylePFC.css";
+import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../pfc/images/pfclogo.png";
 import image1 from "./images/pfci1.png";
@@ -204,7 +205,7 @@ const PFC = () => {
   return (
     <div>
     <div className="pfcbody">
-      <div className="containerpfc">
+      <div className="containerpfc animate__animated animate__fadeIn">
         <div className="section1">
           <img src={imagee} alt="logo" />
           <h3>Photography and Films Club</h3>
