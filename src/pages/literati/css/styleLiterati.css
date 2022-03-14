@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap");
+@import "react-slideshow-image/dist/styles.css";
+* {
+  box-sizing: border-box;
+}
+.literatibody {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  background-image: url(/src/pages/literati/images/quizzingbg.png);
+  background-size: 100% 100%;
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.containerpfc {
+  display: flex;
+}
+
+/*For the first section*/
+.section1 {
+  width: 35%;
+  padding: 30px;
+  margin-top: 10vw;
+  text-align: center;
+}
+.section1 > img {
+  height: 120px;
+}
+.section1 > h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.section1 > p {
+  line-height: 25px;
+  text-align: justify;
+  font-size: 15px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60%;
+  margin: auto;
+  margin-top:15%;
+  text-align: center;
+  /* display: inline-block; */
+}
+.eventname {
+  display: inline-block;
+  width: 40%;
+}
+.imgs {
+  width: 40%;
+  display: inline-block;
+}
+
+.eventname > h3 {
+  text-transform: uppercase;
+  font-weight: 350;
+  margin: 0;
+}
+.eventname > p {
+  line-height: 20px;
+  text-align: justify;
+  font-size: 15px;
+  width: 90%;
+  padding: 2px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  transform: scale(1.2);
+  font-weight: 900;
+  color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media(max-width:1050px){
+  .slideshow-container{
+    margin: auto;
+  }
+}
+@media(max-width:820px){
+  .containerpfc {
+    display: contents;
+  }
+  .section1{
+    width: auto;
+  }
+  .slideshow-container{
+    max-width: 85%;
+    margin-top: 5%;
+    padding: 0%;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 10%;
+  }
+  .eventname{
+    width: 80%;
+  }
+  .imgs{
+    width: 80%;
+  }
+  .zoom-wrapper{
+    margin: 10% !important;
+  }
+  
+}
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.social_icons > a {
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
+  padding: 20px;
+  margin-top: 0;
+  border-radius: 50%;
+}
+.fbpfc:hover {
+  color: blue;
+  background-color: white;
+  transition-duration: 0.5s;
+  width: auto;
+}
+.instapfc:hover {
+  color: rgb(240, 71, 99);
+  transition-duration: 0.5s;
+  background-color: white;
+}
+.fa-youtube:hover {
+  background-color: white;
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}

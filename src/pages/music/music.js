@@ -4,15 +4,15 @@
 
 import React from 'react';
 import { Zoom } from 'react-slideshow-image';
-import "./css/styleDance.css";
+import "./css/styleMusic.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
-import imagee from "../dance/images/logo.png";
+import imagee from "../music/images/logo.png";
 import image1 from "./images/pfci1.png";
 import image2 from "./images/pfci2.png";
 import image3 from "./images/pfci3.png";
 
-const Dance = () => {
+const Music = () => {
   const images = [
     {image1},
 
@@ -24,11 +24,11 @@ const Dance = () => {
   }
   return (
     <div>
-    <div className="dancebody">
+    <div className="musicbody">
       <div className="containerpfc animate__animated animate__fadeIn">
         <div className="section1">
           <img src={imagee} alt="logo" />
-          <h3>Dance Club</h3>
+          <h3>Music Club</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -91,4 +91,4 @@ const Dance = () => {
   )
 }
 
-export default Dance;
+export default Music;
