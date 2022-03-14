@@ -12,8 +12,15 @@ import Recognitions from "./pages/Recognition_Page/Recognitions";
 import PFC from "./pages/pfc/pfc";
 import Dance from "./pages/dance/dance";
 import Design from "./pages/design/design";
+import Music from "./pages/music/music";
+import Quizzing from "./pages/quizzing/quizzing";
+import Literati from "./pages/literati/literati";
+import Dramatics from "./pages/dramatics/dramatics";
+import Facc from "./pages/facc/facc";
+import Spicmacay from "./pages/spicmacay/spicmacay";
 import Teams from "./pages/Secy_Page/Teams";
 import Faculty from "./pages/Faculty_Page/Faculty";
+
 
 function App() {
   return (
@@ -32,6 +39,12 @@ function App() {
           <Route path="/pfc" element={<PFC/>} />
           <Route path="/dance" element={<Dance/>} />
           <Route path="/design" element={<Design/>} />
+          <Route path="/music" element={<Music/>} />
+          <Route path="/quizzing" element={<Quizzing/>} />
+          <Route path="/literati" element={<Literati/>} />
+          <Route path="/dramatics" element={<Dramatics/>} />
+          <Route path="/facc" element={<Facc/>} />
+          <Route path="/spicmacay" element={<Spicmacay/>} />
         </Routes>
       </div>
     </Router>

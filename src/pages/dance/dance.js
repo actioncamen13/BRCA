@@ -2,9 +2,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 
-import React from "react";
-import ReactDOM from "react-dom";
-import { Zoom } from "react-slideshow-image";
+import React from 'react';
+import { Zoom } from 'react-slideshow-image';
 import "./css/styleDance.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
