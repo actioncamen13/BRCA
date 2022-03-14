@@ -3,14 +3,24 @@
 * {
   box-sizing: border-box;
 }
+.dancepage {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-image: url(/src/pages/dance/images/dancebg.png);
+  background-size: 100% 100%;
+}
+.dancenavbar1 {
+  z-index: 2;
+}
+.dancefooter1 {
+  z-index: 2;
+}
 .dancebody {
   font-family: Verdana, sans-serif;
   margin: 0;
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
-  background-image: url(/src/pages/dance/images/dancebg.png);
-  background-size: 100% 100%;
 
   font-family: "Poppins", sans-serif;
   color: white;
@@ -46,7 +56,7 @@
 .slideshow-container {
   max-width: 60%;
   margin: auto;
-  margin-top:15%;
+  margin-top: 15%;
   text-align: center;
   /* display: inline-block; */
 }
@@ -137,39 +147,38 @@
 }
 
 /* On smaller screens, decrease text size */
-@media(max-width:1050px){
-  .slideshow-container{
+@media (max-width: 1050px) {
+  .slideshow-container {
     margin: auto;
   }
 }
-@media(max-width:820px){
+@media (max-width: 820px) {
   .containerpfc {
     display: contents;
   }
-  .section1{
+  .section1 {
     width: auto;
   }
-  .slideshow-container{
+  .slideshow-container {
     max-width: 85%;
     margin-top: 5%;
     padding: 0%;
   }
-  .carousel{
+  .carousel {
     display: flex;
     flex-direction: column;
     width: fit-content;
     margin: 0 10%;
   }
-  .eventname{
+  .eventname {
     width: 80%;
   }
-  .imgs{
+  .imgs {
     width: 80%;
   }
-  .zoom-wrapper{
+  .zoom-wrapper {
     margin: 10% !important;
   }
-  
 }
 @media only screen and (max-width: 300px) {
   .prev,
@@ -202,4 +211,149 @@
   background-color: white;
   color: rgb(255, 0, 0);
   transition-duration: 0.5s;
+}
+.danceteam {
+  display: flex;
+  flex-direction: column;
+}
+.danceteamtitle {
+  display: flex;
+  justify-content: center;
+}
+.danceteamtitle > h1 {
+  font-size: 3em;
+  margin-bottom: 5vh;
+}
+.danceformat1 {
+  display: flex;
+  flex-direction: column;
+}
+.danceformat1_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat1_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat1_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat1_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat2 {
+  display: none;
+}
+.danceformat2_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat2_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat2_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat2_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat2_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3 {
+  display: none;
+}
+.danceformat3_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_8 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_9 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_10 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_11 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.danceformat3_12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+@media screen and (max-width: 860px) {
+  .danceformat1 {
+    display: none;
+  }
+  .danceformat2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 680px) {
+  .danceformat2 {
+    display: none;
+  }
+  .danceformat3 {
+    display: flex;
+    flex-direction: column;
+  }
 }
