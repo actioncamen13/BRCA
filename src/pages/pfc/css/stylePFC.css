@@ -227,23 +227,142 @@
   display: flex;
   flex-direction: column;
 }
-.pfcformat1_1{
+.pfcformat1_1 {
   display: flex;
   justify-content: center;
   margin-bottom: 5vh;
 }
-.pfcformat1_2{
+.pfcformat1_2 {
   display: flex;
   justify-content: center;
   margin-bottom: 5vh;
 }
-.pfcformat1_3{
+.pfcformat1_3 {
   display: flex;
   justify-content: center;
   margin-bottom: 5vh;
 }
-.pfcformat1_4{
+.pfcformat1_4 {
   display: flex;
   justify-content: center;
   margin-bottom: 5vh;
+}
+.pfcformat2 {
+  display: none;
+}
+.pfcformat2_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat2_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat2_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat2_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat2_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat2_6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat2_7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3 {
+  display: none;
+}
+.pfcformat3_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_8 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_9 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_10 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_11 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.pfcformat3_12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+@media screen and (max-width: 1190px) {
+  .pfcformat1 {
+    display: none;
+  }
+  .pfcformat2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 670px) {
+  .pfcformat2 {
+    display: none;
+  }
+  .pfcformat3 {
+    display: flex;
+    flex-direction: column;
+  }
 }

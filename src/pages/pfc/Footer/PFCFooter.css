@@ -76,6 +76,12 @@
   font-family: "Poppins", sans-serif;
   margin-top: 1%;
 }
+
+@media screen and (max-width: 1190px) {
+  .pfcfooter {
+    top: 1900px;
+  }
+}
 @media screen and (max-width: 900px) {
   .pfcfooter__text1,
   .pfcfooter__text2,
@@ -83,21 +89,17 @@
     font-size: 0.81em;
   }
 }
+@media screen and (max-width: 828px) {
+  .pfcfooter {
+    top: 2000px;
+  }
+}
 @media screen and (max-width: 820px) {
   .pfcfooter__logo {
     display: none;
   }
-}
-@media screen and (max-width: 1000px) {
   .pfcfooter {
-    position: relative;
-    top: 75vh;
-  }
-}
-@media screen and (max-width: 520px) {
-  .pfcfooter {
-    position: relative;
-    top: 135vh;
+    top: 2500px;
   }
 }
 @media screen and (max-height: 800px) {
@@ -108,5 +110,10 @@
   }
   .footerinnertext {
     font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 670px) {
+  .pfcfooter {
+    top: 3700px;
   }
 }
