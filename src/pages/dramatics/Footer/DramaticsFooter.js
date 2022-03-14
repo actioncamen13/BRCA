@@ -1,16 +1,16 @@
 import React from "react";
-import "./DesignFooter.css";
+import "./DramaticsFooter.css";
 import { Link } from "react-router-dom";
 
-function DesignFooter() {
+function DramaticsFooter() {
   return (
-    <div className="designfooter">
-      <div className="designfooter__logo"></div>
-      <div className="designfooter__text1">
+    <div className="dramaticsfooter">
+      <div className="dramaticsfooter__logo"></div>
+      <div className="dramaticsfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>
       </div>
-      <div className="designfooter__text2">
+      <div className="dramaticsfooter__text2">
         <Link to="/" style={{ textDecoration: "none" }}>
           <h3 className="footerinnertext">HOME</h3>
         </Link>
@@ -37,7 +37,7 @@ function DesignFooter() {
           </h3>
         </Link>
       </div>
-      <div className="designfooter__text3">
+      <div className="dramaticsfooter__text3">
         <h3>Website created by</h3>
         <h3>LIST DEVELOPERS AND DESIGNERS</h3>
       </div>
@@ -45,4 +45,4 @@ function DesignFooter() {
   );
 }
 
-export default DesignFooter;
+export default DramaticsFooter;

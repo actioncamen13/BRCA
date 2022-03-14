@@ -27,7 +27,7 @@ function DesignNavbar() {
           <div className="designnavbar__text">SAC BOOKINGS</div>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
-          <div className="designnavbar__text" id="dancenavbar__rightmost">
+          <div className="designnavbar__text" id="designnavbar__rightmost">
             <div className="designrendezvous__inner">RENDEZVOUS</div>
           </div>
         </Link>
