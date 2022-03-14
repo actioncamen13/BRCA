@@ -389,6 +389,228 @@ const PFC = () => {
                 />
               </div>
             </div>
+            <div className="pfcformat2">
+              <div className="pfcformat2_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Gauransh Soni"
+                  position="Secretary"
+                />
+              </div>
+              <div className="pfcformat2_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Gunjit Jindal"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Rohan Gupta"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat2_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Bansal"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Ayush Kanaujia"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat2_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Akshat Shukla"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Tanish Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aayush Gupta"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat2_5">
+                <Infocard
+                  image={DefaultPic}
+                  name="Udit Batish"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aditya Singh"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="S.Malhotra"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat2_6">
+                <Infocard
+                  image={DefaultPic}
+                  name="Tushar Kant Sao"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Saurav K. Singh"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Asmita Mehta"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat2_7">
+                <Infocard
+                  image={DefaultPic}
+                  name="Pranjal Sachan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aryan Kumar"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Varikuti V. Reddy"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Adarsh Roy"
+                  position="Representative"
+                />
+              </div>
+            </div>
+            <div className="pfcformat3">
+              <div className="pfcformat3_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Gauransh Soni"
+                  position="Secretary"
+                />
+              </div>
+              <div className="pfcformat3_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Gunjit Jindal"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat3_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Rohan Gupta"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat3_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Bansal"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat3_5">
+                <Infocard
+                  image={DefaultPic}
+                  name="Ayush Kanaujia"
+                  position="Director"
+                />
+              </div>
+              <div className="pfcformat3_6">
+                <Infocard
+                  image={DefaultPic}
+                  name="Akshat Shukla"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat3_7">
+                <Infocard
+                  image={DefaultPic}
+                  name="Tanish Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aayush Gupta"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat3_8">
+                <Infocard
+                  image={DefaultPic}
+                  name="Udit Batish"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aditya Singh"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat3_9">
+                <Infocard
+                  image={DefaultPic}
+                  name="S.Malhotra"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Tushar Kant Sao"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat3_10">
+                <Infocard
+                  image={DefaultPic}
+                  name="Saurav K. Singh"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Asmita Mehta"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat3_11">
+                <Infocard
+                  image={DefaultPic}
+                  name="Pranjal Sachan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aryan Kumar"
+                  position="Representative"
+                />
+              </div>
+              <div className="pfcformat3_12">
+                <Infocard
+                  image={DefaultPic}
+                  name="Varikuti V. Reddy"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Adarsh Roy"
+                  position="Representative"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
