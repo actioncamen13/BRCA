@@ -3,14 +3,16 @@
 * {
   box-sizing: border-box;
 }
+.literatipage {
+  overflow-y: scroll;
+  background-image: url(/src/pages/literati/images/quizzingbg.png);
+  background-size: 100% 100%;
+}
 .literatibody {
   font-family: Verdana, sans-serif;
   margin: 0;
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
-  background-image: url(/src/pages/literati/images/quizzingbg.png);
-  background-size: 100% 100%;
 
   font-family: "Poppins", sans-serif;
   color: white;
@@ -46,7 +48,7 @@
 .slideshow-container {
   max-width: 60%;
   margin: auto;
-  margin-top:15%;
+  margin-top: 15%;
   text-align: center;
   /* display: inline-block; */
 }
@@ -137,39 +139,38 @@
 }
 
 /* On smaller screens, decrease text size */
-@media(max-width:1050px){
-  .slideshow-container{
+@media (max-width: 1050px) {
+  .slideshow-container {
     margin: auto;
   }
 }
-@media(max-width:820px){
+@media (max-width: 820px) {
   .containerpfc {
     display: contents;
   }
-  .section1{
+  .section1 {
     width: auto;
   }
-  .slideshow-container{
+  .slideshow-container {
     max-width: 85%;
     margin-top: 5%;
     padding: 0%;
   }
-  .carousel{
+  .carousel {
     display: flex;
     flex-direction: column;
     width: fit-content;
     margin: 0 10%;
   }
-  .eventname{
+  .eventname {
     width: 80%;
   }
-  .imgs{
+  .imgs {
     width: 80%;
   }
-  .zoom-wrapper{
+  .zoom-wrapper {
     margin: 10% !important;
   }
-  
 }
 @media only screen and (max-width: 300px) {
   .prev,
@@ -202,4 +203,171 @@
   background-color: white;
   color: rgb(255, 0, 0);
   transition-duration: 0.5s;
+}
+.literatiteam {
+  display: flex;
+  flex-direction: column;
+}
+.literatiteamtitle {
+  display: flex;
+  justify-content: center;
+}
+.literatiteamtitle > h1 {
+  font-size: 3em;
+  margin-bottom: 5vh;
+}
+.literatiformat1 {
+  display: flex;
+  flex-direction: column;
+}
+.literatiformat1_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat1_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat1_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat2 {
+  display: none;
+}
+.literatiformat2_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat2_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat2_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat2_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat2_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3 {
+  display: none;
+}
+.literatiformat3_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3_6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat3_7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4 {
+  display: none;
+}
+.literatiformat4_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.literatiformat4_8 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+@media screen and (max-width: 1200px) {
+  .literatiformat1 {
+    display: none;
+  }
+  .literatiformat2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 850px) {
+  .literatiformat2 {
+    display: none;
+  }
+  .literatiformat3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .literatiformat3 {
+    display: none;
+  }
+  .literatiformat4 {
+    display: flex;
+    flex-direction: column;
+  }
 }
