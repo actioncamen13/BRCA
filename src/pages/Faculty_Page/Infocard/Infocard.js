@@ -4,7 +4,7 @@ import "./Infocard.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Infocard(props) {
   return (
@@ -15,15 +15,15 @@ function Infocard(props) {
       <h2>{props.name}</h2>
       <h3>{props.position}</h3>
       <div className="profinfocard__bottom">
-        <Link to="props.fb" style={{ color: "#6a6565", marginRight: "5%" }}>
-          <FacebookIcon className="proffacebook__icon" />
-        </Link>
-        <Link to="props.insta" style={{ color: "#6a6565", marginRight: "5%" }}>
-          <InstagramIcon className="profinsta__icon" />
-        </Link>
-        <Link to="props.linkedin" style={{ color: "#6a6565" }}>
-          <LinkedInIcon className="proflinkedin__icon" />
-        </Link>
+      <a href={props.fb} style={{ color: "#6a6565", marginRight: "5%" }}>
+          <FacebookIcon className="facebook__icon" />
+        </a>
+        <a href={props.insta} style={{ color: "#6a6565", marginRight: "5%" }}>
+          <InstagramIcon className="insta__icon" />
+        </a>
+        <a href={props.linkedin} style={{ color: "#6a6565" }}>
+          <LinkedInIcon className="linkedin__icon" />
+        </a>
       </div>
     </div>
   );
