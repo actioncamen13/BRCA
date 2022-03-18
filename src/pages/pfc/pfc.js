@@ -200,20 +200,20 @@ import Akshat from "./4.png";
 import Aryan from "./5.png";
 import Asmita from "./6.png";
 import AyushKanaujia from "./7.png";
-import AyushPandey from "./8.png";
+// import AyushPandey from "./8.png";
 import Gauransh from "./9.png";
-import Navaneeth from "./10.png";
+// import Navaneeth from "./10.png";
 import Pranjal from "./11.png";
-import Praveen from "./12.png";
+// import Praveen from "./12.png";
 import Rohan from "./13.png";
 import Saurav from "./14.png";
-import Tanay from "./15.png";
+// import Tanay from "./15.png";
 import Snigdha from "./16.png";
 import Tanish from "./17.png";
 import Tushar from "./18.png";
 import Udit from "./19.png";
 import Vaikruti from "./20.png";
-import Varun from "./21.png";
+// import Varun from "./21.png";
 
 const PFC = () => {
   const images = [{ image1 }];
