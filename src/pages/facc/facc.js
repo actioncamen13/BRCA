@@ -14,8 +14,8 @@ import image2 from "./images/pfci2.png";
 import image3 from "./images/pfci3.png";
 import FaccNavbar from "./Navbar/FaccNavbar";
 import FaccFooter from "./Footer/FaccFooter";
-import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import Infocard from "./Infocard/Infocard";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 
 const Facc = () => {
   const images = [{ image1 }];

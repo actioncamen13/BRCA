@@ -19,7 +19,7 @@ import Ritik from "./Ritik Yadav_Satpura-min.JPG";
 import Sagar from "./Sagar_Vindhyachal-min.jpg";
 import Somya from "./Somya Maheshwari_Udaigiri-min.PNG";
 import Tarun from "./TarunGaur_Zanskar-min.jpg";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 
 function LayoutApp() {
   return (

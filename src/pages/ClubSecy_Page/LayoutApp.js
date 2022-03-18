@@ -5,21 +5,21 @@ import TeamsFooter from "./Footer/TeamsFooter";
 import React from "react";
 // import Altfooter from "./AlternateFooter/Altfooter";
 import Infocard from "./Infocard/Infocard";
-import Aashita from "./Aashita Gupta_Himadri-min.jpeg";
+// import Aashita from "./Aashita Gupta_Himadri-min.jpeg";
 import Aman from "./Aman.jpeg";
 import Aditya from "./Aditya Vishal _ Nilgiri-min.jpg";
 import Anisha from "./Anisha__Kailash-min.jpg";
 import Diwakar from "./Diwakar_Karakoram-min.jpeg";
 import Keshav from "./Keshav_Shivalik-min.jpg";
 import Nishant from "./Nishant Bansal_Jwalamukhi-min.jpg";
-import Prem from "./Prem Khandelwal_Kumaon-min.jpg";
+// import Prem from "./Prem Khandelwal_Kumaon-min.jpg";
 import Priyanshu from "./Priyanshu_Girnar-min.jpg";
 import Rishi from "./Rishi_Aravali-min.jpg";
 import Ritik from "./Ritik Yadav_Satpura-min.JPG";
 import Sagar from "./Sagar_Vindhyachal-min.jpg";
 import Somya from "./Somya Maheshwari_Udaigiri-min.PNG";
 import Tarun from "./TarunGaur_Zanskar-min.jpg";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 
 function LayoutApp() {
   return (
