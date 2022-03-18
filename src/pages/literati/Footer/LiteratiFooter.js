@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function LiteratiFooter() {
   return (
     <div className="literatifooter">
-      <div className="literatifooter__logo"></div>
+      <a
+        className="literatifooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="literatifooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

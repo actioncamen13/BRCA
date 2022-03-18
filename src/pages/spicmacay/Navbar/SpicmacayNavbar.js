@@ -6,7 +6,13 @@ function SpicmacayNavbar() {
   return (
     <div className="spicmacaynavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="spicmacaynavbar__logo"></div>
+      <a
+        className="spicmacaynavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="spicmacaynavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>

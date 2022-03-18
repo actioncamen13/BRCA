@@ -3,7 +3,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { Zoom } from "react-slideshow-image";
 import "./css/styleDesign.css";
 import "../css/animate.css";

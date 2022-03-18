@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function SecyFooter() {
   return (
     <div className="secyfooter" style={{ position: "relative", top: "18vh" }}>
-      <div className="secyfooter__logo"></div>
+      <a
+        className="secyfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="secyfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

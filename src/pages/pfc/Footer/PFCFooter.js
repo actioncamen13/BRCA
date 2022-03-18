@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function PFCFooter() {
   return (
     <div className="pfcfooter">
-      <div className="pfcfooter__logo"></div>
+      <a
+        className="pfcfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="pfcfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

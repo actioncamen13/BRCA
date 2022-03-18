@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function QuizzingFooter() {
   return (
     <div className="quizzingfooter">
-      <div className="quizzingfooter__logo"></div>
+      <a
+        className="quizzingfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="quizzingfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

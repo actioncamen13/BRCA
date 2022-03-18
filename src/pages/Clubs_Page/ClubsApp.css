@@ -104,13 +104,13 @@
   background-image: url("./Spic\ Macay-1.jpg");
   background-size: 100% 100%;
 }
-.clubsapp__body__row1 > div,
-.clubsapp__body__row2 > div {
+.clubsapp__body__row1 > a,
+.clubsapp__body__row2 > a {
   cursor: pointer;
   transition-duration: 0.2s;
 }
-.clubsapp__body__row1 > div:hover,
-.clubsapp__body__row2 > div:hover {
+.clubsapp__body__row1 > a:hover,
+.clubsapp__body__row2 > a:hover {
   transform: scale(1.1);
   z-index: 1;
 }
@@ -261,17 +261,17 @@
   display: flex;
   justify-content: center;
 }
-.clubsapp__body__row3 > div,
-.clubsapp__body__row4 > div,
-.clubsapp__body__row5 > div,
-.clubsapp__body__row6 > div {
+.clubsapp__body__row3 > a,
+.clubsapp__body__row4 > a,
+.clubsapp__body__row5 > a,
+.clubsapp__body__row6 > a {
   cursor: pointer;
   transition-duration: 0.2s;
 }
-.clubsapp__body__row3 > div:hover,
-.clubsapp__body__row4 > div:hover,
-.clubsapp__body__row5 > div:hover,
-.clubsapp__body__row6 > div:hover {
+.clubsapp__body__row3 > a:hover,
+.clubsapp__body__row4 > a:hover,
+.clubsapp__body__row5 > a:hover,
+.clubsapp__body__row6 > a:hover {
   transform: scale(1.1);
   z-index: 1;
 }
@@ -314,21 +314,21 @@
   display: flex;
   justify-content: center;
 }
-.clubsapp__body__row7 > div,
-.clubsapp__body__row8 > div,
-.clubsapp__body__row9 > div,
-.clubsapp__body__row10 > div,
-.clubsapp__body__row11 > div,
-.clubsapp__body__row12 > div {
+.clubsapp__body__row7 > a,
+.clubsapp__body__row8 > a,
+.clubsapp__body__row9 > a,
+.clubsapp__body__row10 > a,
+.clubsapp__body__row11 > a,
+.clubsapp__body__row12 > a {
   cursor: pointer;
   transition-duration: 0.2s;
 }
-.clubsapp__body__row7 > div:hover,
-.clubsapp__body__row8 > div:hover,
-.clubsapp__body__row9 > div:hover,
-.clubsapp__body__row10 > div:hover,
-.clubsapp__body__row11 > div:hover,
-.clubsapp__body__row12 > div:hover {
+.clubsapp__body__row7 > a:hover,
+.clubsapp__body__row8 > a:hover,
+.clubsapp__body__row9 > a:hover,
+.clubsapp__body__row10 > a:hover,
+.clubsapp__body__row11 > a:hover,
+.clubsapp__body__row12 > a:hover {
   transform: scale(1.1);
   z-index: 1;
 }

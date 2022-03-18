@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function DanceFooter() {
   return (
     <div className="dancefooter">
-      <div className="dancefooter__logo"></div>
+      <a
+        className="dancefooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="dancefooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

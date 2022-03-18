@@ -6,7 +6,13 @@ function FacultyNavbar() {
   return (
     <div className="facultynavbar" style={{ position: "relative" }}>
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="facultynavbar__logo"></div>
+      <a
+        className="facultynavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="facultynavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>

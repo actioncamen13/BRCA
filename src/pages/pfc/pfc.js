@@ -180,7 +180,7 @@
 // export default PFC;
 
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { Zoom } from "react-slideshow-image";
 import "./css/stylePFC.css";
 import "../css/animate.css";
@@ -193,6 +193,27 @@ import PFCNavbar from "./Navbar/PFCNavbar";
 import PFCFooter from "./Footer/PFCFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Adarsh from "./1.png";
+import Aayush from "./2.png";
+import Aditya from "./3.png";
+import Akshat from "./4.png";
+import Aryan from "./5.png";
+import Asmita from "./6.png";
+import AyushKanaujia from "./7.png";
+import AyushPandey from "./8.png";
+import Gauransh from "./9.png";
+import Navaneeth from "./10.png";
+import Pranjal from "./11.png";
+import Praveen from "./12.png";
+import Rohan from "./13.png";
+import Saurav from "./14.png";
+import Tanay from "./15.png";
+import Snigdha from "./16.png";
+import Tanish from "./17.png";
+import Tushar from "./18.png";
+import Udit from "./19.png";
+import Vaikruti from "./20.png";
+import Varun from "./21.png";
 
 const PFC = () => {
   const images = [{ image1 }];
@@ -292,7 +313,7 @@ const PFC = () => {
             <div className="pfcformat1">
               <div className="pfcformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Gauransh}
                   name="Gauransh Soni"
                   position="Secretary"
                 />
@@ -304,7 +325,7 @@ const PFC = () => {
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rohan}
                   name="Rohan Gupta"
                   position="Director"
                 />
@@ -314,76 +335,76 @@ const PFC = () => {
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={AyushKanaujia}
                   name="Ayush Kanaujia"
                   position="Director"
                 />
               </div>
               <div className="pfcformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshat}
                   name="Akshat Shukla"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanish}
                   name="Tanish Agarwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aayush}
                   name="Aayush Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Udit}
                   name="Udit Batish"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aditya}
                   name="Aditya Singh"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Snigdha}
                   name="S.Malhotra"
                   position="Representative"
                 />
               </div>
               <div className="pfcformat1_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Tushar}
                   name="Tushar Kant Sao"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Saurav}
                   name="Saurav K. Singh"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Asmita}
                   name="Asmita Mehta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranjal}
                   name="Pranjal Sachan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aryan}
                   name="Aryan Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vaikruti}
                   name="Varikuti V. Reddy"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Adarsh}
                   name="Adarsh Roy"
                   position="Representative"
                 />

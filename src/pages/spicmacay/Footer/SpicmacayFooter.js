@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function SpicmacayFooter() {
   return (
     <div className="spicmacayfooter">
-      <div className="spicmacayfooter__logo"></div>
+      <a
+        className="spicmacayfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="spicmacayfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

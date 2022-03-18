@@ -6,7 +6,13 @@ function QuizzingNavbar() {
   return (
     <div className="quizzingnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="quizzingnavbar__logo"></div>
+      <a
+        className="quizzingnavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="quizzingnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>

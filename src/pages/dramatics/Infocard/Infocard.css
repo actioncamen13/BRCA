@@ -36,6 +36,9 @@
   cursor: pointer;
   color: #6a6565;
 }
+.infocard__bottom > a > .MuiSvgIcon-root {
+  cursor: pointer;
+}
 .facebook__icon:hover {
   color: #4267b2;
   transform: scale(1.5);

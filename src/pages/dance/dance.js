@@ -2,8 +2,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 
-import React from 'react';
-import { Zoom } from 'react-slideshow-image';
+import React from "react";
+import { Zoom } from "react-slideshow-image";
 import "./css/styleDance.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
@@ -15,6 +15,19 @@ import DanceNavbar from "./Navbar/DanceNavbar";
 import DanceFooter from "./Footer/DanceFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Akash from "./1.png";
+import Anukriti from "./2.png";
+import Vatsal from "./3.png";
+import Bhavya from "./4.png";
+import Samarthya from "./5.png";
+import Shlokh from "./6.png";
+import Dishant from "./7.png";
+import Mitanshu from "./8.png";
+import Madhav from "./9.png";
+import Franklin from "./10.png";
+import Pranjalee from "./11.png";
+import Rinish from "./12.png";
+import Sanjay from "./13.png";
 
 const Dance = () => {
   const images = [{ image1 }];
@@ -114,68 +127,68 @@ const Dance = () => {
             <div className="danceformat1">
               <div className="danceformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Dishant}
                   name="Dishant Dhiman"
                   position="Secretary"
                 />
               </div>
               <div className="danceformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranjalee}
                   name="Pranjalee"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anukriti}
                   name="Anukriti"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Bhavya}
                   name="Bhavya Shah"
                   position="Representative"
                 />
               </div>
               <div className="danceformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Shlokh}
                   name="Shlokh Mohta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Mitanshu}
                   name="Mitanshu Kansal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Jingar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanjay}
                   name="Sanjay Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Akash}
                   name="Akash Sinha"
                   position="Representative"
                 />
               </div>
               <div className="danceformat1_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Franklin}
                   name="Franklin"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Samarthya}
                   name="S.Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Madhav}
                   name="Madhav Goel"
                   position="Representative"
                 />
@@ -185,7 +198,7 @@ const Dance = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rinish}
                   name="Rinish Agrawal"
                   position="Representative"
                 />
@@ -194,70 +207,70 @@ const Dance = () => {
             <div className="danceformat2">
               <div className="danceformat2_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Dishant}
                   name="Dishant Dhiman"
                   position="Secretary"
                 />
               </div>
               <div className="danceformat2_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranjalee}
                   name="Pranjalee"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anukriti}
                   name="Anukriti"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Bhavya}
                   name="Bhavya Shah"
                   position="Representative"
                 />
               </div>
               <div className="danceformat2_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Shlokh}
                   name="Shlokh Mohta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Mitanshu}
                   name="Mitanshu Kansal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Jingar"
                   position="Representative"
                 />
               </div>
               <div className="danceformat2_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanjay}
                   name="Sanjay Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Akash}
                   name="Akash Sinha"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Franklin}
                   name="Franklin"
                   position="Representative"
                 />
               </div>
               <div className="danceformat2_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samarthya}
                   name="S.Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Madhav}
                   name="Madhav Goel"
                   position="Representative"
                 />
@@ -267,7 +280,7 @@ const Dance = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rinish}
                   name="Rinish Agrawal"
                   position="Representative"
                 />
@@ -276,74 +289,74 @@ const Dance = () => {
             <div className="danceformat3">
               <div className="danceformat3_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Dishant}
                   name="Dishant Dhiman"
                   position="Secretary"
                 />
               </div>
               <div className="danceformat3_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranjalee}
                   name="Pranjalee"
                   position="Representative"
                 />
               </div>
               <div className="danceformat3_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Anukriti}
                   name="Anukriti"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Bhavya}
                   name="Bhavya Shah"
                   position="Representative"
                 />
               </div>
               <div className="danceformat3_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Shlokh}
                   name="Shlokh Mohta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Mitanshu}
                   name="Mitanshu Kansal"
                   position="Representative"
                 />
               </div>
               <div className="danceformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Jingar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanjay}
                   name="Sanjay Kumar"
                   position="Representative"
                 />
               </div>
               <div className="danceformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Akash}
                   name="Akash Sinha"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Franklin}
                   name="Franklin"
                   position="Representative"
                 />
               </div>
               <div className="danceformat3_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samarthya}
                   name="S.Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Madhav}
                   name="Madhav Goel"
                   position="Representative"
                 />
@@ -355,7 +368,7 @@ const Dance = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rinish}
                   name="Rinish Agrawal"
                   position="Representative"
                 />

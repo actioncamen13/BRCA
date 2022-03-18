@@ -5,13 +5,19 @@ import { Link } from "react-router-dom";
 function TeamsFooter() {
   return (
     <div className="teamsfooter" style={{ position: "relative" }}>
-      <div className="teamsfooter__logo"></div>
+      <a
+        className="teamsfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="teamsfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>
       </div>
       <div className="teamsfooter__text2">
-      <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/" style={{ textDecoration: "none" }}>
           <h3 className="footerinnertext">HOME</h3>
         </Link>
         <Link to="/teams" style={{ textDecoration: "none" }}>

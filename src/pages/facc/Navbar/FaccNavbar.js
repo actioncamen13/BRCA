@@ -6,7 +6,13 @@ function FaccNavbar() {
   return (
     <div className="faccnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="faccnavbar__logo"></div>
+      <a
+        className="faccnavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="faccnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -27,10 +33,7 @@ function FaccNavbar() {
           <div className="faccnavbar__text">SAC BOOKINGS</div>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
-          <div
-            className="faccnavbar__text"
-            id="faccnavbar__rightmost"
-          >
+          <div className="faccnavbar__text" id="faccnavbar__rightmost">
             <div className="faccrendezvous__inner">RENDEZVOUS</div>
           </div>
         </Link>

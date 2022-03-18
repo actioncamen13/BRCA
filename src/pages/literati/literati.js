@@ -16,6 +16,15 @@ import LiteratiNavbar from "./Navbar/LiteratiNavbar";
 import LiteratiFooter from "./Footer/LiteratiFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Samyak from './1.png'
+import Shrijit from './2.png'
+import Divyansh from './3.png'
+import Stuti from './4.png'
+import Nischay from './5.png'
+import Naman from './6.png'
+import Parth from './7.png'
+import Sanyam from './8.png'
+import Ashish from './9.png'
 
 const Literati = () => {
   const images = [{ image1 }];
@@ -115,20 +124,20 @@ const Literati = () => {
             <div className="literatiformat1">
               <div className="literatiformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="N.Upadhyay"
                   position="Secretary"
                 />
               </div>
               <div className="literatiformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Jain"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanyam}
                   name="Sanyam"
                   position="Representative"
                 />
@@ -138,34 +147,34 @@ const Literati = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Singhal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Nischay}
                   name="Nischay Diwan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Stuti}
                   name="Stuti Lohani"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="Divyansh Mittal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Ashish}
                   name="Ashish Jagrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Shrijit}
                   name="Shrijit Shaswat"
                   position="Representative"
                 />

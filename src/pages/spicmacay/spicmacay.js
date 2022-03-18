@@ -16,6 +16,19 @@ import SpicmacayNavbar from "./Navbar/SpicmacayNavbar";
 import SpicmacayFooter from "./Footer/SpicmacayFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Aaryan from "./1.png";
+import Aditya from "./2.png";
+import Anshum from "./3.png";
+import Aryan from "./4.png";
+import Bhavesh from "./5.png";
+import Jatin from "./6.png";
+import Harsh from "./7.png";
+import Kunal from "./8.png";
+import Prisha from "./9.png";
+import Rishav from "./10.png";
+import Tushar from "./11.png";
+import Rishu from "./12.png";
+import Suhani from "./13.png";
 
 const Spicmacay = () => {
   const images = [{ image1 }];
@@ -122,70 +135,70 @@ const Spicmacay = () => {
               </div>
               <div className="spicmacayformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rishu}
                   name="Rishu Raj"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Aditya}
                   name="Aditya Verma"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Jatin}
                   name="Jatin Jangpangi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anshum}
                   name="Anshum"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aryan}
                   name="Aryan Jaiswal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaryan}
                   name="Aaryan Ahuja"
                   position="Representative"
                 />
               </div>
               <div className="spicmacayformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rishav}
                   name="Rishav Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Suhani}
                   name="Suhani Agrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Harsh}
                   name="Harsh Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tushar}
                   name="Tushar Agrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Bhavesh}
                   name="Bhavesh Bhati"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prisha}
                   name="Prisha Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Kunal}
                   name="Kunal Mitra"
                   position="Representative"
                 />

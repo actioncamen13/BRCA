@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function DesignFooter() {
   return (
     <div className="designfooter">
-      <div className="designfooter__logo"></div>
+      <a
+        className="designfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="designfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

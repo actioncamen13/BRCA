@@ -16,6 +16,18 @@ import DramaticsNavbar from "./Navbar/DramaticsNavbar";
 import DramaticsFooter from "./Footer/DramaticsFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Akshat from './1.png'
+import Aadil from './2.png'
+import Garvit from './3.png'
+import Kulveer from './4.png'
+import Nikhil from './5.png'
+import Navneet from './6.png'
+import PriyanshuJain from './7.png'
+import Sanskriti from './8.png'
+import Smrati from './9.png'
+import Sujal from './10.png'
+import Upasak from './11.png'
+import Yash from './12.png'
 
 const Dramatics = () => {
   const images = [{ image1 }];
@@ -155,64 +167,64 @@ const Dramatics = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={PriyanshuJain}
                   name="Priyanshu Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Garvit}
                   name="Garvit Dhawan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sujal}
                   name="Sujal Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshat}
                   name="Akshat Chauhan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanskriti}
                   name="Sanskriti Jain"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat1_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Upasak}
                   name="Upasak Sharma"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Smrati}
                   name="Smrati Tripathi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Navneet}
                   name="Navneet Singh"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aadil}
                   name="Aadil Akhtar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Kulveer}
                   name="Kulveer Singh"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Nikhil}
                   name="Nikhil Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yash}
                   name="Yash Gupta"
                   position="Representative"
                 />

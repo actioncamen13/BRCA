@@ -6,7 +6,13 @@ function TeamsNavbar() {
   return (
     <div className="teamsnavbar" style={{ position: "relative" }}>
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="teamsnavbar__logo"></div>
+      <a
+        className="teamsnavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="teamsnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>

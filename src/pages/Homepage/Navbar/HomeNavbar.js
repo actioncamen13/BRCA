@@ -6,7 +6,13 @@ function HomeNavbar() {
   return (
     <div className="homenavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="homenavbar__logo"></div>
+      <a
+        className="homenavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="homenavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>

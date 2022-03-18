@@ -4,7 +4,13 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="homefooter">
-      <div className="homefooter__logo"></div>
+      <a
+        className="homefooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="homefooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

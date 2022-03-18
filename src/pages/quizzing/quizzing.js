@@ -16,6 +16,20 @@ import QuizzingNavbar from "./Navbar/QuizzingNavbar";
 import QuizzingFooter from "./Footer/QuizzingFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Afreen from "./1.png";
+import Aaghaz from "./2.png";
+import Akshit from "./3.png";
+import Aniruddha from "./4.png";
+import Anish from "./5.png";
+import Aryan from "./6.png";
+import Gautam from "./7.png";
+import Prasun from "./8.png";
+import Priyansita from "./9.png";
+import Rehan from "./10.png";
+import Soumil from "./11.png";
+import Srijan from "./12.png";
+import Utkarsh from "./13.png";
+import Varun from "./14.png";
 
 const Quizzing = () => {
   const images = [{ image1 }];
@@ -115,77 +129,77 @@ const Quizzing = () => {
             <div className="quizzingformat1">
               <div className="quizzingformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
                 />
               </div>
               <div className="quizzingformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anish}
                   name="Anish Roy"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
                 />

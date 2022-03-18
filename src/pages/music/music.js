@@ -15,6 +15,23 @@ import MusicNavbar from "./Navbar/MusicNavbar";
 import MusicFooter from "./Footer/MusicFooter";
 import Infocard from "./Infocard/Infocard";
 import DefaultPic from "./Infocard/Rectangle 103.png";
+import Aaryan from "./1.png";
+import Arjun from "./2.png";
+import Vatsal from "./3.png";
+import Vaibhav from "./4.png";
+import Tanmay from "./5.png";
+import Sibasish from "./6.png";
+import Rishika from "./7.png";
+import Samyak from "./8.png";
+import Pawan from "./9.png";
+import Parth from "./10.png";
+import Megha from "./11.png";
+import Eshan from "./12.png";
+import Yashas from "./13.png";
+import Jash from "./14.png";
+import Divyansh from "./15.png";
+import Anirudh from "./16.png";
+import Vishal from "./17.png";
 
 const Music = () => {
   const images = [{ image1 }];
@@ -114,83 +131,83 @@ const Music = () => {
             <div className="musicformat1">
               <div className="musicformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vaibhav}
                   name="Vaibhav Verma"
                   position="Secretary"
                 />
               </div>
               <div className="musicformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vishal}
                   name="Vishal Asthana"
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anirudh}
                   name="A.Chauhan"
                   position="Diro-Mridang"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pawan}
                   name="Pawan Goswami"
                   position="Diro-Mridang"
                 />
               </div>
               <div className="musicformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Jaiswal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Mathur"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaryan}
                   name="Aaryan Goyal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Megha}
                   name="M.Dharawat"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashas}
                   name="Yashas Kedia"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rishika}
                   name="Rishika Verma"
                   position="Representative"
                 />
               </div>
               <div className="musicformat1_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Gothi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sibasish}
                   name="Sibasish Rout"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Eshan}
                   name="Eshan Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Jash}
                   name="Jash Baua"
                   position="Representative"
                 />
@@ -200,12 +217,12 @@ const Music = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Juneja"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Arjun}
                   name="Arjun Aggarwal"
                   position="Representative"
                 />

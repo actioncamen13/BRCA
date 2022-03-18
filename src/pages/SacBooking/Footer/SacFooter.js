@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function SacFooter() {
   return (
     <div className="sacfooter">
-      <div className="sacfooter__logo"></div>
+      <a
+        className="sacfooter__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       <div className="sacfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

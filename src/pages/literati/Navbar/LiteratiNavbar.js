@@ -6,7 +6,13 @@ function LiteratiNavbar() {
   return (
     <div className="literatinavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <div className="literatinavbar__logo"></div>
+      <a
+        className="literatinavbar__logo"
+        href="/"
+        style={{ textDecoration: "none" }}
+      >
+        {" "}
+      </a>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="literatinavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
