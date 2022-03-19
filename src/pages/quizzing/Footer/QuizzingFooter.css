@@ -1,6 +1,6 @@
 .quizzingfooter {
   position: relative;
-  top: 850px;
+  /* top: 850px; */
   bottom: 0;
   left: 0;
   width: 100vw;
@@ -74,33 +74,6 @@
 .quizzingfooter__text3 {
   font-family: "Poppins", sans-serif;
   margin-top: 1%;
-}
-
-@media screen and (max-width: 1200px) {
-  .quizzingfooter {
-    top: 1050px;
-  }
-}
-@media screen and (max-width: 850px) {
-  .quizzingfooter {
-    top: 1950px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .quizzingfooter {
-    top: 2450px;
-  }
-}
-@media screen and (max-width: 680px) {
-  .quizzingfooter {
-    top: 2300px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .quizzingfooter {
-    top: 2500px;
-  }
 }
 @media screen and (max-width: 900px) {
   .quizzingfooter__text1,

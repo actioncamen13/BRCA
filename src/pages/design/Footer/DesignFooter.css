@@ -1,6 +1,6 @@
 .designfooter {
   position: relative;
-  top: 1100px;
+  /* top: 1100px; */
   bottom: 0;
   left: 0;
   width: 100vw;
@@ -74,27 +74,6 @@
 .designfooter__text3 {
   font-family: "Poppins", sans-serif;
   margin-top: 1%;
-}
-
-@media screen and (max-width: 1200px) {
-  .designfooter {
-    top: 1850px;
-  }
-}
-@media screen and (max-width: 828px) {
-  .designfooter {
-    top: 1950px;
-  }
-}
-@media screen and (max-width: 820px) {
-  .designfooter {
-    top: 2450px;
-  }
-}
-@media screen and (max-width: 680px) {
-  .designfooter {
-    top: 3900px;
-  }
 }
 @media screen and (max-width: 900px) {
   .designfooter__text1,
