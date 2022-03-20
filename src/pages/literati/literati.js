@@ -25,6 +25,11 @@ import Naman from './6.png'
 import Parth from './7.png'
 import Sanyam from './8.png'
 import Ashish from './9.png'
+import Abhinna from './Abhinna_Agarwal.jpg'
+import Aditi from './Aditi.jpg'
+import Awwab from './Awwab_Ansari.jpg'
+import Sampan from './Sampan .jpg'
+import Vamshi from './Vamshi.jpg'
 
 const Literati = () => {
   const images = [{ image1 }];
@@ -142,7 +147,7 @@ const Literati = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinna}
                   name="A.Agarwal"
                   position="Representative"
                 />
@@ -179,22 +184,22 @@ const Literati = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aditi}
                   name="Aditi Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vamshi}
                   name="Vamshi Vangala"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Awwab}
                   name="Ansari Awwab"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sampan}
                   name="Sampan Manna"
                   position="Representative"
                 />
@@ -203,79 +208,80 @@ const Literati = () => {
             <div className="literatiformat2">
               <div className="literatiformat2_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="N.Upadhyay"
                   position="Secretary"
                 />
               </div>
               <div className="literatiformat2_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Jain"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanyam}
                   name="Sanyam"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinna}
                   name="A.Agarwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Singhal"
                   position="Representative"
                 />
-              </div>
-              <div className="literatiformat2_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Nischay}
                   name="Nischay Diwan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Stuti}
                   name="Stuti Lohani"
                   position="Representative"
                 />
+              </div>
+              <div className="literatiformat1_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="Divyansh Mittal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Ashish}
                   name="Ashish Jagrawal"
                   position="Representative"
                 />
+               
               </div>
               <div className="literatiformat2_4">
-                <Infocard
-                  image={DefaultPic}
+                 <Infocard
+                  image={Shrijit}
                   name="Shrijit Shaswat"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aditi}
                   name="Aditi Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vamshi}
                   name="Vamshi Vangala"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Awwab}
                   name="Ansari Awwab"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sampan}
                   name="Sampan Manna"
                   position="Representative"
                 />
@@ -284,85 +290,85 @@ const Literati = () => {
             <div className="literatiformat3">
               <div className="literatiformat3_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="N.Upadhyay"
                   position="Secretary"
                 />
               </div>
               <div className="literatiformat3_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Jain"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanyam}
                   name="Sanyam"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat3_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinna}
                   name="A.Agarwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Singhal"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat3_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Nischay}
                   name="Nischay Diwan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Stuti}
                   name="Stuti Lohani"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="Divyansh Mittal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Ashish}
                   name="Ashish Jagrawal"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Shrijit}
                   name="Shrijit Shaswat"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aditi}
                   name="Aditi Gupta"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat3_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vamshi}
                   name="Vamshi Vangala"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Awwab}
                   name="Ansari Awwab"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sampan}
                   name="Sampan Manna"
                   position="Representative"
                 />
@@ -371,86 +377,86 @@ const Literati = () => {
             <div className="literatiformat4">
               <div className="literatiformat4_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="N.Upadhyay"
                   position="Secretary"
                 />
               </div>
               <div className="literatiformat4_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Jain"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat4_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanyam}
                   name="Sanyam"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinna}
                   name="A.Agarwal"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat4_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Singhal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Nischay}
                   name="Nischay Diwan"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat4_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Stuti}
                   name="Stuti Lohani"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="Divyansh Mittal"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat4_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Ashish}
                   name="Ashish Jagrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Shrijit}
                   name="Shrijit Shaswat"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat4_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aditi}
                   name="Aditi Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vamshi}
                   name="Vamshi Vangala"
                   position="Representative"
                 />
               </div>
               <div className="literatiformat4_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Awwab}
                   name="Ansari Awwab"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sampan}
                   name="Sampan Manna"
                   position="Representative"
                 />

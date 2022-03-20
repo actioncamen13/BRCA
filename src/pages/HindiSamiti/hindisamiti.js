@@ -46,7 +46,7 @@ const Spicmacay = () => {
         <div className="containerpfc animate__animated animate__fadeIn">
           <div className="section1">
             <img src={imagee} alt="logo" />
-            <h3>Spicmacay Club</h3>
+            <h3>HindiSamiti Club</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -71,10 +71,11 @@ const Spicmacay = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3> Hindi and Urdu Poetry </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+               Regular workshops, poetry sammilans, competitions, talks and discussions to enhance the culture of poetry in IIT Delhi.
+
+
                   </p>
                 </div>
                 <img
@@ -88,10 +89,10 @@ const Spicmacay = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Hindi Quizzing </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  A variety of year-round quizzes are conducted covering vast themes, such as Word Games, Indian cinema, mythology, culture and heritage, etc.
+
                   </p>
                 </div>
                 <img
@@ -105,10 +106,9 @@ const Spicmacay = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3> Hindi Debating </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                 A large number of debates, JAM and standup workshops and tournaments.
                   </p>
                 </div>
                 <img
@@ -248,72 +248,72 @@ const Spicmacay = () => {
               </div>
               <div className="hindisamitiformat2_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aayushi}
                   name="Aayushi Agrawal"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinav}
                   name="A.Barnawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Adarsh}
                   name="Adarsh Anand"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Ansh}
                   name="Ansh Goel"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat2_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Daksh}
                   name="D.Khandelwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Gyanendra}
                   name="G.Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prakash}
                   name="Prakash Tiwari"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Richa}
                   name="Richa Yadav"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat2_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanskar}
                   name="Sanskar Soni"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Goyal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yash}
                   name="Yash Agrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashwant}
                   name="Y.S.Kaurav"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pragyansh}
                   name="P.Priyadarshi"
                   position="Representative"
                 />
@@ -348,78 +348,78 @@ const Spicmacay = () => {
               </div>
               <div className="hindisamitiformat3_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aayushi}
                   name="Aayushi Agrawal"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinav}
                   name="A.Barnawal"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Adarsh}
                   name="Adarsh Anand"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Ansh}
                   name="Ansh Goel"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Daksh}
                   name="D.Khandelwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Gyanendra}
                   name="G.Kumar"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat3_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Prakash}
                   name="Prakash Tiwari"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Richa}
                   name="Richa Yadav"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat3_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanskar}
                   name="Sanskar Soni"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Goyal"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat3_9">
                 <Infocard
-                  image={DefaultPic}
+                  image={Yash}
                   name="Yash Agrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashwant}
                   name="Y.S.Kaurav"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pragyansh}
                   name="P.Priyadarshi"
                   position="Representative"
                 />
@@ -456,79 +456,79 @@ const Spicmacay = () => {
               </div>
               <div className="hindisamitiformat4_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aayushi}
                   name="Aayushi Agrawal"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat4_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinav}
                   name="A.Barnawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Adarsh}
                   name="Adarsh Anand"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat4_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Ansh}
                   name="Ansh Goel"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Daksh}
                   name="D.Khandelwal"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat4_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Gyanendra}
                   name="G.Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prakash}
                   name="Prakash Tiwari"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat4_9">
                 <Infocard
-                  image={DefaultPic}
+                  image={Richa}
                   name="Richa Yadav"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanskar}
                   name="Sanskar Soni"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat4_10">
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Goyal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yash}
                   name="Yash Agrawal"
                   position="Representative"
                 />
               </div>
               <div className="hindisamitiformat4_11">
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashwant}
                   name="Y.S.Kaurav"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pragyansh}
                   name="P.Priyadarshi"
                   position="Representative"
                 />

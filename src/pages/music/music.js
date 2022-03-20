@@ -8,9 +8,11 @@ import "./css/styleMusic.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../music/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/img1.JPG";
+import image2 from "./images/img2.JPG";
+import image3 from "./images/img3.JPG";
+import image4 from "./images/img4.JPG";
+import image5 from "./images/img5.JPG";
 import MusicNavbar from "./Navbar/MusicNavbar";
 import MusicFooter from "./Footer/MusicFooter";
 import Infocard from "./Infocard/Infocard";
@@ -51,10 +53,9 @@ const Music = () => {
             <img src={imagee} alt="logo" />
             <h3>Music Club</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{" "}
+            “Music is the literature of heart, it commences where speech ends” ~ Alphonse de Lamartine
+Abode to the music fraternity of IIT Delhi, the Music Club aims to promote music culture among the students as well as the faculty. If you want to showcase your vocal or instrumental talent, or you are just a beginner aiming to delve into the world of music, or you simply want to explore and discuss various musical genres, it is just the right place for you. Proud to be one of the most active clubs in performing arts, the music club has given birth to many talented singers and musicians over all these years. The two musical societies namely Cadence, the Western Acapella society and Mridang, the Indian Classical society are renowned for carrying a rich musical legacy and aim to evoke interest and passion for music produced by India and the world. Located in SAC, the state-of-the-art music room is equipped with a variety of instruments and a recording studio, and is used for organizing training and practice sessions for the club members. All throughout the year, the music club organizes a wide range of events and boasts enthusiastic participation from all the students. 
+{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -74,10 +75,9 @@ const Music = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3>By The Chai</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  An informal event held near Chaayos where people perform and showcase their musical talents for fun 
                   </p>
                 </div>
                 <img
@@ -91,10 +91,9 @@ const Music = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Overdrive</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  A competitive event where the entire music club is divided into 4 groups and each group gives a polished performance  
                   </p>
                 </div>
                 <img
@@ -108,16 +107,44 @@ const Music = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3>MEHFIL</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
+The event with the theme of Indian genre where the club is divided into 4 clubs or gharanas and give performances in the Dogra Hall.  
+</p>
                 </div>
                 <img
                   className="imgs"
                   style={{ objectFit: "cover" }}
                   src={image3}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3>Consonance</h3>
+                  <p>The end of the year event with the most amazing after-party where the senior batch is given a non-competitive farwell.  
+                </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image4}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3>Mixtape</h3>
+                  <p>
+                  An inter-hostel competitive event which consists of solo performances in different categories like instrumental, Indian Vocals and Western Vocals. 
+                  </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image5}
                 />
               </div>
             ))}
@@ -231,85 +258,85 @@ const Music = () => {
             <div className="musicformat2">
               <div className="musicformat2_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vaibhav}
                   name="Vaibhav Verma"
                   position="Secretary"
                 />
               </div>
               <div className="musicformat2_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vishal}
                   name="Vishal Asthana"
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anirudh}
                   name="A.Chauhan"
                   position="Diro-Mridang"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pawan}
                   name="Pawan Goswami"
                   position="Diro-Mridang"
                 />
               </div>
               <div className="musicformat2_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Jaiswal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Mathur"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaryan}
                   name="Aaryan Goyal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Megha}
                   name="M.Dharawat"
                   position="Representative"
                 />
               </div>
               <div className="musicformat2_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashas}
                   name="Yashas Kedia"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rishika}
                   name="Rishika Verma"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Gothi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sibasish}
                   name="Sibasish Rout"
                   position="Representative"
                 />
               </div>
               <div className="musicformat2_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Eshan}
                   name="Eshan Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Jash}
                   name="Jash Baua"
                   position="Representative"
                 />
@@ -319,12 +346,12 @@ const Music = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Juneja"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Arjun}
                   name="Arjun Aggarwal"
                   position="Representative"
                 />
@@ -333,91 +360,91 @@ const Music = () => {
             <div className="musicformat3">
               <div className="musicformat3_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vaibhav}
                   name="Vaibhav Verma"
                   position="Secretary"
                 />
               </div>
               <div className="musicformat3_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vishal}
                   name="Vishal Asthana"
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
               </div>
               <div className="musicformat3_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Anirudh}
                   name="A.Chauhan"
                   position="Diro-Mridang"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Pawan}
                   name="Pawan Goswami"
                   position="Diro-Mridang"
                 />
               </div>
               <div className="musicformat3_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Jaiswal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Mathur"
                   position="Representative"
                 />
               </div>
               <div className="musicformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaryan}
                   name="Aaryan Goyal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Megha}
                   name="M.Dharawat"
                   position="Representative"
                 />
               </div>
               <div className="musicformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashas}
                   name="Yashas Kedia"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Rishika}
                   name="Rishika Verma"
                   position="Representative"
                 />
               </div>
               <div className="musicformat3_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Gothi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sibasish}
                   name="Sibasish Rout"
                   position="Representative"
                 />
               </div>
               <div className="musicformat3_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Eshan}
                   name="Eshan Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Jash}
                   name="Jash Baua"
                   position="Representative"
                 />
@@ -429,12 +456,12 @@ const Music = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Juneja"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Arjun}
                   name="Arjun Aggarwal"
                   position="Representative"
                 />
@@ -443,97 +470,97 @@ const Music = () => {
             <div className="musicformat4">
               <div className="musicformat4_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vaibhav}
                   name="Vaibhav Verma"
                   position="Secretary"
                 />
               </div>
               <div className="musicformat4_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vishal}
                   name="Vishal Asthana"
                   position="Diro-Cadence"
                 />
               </div>
               <div className="musicformat4_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
               </div>
               <div className="musicformat4_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Anirudh}
                   name="A.Chauhan"
                   position="Diro-Mridang"
                 />
               </div>
               <div className="musicformat4_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pawan}
                   name="Pawan Goswami"
                   position="Diro-Mridang"
                 />
               </div>
               <div className="musicformat4_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Parth}
                   name="Parth Jaiswal"
                   position="Representative"
                 />
               </div>
               <div className="musicformat4_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Vatsal}
                   name="Vatsal Mathur"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaryan}
                   name="Aaryan Goyal"
                   position="Representative"
                 />
               </div>
               <div className="musicformat4_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Megha}
                   name="M.Dharawat"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yashas}
                   name="Yashas Kedia"
                   position="Representative"
                 />
               </div>
               <div className="musicformat4_9">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rishika}
                   name="Rishika Verma"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Samyak}
                   name="Samyak Gothi"
                   position="Representative"
                 />
               </div>
               <div className="musicformat4_10">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sibasish}
                   name="Sibasish Rout"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Eshan}
                   name="Eshan Jain"
                   position="Representative"
                 />
               </div>
               <div className="musicformat4_11">
                 <Infocard
-                  image={DefaultPic}
+                  image={Jash}
                   name="Jash Baua"
                   position="Representative"
                 />
@@ -545,12 +572,12 @@ const Music = () => {
               </div>
               <div className="musicformat4_12">
                 <Infocard
-                  image={DefaultPic}
+                  image={Tanmay}
                   name="Tanmay Juneja"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Arjun}
                   name="Arjun Aggarwal"
                   position="Representative"
                 />

@@ -47,10 +47,13 @@ const Dramatics = () => {
             <img src={imagee} alt="logo" />
             <h3>Dramatics Club</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{" "}
+            Hola Amigos
+We present to you ANKAHI, the dramatics society of IIT Delhi.
+And of course dramatics , where to begin with..... Well nowhere cause everything here is a beginning point. Be it acting like Bollywood or directing like Hollywood, be it story like K-drama or music like Dil se nikalta hua gaana everything is available here.
+From "et tu brute" to "How's the Josh", from a dramatic breeze to Haider ki speech we cover it all with the line of events including but not limited to the street plays, stage acts, monoacts ohh and wait it just doesn't end here with things online right now, first plan movies, don't worry we gotcha.
+Filled with fun, starting at drama and ending nowhere this is probably (totally not asked by other clubs to put a probably in there) the BEST club here at IIT Delhi
+Looking forward to all the enthusiasm and love by the audience and of course the participants
+{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -274,68 +277,68 @@ const Dramatics = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={PriyanshuJain}
                   name="Priyanshu Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Garvit}
                   name="Garvit Dhawan"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat2_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sujal}
                   name="Sujal Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshat}
                   name="Akshat Chauhan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanskriti}
                   name="Sanskriti Jain"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat2_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Upasak}
                   name="Upasak Sharma"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Smrati}
                   name="Smrati Tripathi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Navneet}
                   name="Navneet Singh"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat2_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aadil}
                   name="Aadil Akhtar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Kulveer}
                   name="Kulveer Singh"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Nikhil}
                   name="Nikhil Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yash}
                   name="Yash Gupta"
                   position="Representative"
                 />
@@ -393,72 +396,72 @@ const Dramatics = () => {
               </div>
               <div className="dramaticsformat3_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={PriyanshuJain}
                   name="Priyanshu Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Garvit}
                   name="Garvit Dhawan"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat3_9">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sujal}
                   name="Sujal Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshat}
                   name="Akshat Chauhan"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat3_10">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sanskriti}
                   name="Sanskriti Jain"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Upasak}
                   name="Upasak Sharma"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat3_11">
                 <Infocard
-                  image={DefaultPic}
+                  image={Smrati}
                   name="Smrati Tripathi"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Navneet}
                   name="Navneet Singh"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat3_12">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aadil}
                   name="Aadil Akhtar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Kulveer}
                   name="Kulveer Singh"
                   position="Representative"
                 />
               </div>
               <div className="dramaticsformat3_13">
                 <Infocard
-                  image={DefaultPic}
+                  image={Nikhil}
                   name="Nikhil Kumar"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Yash}
                   name="Yash Gupta"
                   position="Representative"
                 />

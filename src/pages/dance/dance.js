@@ -47,10 +47,9 @@ const Dance = () => {
             <img src={imagee} alt="logo" />
             <h3>Dance Club</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{" "}
+            In the words of Martha Graham,
+"Great dancers are not great because of their technique; they are great because of their passion", and we at Dance Club believe the same. Known for its glamorous performances and dedication, the club outperforms itself with popular events like Duo Dance and Group Dance every year. It's also a fresher inclusive club, providing them with the opportunity to start as a Novice and grow into a professional through various workshops and Fresher only event, Offbeat. V-Defyn, IIT Delhi's dance troupe, is a well-known dance group in the Delhi region that has made its legacy with a thread of glorified victories. Ensemble, the choreography society of IIT Delhi, having won several national podiums, can surely boast that they are the finest in their domain. The Institute Dance Production, organised towards the end of the year, is the magnum opus of the club, and it also provides aspiring students with a platform to improve their skills.
+{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -70,10 +69,9 @@ const Dance = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3>Group Dance</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  The first event of the Dance club where freshers participate. It is the most awaited event of the year where the enthusiasm of newly incubated fache and the talent of their seniors combine to set the fire in the event. It is mostly conducted when freshers get free by their majors because in end of February.
                   </p>
                 </div>
                 <img
@@ -87,10 +85,9 @@ const Dance = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Duo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  Looking for the chance to cheer for your hostel before the GC? In the month of December Duo+ is there for you, the first inter-hostel event everyone waits for. Where GD is by the freshers, duo+ is for the freshers. This is the event where freshers witness the dance culture of their hostel as well as the whole of the institute.
                   </p>
                 </div>
                 <img
@@ -104,10 +101,27 @@ const Dance = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3>Offbeat</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  Inspired by the seniors dancing in the duo+, now our freshers have a rush flowing to show off their dance skills too. Offbeat presented by the Dance Club IIT Delhi in January (mostly after the minors of freshers) is the only freshers event conducted by the club in which freshers give their solo performances.
+                 
+
+                  </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image3}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3>IDP</h3>
+                  <p>
+                  Hostels and events may divide us, but when it comes to dance, there is nothing we enjoy more than putting up the best performance we can. Watch the entire dance fraternity of IIT Delhi come out and put on their dancing shoes to vow you with their moves,as we bid adieu to this academic year in our very own glamorous style.
+
                   </p>
                 </div>
                 <img
