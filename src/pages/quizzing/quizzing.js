@@ -9,9 +9,10 @@ import "./css/styleQuizzing.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../quizzing/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/64blocks.jpg";
+import image2 from "./images/occams.jpg";
+import image3 from "./images/mastermind.jpg";
+import image4 from "./images/images.jpg";
 import QuizzingNavbar from "./Navbar/QuizzingNavbar";
 import QuizzingFooter from "./Footer/QuizzingFooter";
 import Infocard from "./Infocard/Infocard";
@@ -49,10 +50,7 @@ const Quizzing = () => {
             <img src={imagee} alt="logo" />
             <h3>Quizzing Club</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{" "}
+            At first glance, it would seem that all we do is ask each other random stuff and reward those in honour who answer correctly. While that may be true in essence, we do this in a variety of genres AND in a variety of formats. From covering the generic fields of quizzing to even obscure fandoms, we cater to any information that can be presented in questions in a fun and interesting manner. Moreover, it’s not all “if-you-know-then-you-know”; most of the questions are curated by our quizmasters so that you can logically arrive at the answer too. So put on your thinking caps (or deerstalker hats) and join us on this never-ending pleasurable quest of acquiring random knowledge!{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -72,10 +70,9 @@ const Quizzing = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3>64 Blocks</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  The Mega-General quiz to uncover the secrets that arise from the overlapping of the major genres 
                   </p>
                 </div>
                 <img
@@ -89,10 +86,9 @@ const Quizzing = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Occam’s Razor</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  The most challenging questions that measure your ability to put simple fundas to use effectively 
                   </p>
                 </div>
                 <img
@@ -106,16 +102,30 @@ const Quizzing = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3>Mastermind</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  Race against time to clinch this crown amongst the champions of their respective fields 
                   </p>
                 </div>
                 <img
                   className="imgs"
                   style={{ objectFit: "cover" }}
                   src={image3}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <div className="eventname">
+                  <h3> League Quizzes</h3>
+                  <p>
+            7 Intra-IITD League Teams battle it out for the League trophy across 5 quizzes throughout the year 
+                  </p>
+                </div>
+                <img
+                  className="imgs"
+                  style={{ objectFit: "cover" }}
+                  src={image4}
                 />
               </div>
             ))}
@@ -208,79 +218,79 @@ const Quizzing = () => {
             <div className="quizzingformat2">
               <div className="quizzingformat2_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
                 />
               </div>
               <div className="quizzingformat2_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat2_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat2_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anish}
                   name="Anish Roy"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
                 />
@@ -289,85 +299,85 @@ const Quizzing = () => {
             <div className="quizzingformat3">
               <div className="quizzingformat3_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
                 />
               </div>
               <div className="quizzingformat3_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
                 />
 
                 <Infocard
-                  image={DefaultPic}
+                  image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat3_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat3_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat3_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Anish}
                   name="Anish Roy"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
                 />
@@ -376,86 +386,86 @@ const Quizzing = () => {
             <div className="quizzingformat4">
               <div className="quizzingformat4_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
                 />
               </div>
               <div className="quizzingformat4_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat4_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat4_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat4_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat4_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat4_7">
                 <Infocard
-                  image={DefaultPic}
+                  image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anish}
                   name="Anish Roy"
                   position="Representative"
                 />
               </div>
               <div className="quizzingformat4_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
                 />
