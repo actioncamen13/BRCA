@@ -9,13 +9,14 @@ import "./css/styleDebating.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "./images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/IITPD.jpg";
+import image2 from "./images/INTRAIITPD.jpg";
+import image3 from "./images/AMPROAM.jpg";
+import image4 from "./images/DEBUTANT.jpg";
+import image5 from "./images/workshops.jpg";
 import DebatingNavbar from "./Navbar/DebatingNavbar";
 import DebatingFooter from "./Footer/DebatingFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
 import Anurag from "./1.png";
 import Adhiraj from "./2.png";
 import Arush from "./3.png";
@@ -126,7 +127,7 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <img
                   className="imgs"
                   style={{ objectFit: "cover" }}
-                  src={image3}
+                  src={image4}
                 />
               </div>
             ))}
@@ -140,7 +141,7 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <img
                   className="imgs"
                   style={{ objectFit: "cover" }}
-                  src={image3}
+                  src={image5}
                 />
               </div>
             ))}

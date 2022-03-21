@@ -28,6 +28,11 @@ import Smrati from './9.png'
 import Sujal from './10.png'
 import Upasak from './11.png'
 import Yash from './12.png'
+import Abhinav from './Abhinav Verma.jpg'
+import AkshatL from './Akshat Lohiya.JPG'
+import Naman from './Naman.JPG'
+import Nameer from './Nameer Khan.jpg'
+import Sarvagya from './Sarvagya Kumar.jpg'
 
 const Dramatics = () => {
   const images = [{ image1 }];
@@ -130,14 +135,14 @@ Looking forward to all the enthusiasm and love by the audience and of course the
             <div className="dramaticsformat1">
               <div className="dramaticsformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="Naman Porwal"
                   position="Secretary"
                 />
               </div>
               <div className="dramaticsformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sarvagya}
                   name="Sarvagya Kumar"
                   position="Director"
                 />
@@ -148,17 +153,17 @@ Looking forward to all the enthusiasm and love by the audience and of course the
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinav}
                   name="Abhinav Verma"
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={AkshatL}
                   name="Akshat Lohiya"
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Nameer}
                   name="Nameer Khan"
                   position="Director"
                 />
@@ -236,14 +241,14 @@ Looking forward to all the enthusiasm and love by the audience and of course the
             <div className="dramaticsformat2">
               <div className="dramaticsformat2_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="Naman Porwal"
                   position="Secretary"
                 />
               </div>
               <div className="dramaticsformat2_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sarvagya}
                   name="Sarvagya Kumar"
                   position="Director"
                 />
@@ -255,17 +260,17 @@ Looking forward to all the enthusiasm and love by the audience and of course the
               </div>
               <div className="dramaticsformat2_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinav}
                   name="Abhinav Verma"
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={AkshatL}
                   name="Akshat Lohiya"
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Nameer}
                   name="Nameer Khan"
                   position="Director"
                 />
@@ -347,14 +352,14 @@ Looking forward to all the enthusiasm and love by the audience and of course the
             <div className="dramaticsformat3">
               <div className="dramaticsformat3_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Naman}
                   name="Naman Porwal"
                   position="Secretary"
                 />
               </div>
               <div className="dramaticsformat3_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Sarvagya}
                   name="Sarvagya Kumar"
                   position="Director"
                 />
@@ -368,21 +373,21 @@ Looking forward to all the enthusiasm and love by the audience and of course the
               </div>
               <div className="dramaticsformat3_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Abhinav}
                   name="Abhinav Verma"
                   position="Director"
                 />
               </div>
               <div className="dramaticsformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={AkshatL}
                   name="Akshat Lohiya"
                   position="Director"
                 />
               </div>
               <div className="dramaticsformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={Nameer}
                   name="Nameer Khan"
                   position="Director"
                 />

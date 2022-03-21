@@ -15,7 +15,6 @@ import image3 from "./images/img3.jpeg";
 import SpicmacayNavbar from "./Navbar/SpicmacayNavbar";
 import SpicmacayFooter from "./Footer/SpicmacayFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
 import Aaryan from "./1.png";
 import Aditya from "./2.png";
 import Anshum from "./3.png";

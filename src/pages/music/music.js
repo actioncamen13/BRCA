@@ -170,7 +170,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={Divyansh}
+                  image={DefaultPic}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -239,7 +239,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Agarwal"
                   position="Representative"
                 />
@@ -270,7 +270,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={Divyansh}
+                  image={DefaultPic}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -341,7 +341,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Agarwal"
                   position="Representative"
                 />
@@ -372,7 +372,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={Divyansh}
+                  image={DefaultPic}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -451,7 +451,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
               </div>
               <div className="musicformat3_9">
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Agarwal"
                   position="Representative"
                 />
@@ -484,7 +484,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
               </div>
               <div className="musicformat4_3">
                 <Infocard
-                  image={Divyansh}
+                  image={DefaultPic}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -565,7 +565,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Divyansh}
                   name="D.Agarwal"
                   position="Representative"
                 />
