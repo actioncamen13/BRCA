@@ -22,7 +22,7 @@ import atharva from "./atharva.png";
 import sahil from "./sahil.png";
 import aryan from "./aryan.png";
 import devansh from "./devansh.png";
-import saksham from "./saksham.png";
+// import saksham from "./saksham.png";
 import sakshamb from "./sakshambhardhwaj.png";
 import utkarsh from "./Utkarsh.png";
 import vaibhav from "./Vaibhav.png";
@@ -31,15 +31,14 @@ import pratyush from "./pratyush.png";
 import paras from "./paras.png";
 import madhurya from "./Madhurya.png";
 import nishantk from "./nishantkumar.png";
-import navaneeth from "./navaneeth.png";
+// import navaneeth from "./navaneeth.png";
 import manan from "./manan.png";
-import ayush from "./ayush.png";
-import animesh from "./animesh.png";
+// import ayush from "./ayush.png";
+// import animesh from "./animesh.png";
 import adityanarayan from "./adityanarayan.png";
 import abhishek from "./abhishek.png";
-import aayushs from "./aayushsomani.png";
-import aayesha from "./aayesha.png";
-
+// import aayushs from "./aayushsomani.png";
+// import aayesha from "./aayesha.png";
 
 const Design = () => {
   const images = [{ image1 }];
@@ -59,7 +58,16 @@ const Design = () => {
             <img src={imagee} alt="logo" />
             <h3>Design Club</h3>
             <p>
-            The newest edition to the list of clubs in BRCA, Design Club IIT Delhi, connects Design's long thought art world to the closely-knit world of problem-solving. Creativity, innovation, and professionalism remain the central bubbles for the community. Comprising a group of student designers who work together to expand professional outlook and personal style through the free exchange of ideas and cultivating aesthetically pleasing designs for everyone to enjoy and experience, one can always hop in to learn and get a head start, and know what is happening around in the design world.{" "}
+              The newest edition to the list of clubs in BRCA, Design Club IIT
+              Delhi, connects Design's long thought art world to the
+              closely-knit world of problem-solving. Creativity, innovation, and
+              professionalism remain the central bubbles for the community.
+              Comprising a group of student designers who work together to
+              expand professional outlook and personal style through the free
+              exchange of ideas and cultivating aesthetically pleasing designs
+              for everyone to enjoy and experience, one can always hop in to
+              learn and get a head start, and know what is happening around in
+              the design world.{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -81,7 +89,10 @@ const Design = () => {
                 <div className="eventname">
                   <h3>Design BootCamp </h3>
                   <p>
-                  A whole lot of 120 Min workshops full of fun and learning sessions in various domains from Design Thinking to Product Ideation and skills like 3D Design, Logo Design, and Graphic Design.
+                    A whole lot of 120 Min workshops full of fun and learning
+                    sessions in various domains from Design Thinking to Product
+                    Ideation and skills like 3D Design, Logo Design, and Graphic
+                    Design.
                   </p>
                 </div>
                 <img
@@ -97,7 +108,10 @@ const Design = () => {
                 <div className="eventname">
                   <h3>Rebranding</h3>
                   <p>
-                  A very exciting solo competition organized for the first time where designers were asked to design and present a complete brand identity for a fresh new product for collaborations given in prompt
+                    A very exciting solo competition organized for the first
+                    time where designers were asked to design and present a
+                    complete brand identity for a fresh new product for
+                    collaborations given in prompt
                   </p>
                 </div>
                 <img
@@ -113,7 +127,10 @@ const Design = () => {
                 <div className="eventname">
                   <h3>Vision 1.0</h3>
                   <p>
-                  A Product Design Challenge in which teams of 2-3 competed using problem-solving skills to construct wireframes and prototype innovative solutions based on the problem statement.
+                    A Product Design Challenge in which teams of 2-3 competed
+                    using problem-solving skills to construct wireframes and
+                    prototype innovative solutions based on the problem
+                    statement.
                   </p>
                 </div>
                 <img
@@ -123,13 +140,17 @@ const Design = () => {
                 />
               </div>
             ))}
-            
+
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
                   <h3>Create 3.0</h3>
                   <p>
-                  An exciting challenge full of twists and turns that forced participants to be their best creative selves ever!A design prompt was given, preceded by 2 talks, where teams of 3 must work together to showcase something beautiful. </p>
+                    An exciting challenge full of twists and turns that forced
+                    participants to be their best creative selves ever!A design
+                    prompt was given, preceded by 2 talks, where teams of 3 must
+                    work together to showcase something beautiful.{" "}
+                  </p>
                 </div>
                 <img
                   className="imgs"
@@ -138,13 +159,17 @@ const Design = () => {
                 />
               </div>
             ))}
-            
+
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
                   <h3>Euphoria UX</h3>
                   <p>
-                  An impressive UX case study competition in which teams of 2-3 participants were given different problem statements and worked together to showcase their creativity, build something amazing and factor in a user’s perspective.</p>
+                    An impressive UX case study competition in which teams of
+                    2-3 participants were given different problem statements and
+                    worked together to showcase their creativity, build
+                    something amazing and factor in a user’s perspective.
+                  </p>
                 </div>
                 <img
                   className="imgs"
@@ -174,11 +199,7 @@ const Design = () => {
                   name="Sahil Kumar Raj"
                   position="Director"
                 />
-                <Infocard
-                  image={devansh}
-                  name="Devansh"
-                  position="Director"
-                />
+                <Infocard image={devansh} name="Devansh" position="Director" />
                 <Infocard
                   image={aryan}
                   name="A.Choudhary"
@@ -259,7 +280,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={sakshamb }
+                  image={sakshamb}
                   name="S.Bhardwaj"
                   position="Representative"
                 />
@@ -279,11 +300,7 @@ const Design = () => {
                   name="Sahil Kumar Raj"
                   position="Director"
                 />
-                <Infocard
-                  image={devansh}
-                  name="Devansh"
-                  position="Director"
-                />
+                <Infocard image={devansh} name="Devansh" position="Director" />
               </div>
               <div className="designformat2_3">
                 <Infocard
@@ -370,7 +387,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={sakshamb }
+                  image={sakshamb}
                   name="S.Bhardwaj"
                   position="Representative"
                 />
@@ -392,11 +409,7 @@ const Design = () => {
                 />
               </div>
               <div className="designformat3_3">
-                <Infocard
-                  image={devansh}
-                  name="Devansh"
-                  position="Director"
-                />
+                <Infocard image={devansh} name="Devansh" position="Director" />
               </div>
               <div className="designformat3_4">
                 <Infocard
@@ -493,7 +506,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={sakshamb }
+                  image={sakshamb}
                   name="S.Bhardwaj"
                   position="Representative"
                 />

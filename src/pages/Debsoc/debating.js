@@ -50,9 +50,20 @@ const Spicmacay = () => {
             <img src={imagee} alt="logo" />
             <h3>DEBSOC Club</h3>
             <p>
-            The ability to conceive, articulate and evaluate arguments through debating remains not only the lifetime of democracy and Society but essential to the development of an engaged and ethical individual living in a contemporary technological democratic society. Debating Society of IIT Delhi welcomes you on board to criticize, appreciate and advocate the various social-political and philosophical Ideas to debate and learn along the way. 
-A family built on a common love of arguments is bound to be problematic and yet we find ourselves attached to this ever-bickering madhouse, a platform for learning, a platform for building confidence and questioning your beliefs. Through times good and bad this club continues to prosper because it's built on proving greatness to each other and to ourselves and that's what we do best. 
-{" "}
+              The ability to conceive, articulate and evaluate arguments through
+              debating remains not only the lifetime of democracy and Society
+              but essential to the development of an engaged and ethical
+              individual living in a contemporary technological democratic
+              society. Debating Society of IIT Delhi welcomes you on board to
+              criticize, appreciate and advocate the various social-political
+              and philosophical Ideas to debate and learn along the way. A
+              family built on a common love of arguments is bound to be
+              problematic and yet we find ourselves attached to this
+              ever-bickering madhouse, a platform for learning, a platform for
+              building confidence and questioning your beliefs. Through times
+              good and bad this club continues to prosper because it's built on
+              proving greatness to each other and to ourselves and that's what
+              we do best.{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -74,7 +85,13 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <div className="eventname">
                   <h3>IITPD</h3>
                   <p>
-                  IIT Parliament Debate, the signature event of DebSoc. Taking place early in the second semester, it attracts debaters from all over India, vying to take home the huge cash prize and the trophy. Additionally it provides the debating junta of IIT the invaluable experience of conducting such a large event, and a chance to interact with the crème-de-la-crème of debaters.
+                    IIT Parliament Debate, the signature event of DebSoc. Taking
+                    place early in the second semester, it attracts debaters
+                    from all over India, vying to take home the huge cash prize
+                    and the trophy. Additionally it provides the debating junta
+                    of IIT the invaluable experience of conducting such a large
+                    event, and a chance to interact with the crème-de-la-crème
+                    of debaters.
                   </p>
                 </div>
                 <img
@@ -90,7 +107,9 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <div className="eventname">
                   <h3>Intra IITPD</h3>
                   <p>
-                  Back to basics guys. Form teams of 3, battle it out in the classic 3v3 format. A golden chance to prove your mettle and get the tag of the best debater of IIT
+                    Back to basics guys. Form teams of 3, battle it out in the
+                    classic 3v3 format. A golden chance to prove your mettle and
+                    get the tag of the best debater of IIT
                   </p>
                 </div>
                 <img
@@ -106,7 +125,10 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <div className="eventname">
                   <h3>Am-Pro-Am</h3>
                   <p>
-                  As seniors team up with freshers to teach them (or get taught :p) in a week of enthralling fun filled debates, AmProAm becomes one of the best learning experiences for freshers.
+                    As seniors team up with freshers to teach them (or get
+                    taught :p) in a week of enthralling fun filled debates,
+                    AmProAm becomes one of the best learning experiences for
+                    freshers.
                   </p>
                 </div>
                 <img
@@ -121,8 +143,13 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <div className="eventname">
                   <h3>Debutant</h3>
                   <p>
-                  Debutant is the DebSoc way of celebrating Rendezvous. With over 30 teams, 100 adjes and prestigious Chief Adjudicators, Debutant is now one of the largest fresher tournaments in the Delhi circuit. Following standard 3v3 Asian Parliamentary Debate format, freshers get a chance to announce themselves in the debating circuit.
-</p>
+                    Debutant is the DebSoc way of celebrating Rendezvous. With
+                    over 30 teams, 100 adjes and prestigious Chief Adjudicators,
+                    Debutant is now one of the largest fresher tournaments in
+                    the Delhi circuit. Following standard 3v3 Asian
+                    Parliamentary Debate format, freshers get a chance to
+                    announce themselves in the debating circuit.
+                  </p>
                 </div>
                 <img
                   className="imgs"
@@ -136,7 +163,14 @@ A family built on a common love of arguments is bound to be problematic and yet 
                 <div className="eventname">
                   <h3> Debating Workshops </h3>
                   <p>
-                 An all year round programme, wherein students from any year can sit in and attend workshops from various seniors and  Aimed to fill the void all our debaters have in knowledge of non-technical subjects such as economics, philosophy, history etc, this move is perhaps the best way to make IIT Delhi a force to reckon with in the Debating Circuits all over India.</p>
+                    An all year round programme, wherein students from any year
+                    can sit in and attend workshops from various seniors and
+                    Aimed to fill the void all our debaters have in knowledge of
+                    non-technical subjects such as economics, philosophy,
+                    history etc, this move is perhaps the best way to make IIT
+                    Delhi a force to reckon with in the Debating Circuits all
+                    over India.
+                  </p>
                 </div>
                 <img
                   className="imgs"
@@ -257,7 +291,7 @@ A family built on a common love of arguments is bound to be problematic and yet 
                   position="Representative"
                 />
                 <Infocard
-                  image={Arush }
+                  image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
                 />
@@ -286,12 +320,12 @@ A family built on a common love of arguments is bound to be problematic and yet 
               </div>
               <div className="debatingformat2_4">
                 <Infocard
-                  image={Rishita }
+                  image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={Aryan }
+                  image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
                 />
@@ -340,7 +374,7 @@ A family built on a common love of arguments is bound to be problematic and yet 
                   position="Representative"
                 />
                 <Infocard
-                  image={Arush }
+                  image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
                 />
@@ -371,12 +405,12 @@ A family built on a common love of arguments is bound to be problematic and yet 
               </div>
               <div className="debatingformat3_6">
                 <Infocard
-                  image={Rishita }
+                  image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
                 />
                 <Infocard
-                  image={Aryan }
+                  image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
                 />
@@ -428,7 +462,7 @@ A family built on a common love of arguments is bound to be problematic and yet 
               </div>
               <div className="debatingformat4_4">
                 <Infocard
-                  image={Arush }
+                  image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
                 />
@@ -457,14 +491,14 @@ A family built on a common love of arguments is bound to be problematic and yet 
                   position="Representative"
                 />
                 <Infocard
-                  image={Rishita }
+                  image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
                 />
               </div>
               <div className="debatingformat4_7">
                 <Infocard
-                  image={Aryan }
+                  image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
                 />

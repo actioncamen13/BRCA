@@ -3,7 +3,7 @@ import React from "react";
 import "../css/animate.css";
 import ClubsNavbar from "./Navbar/ClubsNavbar";
 import ClubsFooter from "./Footer/ClubsFooter";
-import BRCA_CLUBS from "./BRCA CLUBS.png";
+// import BRCA_CLUBS from "./BRCA CLUBS-min.png";
 
 function ClubsApp() {
   return (
@@ -76,7 +76,8 @@ function ClubsApp() {
           </a>
         </div>
         <div className="clubsapp__body__text">
-          <img src={BRCA_CLUBS} alt="Text saying BRCA Clubs" />
+          {/* <img src={BRCA_CLUBS} alt="Text saying BRCA Clubs" /> */}
+          <h1>BRCA CLUBS</h1>
         </div>
         <div className=" animate__animated animate__slideInRight clubsapp__body__row2">
           <a

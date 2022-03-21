@@ -16,7 +16,7 @@ import image4 from "./images/images.jpg";
 import QuizzingNavbar from "./Navbar/QuizzingNavbar";
 import QuizzingFooter from "./Footer/QuizzingFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 import Afreen from "./1.png";
 import Aaghaz from "./2.png";
 import Akshit from "./3.png";
@@ -50,7 +50,18 @@ const Quizzing = () => {
             <img src={imagee} alt="logo" />
             <h3>Quizzing Club</h3>
             <p>
-            At first glance, it would seem that all we do is ask each other random stuff and reward those in honour who answer correctly. While that may be true in essence, we do this in a variety of genres AND in a variety of formats. From covering the generic fields of quizzing to even obscure fandoms, we cater to any information that can be presented in questions in a fun and interesting manner. Moreover, it’s not all “if-you-know-then-you-know”; most of the questions are curated by our quizmasters so that you can logically arrive at the answer too. So put on your thinking caps (or deerstalker hats) and join us on this never-ending pleasurable quest of acquiring random knowledge!{" "}
+              At first glance, it would seem that all we do is ask each other
+              random stuff and reward those in honour who answer correctly.
+              While that may be true in essence, we do this in a variety of
+              genres AND in a variety of formats. From covering the generic
+              fields of quizzing to even obscure fandoms, we cater to any
+              information that can be presented in questions in a fun and
+              interesting manner. Moreover, it’s not all
+              “if-you-know-then-you-know”; most of the questions are curated by
+              our quizmasters so that you can logically arrive at the answer
+              too. So put on your thinking caps (or deerstalker hats) and join
+              us on this never-ending pleasurable quest of acquiring random
+              knowledge!{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -72,7 +83,8 @@ const Quizzing = () => {
                 <div className="eventname">
                   <h3>64 Blocks</h3>
                   <p>
-                  The Mega-General quiz to uncover the secrets that arise from the overlapping of the major genres 
+                    The Mega-General quiz to uncover the secrets that arise from
+                    the overlapping of the major genres
                   </p>
                 </div>
                 <img
@@ -88,7 +100,8 @@ const Quizzing = () => {
                 <div className="eventname">
                   <h3>Occam’s Razor</h3>
                   <p>
-                  The most challenging questions that measure your ability to put simple fundas to use effectively 
+                    The most challenging questions that measure your ability to
+                    put simple fundas to use effectively
                   </p>
                 </div>
                 <img
@@ -104,7 +117,8 @@ const Quizzing = () => {
                 <div className="eventname">
                   <h3>Mastermind</h3>
                   <p>
-                  Race against time to clinch this crown amongst the champions of their respective fields 
+                    Race against time to clinch this crown amongst the champions
+                    of their respective fields
                   </p>
                 </div>
                 <img
@@ -119,7 +133,8 @@ const Quizzing = () => {
                 <div className="eventname">
                   <h3> League Quizzes</h3>
                   <p>
-            7 Intra-IITD League Teams battle it out for the League trophy across 5 quizzes throughout the year 
+                    7 Intra-IITD League Teams battle it out for the League
+                    trophy across 5 quizzes throughout the year
                   </p>
                 </div>
                 <img
