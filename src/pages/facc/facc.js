@@ -33,12 +33,9 @@ const Facc = () => {
         <div className="containerpfc animate__animated animate__fadeIn">
           <div className="section1">
             <img src={imagee} alt="logo" />
-            <h3>Fine and Arts Club</h3>
+            <h3>Fine Arts Club</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{" "}
+            FACC is the perfect platform for you to showcase your artistic capabilities and also learn a various new art-forms. With events like Oil Painting, Charcoal Painting, Mask Painting and workshops on artistic activities like Origami, there is a lot to fulfill your creative appetite. The club also organizes various events such as Street Painting, Graffiti, Face Painting etc during Rendezvous. The FAC junta is renowned for its untiring efforts, and is one of closest knit communities on campus.{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
