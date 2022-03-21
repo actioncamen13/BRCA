@@ -49,10 +49,7 @@ const Literati = () => {
             <img src={imagee} alt="logo" />
             <h3>Literati Club</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea{" "}
+            Long story short, books, shows, movies, anime, poetry, writing, and essentially any manifestation of creativity is what LitSoc is about and will continue to be. LitSoc contains people from all bands of the spectrum: from people who prefer dabbling in the visual arts rather than reading to those who can effortlessly get lost in the myriad of books they pick up and also everyone else in between. Our events range from classic literary to new age superhero and anime quizzes; witty, weird, wacky word games to paying homage to great past and present writers through our own works in the form of various creative writing competitions. Don't miss out on our raging and heated and completely random discussions (which may go on for days) on all things literary. These discussions have led to the creation of communities where one can find like-minded people and develop enriching and blossoming friendships. So come down the rabbit hole with us donning your Mad Hatter hats and join us for an exciting literary journey!{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
