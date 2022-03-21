@@ -23,11 +23,17 @@
 .clubsapp__body__text {
   width: 100vw;
   height: calc(246 / 1621 * 100vh);
-  background-image: url("./Text\ Background-min.png");
-  background-size: 100% 100%;
+  /* background-image: url("./Text\ Background-min.png");
+  background-size: 100% 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
+}
+.clubsapp__body__text > h1 {
+  font-size: 7em;
+  font-weight: 700;
+  font-family: Poppins;
 }
 .clubsapp__body__text > img {
   height: 80%;
