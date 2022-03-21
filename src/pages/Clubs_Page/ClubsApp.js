@@ -3,7 +3,7 @@ import React from "react";
 import "../css/animate.css";
 import ClubsNavbar from "./Navbar/ClubsNavbar";
 import ClubsFooter from "./Footer/ClubsFooter";
-import BRCA_CLUBS from "./BRCA CLUBS.png";
+import BRCA_CLUBS from "./BRCA CLUBS-min.png";
 
 function ClubsApp() {
   return (

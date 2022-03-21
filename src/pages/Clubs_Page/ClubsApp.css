@@ -23,7 +23,7 @@
 .clubsapp__body__text {
   width: 100vw;
   height: calc(246 / 1621 * 100vh);
-  background-image: url("./Text\ Background.png");
+  background-image: url("./Text\ Background-min.png");
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
@@ -41,67 +41,67 @@
 .danceclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Dance-1.jpg");
+  background-image: url("./Dance-1-min.jpg");
   background-size: 100% 100%;
 }
 .litclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Lit-1.jpg");
+  background-image: url("./Lit-1-min.jpg");
   background-size: 100% 100%;
 }
 .designclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Design-1.jpg");
+  background-image: url("./Design-1-min.jpg");
   background-size: 100% 100%;
 }
 .debateclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Debating-1.jpg");
+  background-image: url("./Debating-1-min.jpg");
   background-size: 100% 100%;
 }
 .pfcclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./PFC-1.jpg");
+  background-image: url("./PFC-1-min.jpg");
   background-size: 100% 100%;
 }
 .faccclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./facc-1.jpg");
+  background-image: url("./facc-1-min.jpg");
   background-size: 100% 100%;
 }
 .musicclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Music-1.jpg");
+  background-image: url("./Music-1-min.jpg");
   background-size: 100% 100%;
 }
 .dramaclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Drama-1.jpg");
+  background-image: url("./Drama-1-min.jpg");
   background-size: 100% 100%;
 }
 .hindisamiticlub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./hindi\ samiti-1.jpg");
+  background-image: url("./hindi\ samiti-1-min.jpg");
   background-size: 100% 100%;
 }
 .quizclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./quiz-1.jpg");
+  background-image: url("./quiz-1-min.jpg");
   background-size: 100% 100%;
 }
 .spicmacayclub {
   width: calc(100% / 6);
   height: 100%;
-  background-image: url("./Spic\ Macay-1.jpg");
+  background-image: url("./Spic\ Macay-1-min.jpg");
   background-size: 100% 100%;
 }
 .clubsapp__body__row1 > a,
@@ -115,37 +115,37 @@
   z-index: 1;
 }
 .danceclub:hover {
-  background-image: url("./Dance.jpeg");
+  background-image: url("./Dance-min.jpeg");
 }
 .litclub:hover {
-  background-image: url("./Lit.jpeg");
+  background-image: url("./Lit-min.jpeg");
 }
 .designclub:hover {
-  background-image: url("./Design.jpg");
+  background-image: url("./Design-min.jpg");
 }
 .debateclub:hover {
-  background-image: url("./Debating.jpg");
+  background-image: url("./Debating-min.jpg");
 }
 .pfcclub:hover {
-  background-image: url("./PFC.jpg");
+  background-image: url("./PFC-min.jpg");
 }
 .faccclub:hover {
-  background-image: url("./facc.jpeg");
+  background-image: url("./facc-min.jpeg");
 }
 .musicclub:hover {
-  background-image: url("./Music.JPG");
+  background-image: url("./Music-min.JPG");
 }
 .dramaclub:hover {
-  background-image: url("./Drama.jpg");
+  background-image: url("./Drama-min.jpg");
 }
 .hindisamiticlub:hover {
-  background-image: url("./hindi\ samiti.jpg");
+  background-image: url("./hindi\ samiti-min.jpg");
 }
 .quizclub:hover {
-  background-image: url("./quiz.jpg");
+  background-image: url("./quiz-min.jpg");
 }
 .spicmacayclub:hover {
-  background-image: url("./Spic\ Macay.jpeg");
+  background-image: url("./Spic\ Macay-min.jpeg");
 }
 .club__content {
   height: 50%;
@@ -169,67 +169,67 @@
   font-weight: 700;
 }
 .danceclub > .club__content > .circular__container {
-  background-image: url("./Dance\ Logo.png");
+  background-image: url("./Dance\ Logo-min.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .litclub > .club__content > .circular__container {
-  background-image: url("./Lit\ Logo.png");
+  background-image: url("./Lit\ Logo-min.png");
   background-size: 85% 85%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .designclub > .club__content > .circular__container {
-  background-image: url("./Design\ Logo.png");
+  background-image: url("./Design\ Logo-min.png");
   background-size: 80% 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .debateclub > .club__content > .circular__container {
-  background-image: url("./Debate\ Logo.png");
+  background-image: url("./Debate\ Logo-min.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pfcclub > .club__content > .circular__container {
-  background-image: url("./PFC\ Logo.png");
+  background-image: url("./PFC\ Logo-min.png");
   background-size: 80% 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .dramaclub > .club__content > .circular__container {
-  background-image: url("./Drama\ Logo\ 2.png");
+  background-image: url("./Drama\ Logo\ 2-min.png");
   background-size: 65% 65%;
   background-repeat: no-repeat;
   background-position: 65%;
 }
 .musicclub > .club__content > .circular__container {
-  background-image: url("./music\ club\ logo\ light\ bg.png");
+  background-image: url("./music\ club\ logo\ light\ bg-min.png");
   background-size: 115% 115%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .quizclub > .club__content > .circular__container {
-  background-image: url("./qc_green.png");
+  background-image: url("./qc_green-min.png");
   background-size: 80% 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .hindisamiticlub > .club__content > .circular__container {
-  background-image: url("./Hindi\ Samiti\ Logo.png");
+  background-image: url("./Hindi\ Samiti\ Logo-min.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .faccclub > .club__content > .circular__container {
-  background-image: url("./FACC\ Logo.png");
+  background-image: url("./FACC\ Logo-min.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .spicmacayclub > .club__content > .circular__container {
-  background-image: url("./Spic\ Macay\ Logo.png");
+  background-image: url("./Spic\ Macay\ Logo-min.png");
   background-size: 70% 70%;
   background-repeat: no-repeat;
   background-position: center;
