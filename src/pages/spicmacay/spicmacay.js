@@ -15,7 +15,7 @@ import image3 from "./images/img3.jpeg";
 import SpicmacayNavbar from "./Navbar/SpicmacayNavbar";
 import SpicmacayFooter from "./Footer/SpicmacayFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 import Aaryan from "./1.png";
 import Aditya from "./2.png";
 import Anshum from "./3.png";
@@ -49,8 +49,18 @@ const Spicmacay = () => {
             <img src={imagee} alt="logo" />
             <h3>Spicmacay Club</h3>
             <p>
-            Society for the Promotion of Indian Classic Music And Culture Amongst Youth <br></br>
-            It is a non-political, nationwide voluntary movement founded in 1977 by Dr Kiran seth, professor-Emeritus at IIT Delhi. It’s intention is to enrich the quality of formal education by increasing awareness about different aspects of Indian heritage and inspiring the young mind to imbibe the values embedded in it. It seeks to inspire youth through experiencing the mysticism embodied in the rich and heterogeneous cultural tapestry of Indian and World Heritage, with a hope that the beauty, grace, values, and wisdom embodied in these arts will influence their way of life and thinking and inspire one to become a better human being.{" "}
+              Society for the Promotion of Indian Classic Music And Culture
+              Amongst Youth <br></br>
+              It is a non-political, nationwide voluntary movement founded in
+              1977 by Dr Kiran seth, professor-Emeritus at IIT Delhi. It’s
+              intention is to enrich the quality of formal education by
+              increasing awareness about different aspects of Indian heritage
+              and inspiring the young mind to imbibe the values embedded in it.
+              It seeks to inspire youth through experiencing the mysticism
+              embodied in the rich and heterogeneous cultural tapestry of Indian
+              and World Heritage, with a hope that the beauty, grace, values,
+              and wisdom embodied in these arts will influence their way of life
+              and thinking and inspire one to become a better human being.{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -70,10 +80,15 @@ const Spicmacay = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>	Heritage Trip</h3>
+                  <h3> Heritage Trip</h3>
                   <p>
-                Museums, Biodiversity parks, historical places are great places to explore culture and history. We organize these heritage trips to historical places ( like Humayun’s Tomb, Rashtrapati Bhavan ), museums (like the national art gallery ), and biodiversity parks ( like Aravalli Biodiversity park ). When you hop on the bus with your friends, these trips become similar to your best road trips on a sunny day.
-
+                    Museums, Biodiversity parks, historical places are great
+                    places to explore culture and history. We organize these
+                    heritage trips to historical places ( like Humayun’s Tomb,
+                    Rashtrapati Bhavan ), museums (like the national art gallery
+                    ), and biodiversity parks ( like Aravalli Biodiversity park
+                    ). When you hop on the bus with your friends, these trips
+                    become similar to your best road trips on a sunny day.
                   </p>
                 </div>
                 <img
@@ -89,7 +104,11 @@ const Spicmacay = () => {
                 <div className="eventname">
                   <h3> Workshops</h3>
                   <p>
-             Starting from the freshers’ orientation throughout the year Spic Macay Club invites many national award-winning artists to take Fine Arts, Music, and Dance workshops. Madhubani Painting, Khatak Dance, flute workshop are examples of the workshops organized last year. 
+                    Starting from the freshers’ orientation throughout the year
+                    Spic Macay Club invites many national award-winning artists
+                    to take Fine Arts, Music, and Dance workshops. Madhubani
+                    Painting, Khatak Dance, flute workshop are examples of the
+                    workshops organized last year.
                   </p>
                 </div>
                 <img
@@ -105,7 +124,13 @@ const Spicmacay = () => {
                 <div className="eventname">
                   <h3>Concerts</h3>
                   <p>
-                  We believe that the best way to show how the richness of our culture is by demonstration. Through the network of SPIC MACAY Society, we have unique access to the greatest artists of the time. Concerts from these masters give a life-changing experience. This was the same experience that motivated prof. Kiran Seth to led the foundation of the Spic Macay Society.
+                    We believe that the best way to show how the richness of our
+                    culture is by demonstration. Through the network of SPIC
+                    MACAY Society, we have unique access to the greatest artists
+                    of the time. Concerts from these masters give a
+                    life-changing experience. This was the same experience that
+                    motivated prof. Kiran Seth to led the foundation of the Spic
+                    Macay Society.
                   </p>
                 </div>
                 <img
