@@ -8,9 +8,9 @@ import "./css/styleDance.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../dance/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/Duo.png";
+import image2 from "./images/GroupDance.jpg";
+import image3 from "./images/Offbeat.png";
 import DanceNavbar from "./Navbar/DanceNavbar";
 import DanceFooter from "./Footer/DanceFooter";
 import Infocard from "./Infocard/Infocard";
@@ -77,7 +77,7 @@ const Dance = () => {
                 <img
                   className="imgs"
                   style={{ objectFit: "cover" }}
-                  src={image1}
+                  src={image2}
                 />
               </div>
             ))}
@@ -93,7 +93,7 @@ const Dance = () => {
                 <img
                   className="imgs"
                   style={{ objectFit: "cover" }}
-                  src={image2}
+                  src={image1}
                 />
               </div>
             ))}
@@ -115,7 +115,7 @@ const Dance = () => {
                 />
               </div>
             ))}
-            {images.map((each, index) => (
+            {/* {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
                   <h3>IDP</h3>
@@ -130,7 +130,7 @@ const Dance = () => {
                   src={image3}
                 />
               </div>
-            ))}
+            ))} */}
           </Zoom>
         </div>
         <div className="danceteam">
