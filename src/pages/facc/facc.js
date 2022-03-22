@@ -14,8 +14,8 @@ import image2 from "./images/pfci2.png";
 import image3 from "./images/pfci3.png";
 import FaccNavbar from "./Navbar/FaccNavbar";
 import FaccFooter from "./Footer/FaccFooter";
-// import Infocard from "./Infocard/Infocard";
-// import DefaultPic from "./Infocard/Rectangle 103.png";
+import Infocard from "./Infocard/Infocard";
+import DefaultPic from "./Infocard/Rectangle 103.png";
 
 const Facc = () => {
   const images = [{ image1 }];
@@ -108,7 +108,436 @@ const Facc = () => {
           <div className="faccteamtitle">
             <h1>TEAM</h1>
           </div>
-          <div className="faccteamcontent"></div>
+          <div className="faccteamcontent">
+            <div className="faccformat1">
+              <div className="faccformat1_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manish Yadav"
+                  position="Secretary"
+                />
+              </div>
+              <div className="faccformat1_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Saurabh"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Surya Sachan"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Sarfaraz Ansari"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Neha Ghunawat"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat1_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manthan Dalmia"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Vaibhav Shivran"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Kailash Gupta"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aniket"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Dhruv"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Ishan"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat1_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Nikhil Verma"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Prahas Ranjan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Vidushi Agrawal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Naman Jain"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Sharma"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Rashee Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Piyush Soni"
+                  position="Representative"
+                />
+              </div>
+            </div>
+            <div className="faccformat2">
+              <div className="faccformat2_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manish Yadav"
+                  position="Secretary"
+                />
+              </div>
+              <div className="faccformat2_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Saurabh"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Surya Sachan"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Sarfaraz Ansari"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Neha Ghunawat"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat2_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manthan Dalmia"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Vaibhav Shivran"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Kailash Gupta"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aniket"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat2_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Dhruv"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Ishan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Nikhil Verma"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Prahas Ranjan"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat2_5">
+                <Infocard
+                  image={DefaultPic}
+                  name="Vidushi Agrawal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Naman Jain"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Sharma"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Rashee Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Piyush Soni"
+                  position="Representative"
+                />
+              </div>
+            </div>
+            <div className="faccformat3">
+              <div className="faccformat3_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manish Yadav"
+                  position="Secretary"
+                />
+              </div>
+              <div className="faccformat3_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Saurabh"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Surya Sachan"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat3_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Sarfaraz Ansari"
+                  position="Director"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Neha Ghunawat"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat3_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manthan Dalmia"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Vaibhav Shivran"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat3_5">
+                <Infocard
+                  image={DefaultPic}
+                  name="Kailash Gupta"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Aniket"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat3_6">
+                <Infocard
+                  image={DefaultPic}
+                  name="Dhruv"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Ishan"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat3_7">
+                <Infocard
+                  image={DefaultPic}
+                  name="Nikhil Verma"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Prahas Ranjan"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat3_8">
+                <Infocard
+                  image={DefaultPic}
+                  name="Vidushi Agrawal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Naman Jain"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat3_9">
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Sharma"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Rashee Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Piyush Soni"
+                  position="Representative"
+                />
+              </div>
+            </div>
+            <div className="faccformat4">
+              <div className="faccformat4_1">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manish Yadav"
+                  position="Secretary"
+                />
+              </div>
+              <div className="faccformat4_2">
+                <Infocard
+                  image={DefaultPic}
+                  name="Sarfaraz Ansari"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat4_3">
+                <Infocard
+                  image={DefaultPic}
+                  name="Neha Ghunawat"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat4_4">
+                <Infocard
+                  image={DefaultPic}
+                  name="Sarfaraz Ansari"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat4_5">
+                <Infocard
+                  image={DefaultPic}
+                  name="Neha Ghunawat"
+                  position="Director"
+                />
+              </div>
+              <div className="faccformat4_6">
+                <Infocard
+                  image={DefaultPic}
+                  name="Manthan Dalmia"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat4_7">
+                <Infocard
+                  image={DefaultPic}
+                  name="Vaibhav Shivran"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Kailash Gupta"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat4_8">
+                <Infocard
+                  image={DefaultPic}
+                  name="Aniket"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Dhruv"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat4_9">
+                <Infocard
+                  image={DefaultPic}
+                  name="Ishan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Nikhil Verma"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat4_10">
+                <Infocard
+                  image={DefaultPic}
+                  name="Prahas Ranjan"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Vidushi Agrawal"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat4_11">
+                <Infocard
+                  image={DefaultPic}
+                  name="Naman Jain"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Nishant Sharma"
+                  position="Representative"
+                />
+              </div>
+              <div className="faccformat4_12">
+                <Infocard
+                  image={DefaultPic}
+                  name="Rashee Agarwal"
+                  position="Representative"
+                />
+                <Infocard
+                  image={DefaultPic}
+                  name="Piyush Soni"
+                  position="Representative"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="faccfooter1">
