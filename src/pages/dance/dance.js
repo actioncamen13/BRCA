@@ -115,22 +115,7 @@ const Dance = () => {
                 />
               </div>
             ))}
-            {/* {images.map((each, index) => (
-              <div key={index} className="carousel">
-                <div className="eventname">
-                  <h3>IDP</h3>
-                  <p>
-                  Hostels and events may divide us, but when it comes to dance, there is nothing we enjoy more than putting up the best performance we can. Watch the entire dance fraternity of IIT Delhi come out and put on their dancing shoes to vow you with their moves,as we bid adieu to this academic year in our very own glamorous style.
-
-                  </p>
-                </div>
-                <img
-                  className="imgs"
-                  style={{ objectFit: "cover" }}
-                  src={image3}
-                />
-              </div>
-            ))} */}
+       
           </Zoom>
         </div>
         <div className="danceteam">

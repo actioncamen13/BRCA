@@ -17,7 +17,7 @@ import image5 from "./images/des.jpg";
 import DesignNavbar from "./Navbar/DesignNavbar";
 import DesignFooter from "./Footer/DesignFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 import atharva from "./atharva.png";
 import sahil from "./sahil.png";
 import aryan from "./aryan.png";
@@ -25,6 +25,10 @@ import devansh from "./devansh.png";
 // import saksham from "./saksham.png";
 import sakshamb from "./sakshambhardhwaj.png";
 import utkarsh from "./Utkarsh.png";
+import kunal from "./Kunal_Bairwa_Satpura.jpg";
+import kushagra from "./Kushagra_Girnar.jpg";
+import shobhit from "./Shobhit.jpg";
+import mihir from "./Mihir.webp";
 import vaibhav from "./Vaibhav.png";
 import tanya from "./tanyagoyal.png";
 import pratyush from "./pratyush.png";
@@ -206,12 +210,12 @@ const Design = () => {
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={shobhit}
                   name="S.Bhargava"
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={mihir}
                   name="Mihir Okte"
                   position="Director"
                 />
@@ -243,7 +247,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={kunal}
                   name="Kunal Bairwa"
                   position="Representative"
                 />
@@ -255,7 +259,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={kushagra}
                   name="Kushagra Gupta"
                   position="Representative"
                 />
@@ -309,12 +313,12 @@ const Design = () => {
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={shobhit}
                   name="S.Bhargava"
                   position="Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={mihir}
                   name="Mihir Okte"
                   position="Director"
                 />
@@ -348,7 +352,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={kunal}
                   name="Kunal Bairwa"
                   position="Representative"
                 />
@@ -360,7 +364,7 @@ const Design = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={kushagra}
                   name="Kushagra Gupta"
                   position="Representative"
                 />
@@ -420,14 +424,14 @@ const Design = () => {
               </div>
               <div className="designformat3_5">
                 <Infocard
-                  image={DefaultPic}
+                  image={shobhit}
                   name="S.Bhargava"
                   position="Director"
                 />
               </div>
               <div className="designformat3_6">
                 <Infocard
-                  image={DefaultPic}
+                  image={mihir}
                   name="Mihir Okte"
                   position="Director"
                 />
@@ -465,7 +469,7 @@ const Design = () => {
               </div>
               <div className="designformat3_10">
                 <Infocard
-                  image={DefaultPic}
+                  image={kunal}
                   name="Kunal Bairwa"
                   position="Representative"
                 />
@@ -477,7 +481,7 @@ const Design = () => {
               </div>
               <div className="designformat3_11">
                 <Infocard
-                  image={DefaultPic}
+                  image={kushagra}
                   name="Kushagra Gupta"
                   position="Representative"
                 />

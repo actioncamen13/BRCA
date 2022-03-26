@@ -16,7 +16,7 @@ import image5 from "./images/img5.JPG";
 import MusicNavbar from "./Navbar/MusicNavbar";
 import MusicFooter from "./Footer/MusicFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 import Aaryan from "./1.png";
 import Arjun from "./2.png";
 import Vatsal from "./3.png";
@@ -34,6 +34,7 @@ import Jash from "./14.png";
 import Divyansh from "./15.png";
 import Anirudh from "./16.png";
 import Vishal from "./17.png";
+import dhwani from "./dhwani.jpeg";
 
 const Music = () => {
   const images = [{ image1 }];
@@ -170,7 +171,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={dhwani}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -270,7 +271,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={dhwani}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -372,7 +373,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
                   position="Diro-Cadence"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={dhwani}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />
@@ -484,7 +485,7 @@ The event with the theme of Indian genre where the club is divided into 4 clubs 
               </div>
               <div className="musicformat4_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={dhwani}
                   name="D.Teckchandani"
                   position="Diro-Cadence"
                 />

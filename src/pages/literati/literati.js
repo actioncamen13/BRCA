@@ -9,9 +9,9 @@ import "./css/styleLiterati.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../literati/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/Potpourri.jpg";
+import image2 from "./images/Anime-sh.jpg";
+import image3 from "./images/3M.jpg";
 import LiteratiNavbar from "./Navbar/LiteratiNavbar";
 import LiteratiFooter from "./Footer/LiteratiFooter";
 import Infocard from "./Infocard/Infocard";
@@ -68,10 +68,9 @@ const Literati = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3>Potpourri</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  Our flagship freshers-only event with a plethora of diverse segments.
                   </p>
                 </div>
                 <img
@@ -85,10 +84,11 @@ const Literati = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Anime Quiz</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  
+A quiz dedicated to the love of anime.
+
                   </p>
                 </div>
                 <img
@@ -102,10 +102,9 @@ const Literati = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3> Flash Fiction</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                 On the spot writing! Jot down a story in up to 150 words.
                   </p>
                 </div>
                 <img

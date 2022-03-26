@@ -9,13 +9,12 @@ import "./css/styleHindisamiti.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../spicmacay/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/6.jpeg";
+import image2 from "./images/7.JPG";
+import image3 from "./images/8.jpg";
 import HindisamitiNavbar from "./Navbar/HindisamitiNavbar";
 import HindisamitiFooter from "./Footer/HindisamitiFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
 import Yashwant from './1.png'
 import Yash from './2.png'
 import Tanmay from './3.png'
@@ -29,6 +28,10 @@ import Adarsh from './10.png'
 import Ansh from './11.png'
 import Abhinav from './12.png'
 import Aayushi from './13.png'
+import Anand from './14.jpeg'
+import Priyanka from './15.jpg'
+import Jeetu from './16.jpeg'
+import Pranit from './17.jpeg'
 
 const Spicmacay = () => {
   const images = [{ image1 }];
@@ -128,24 +131,24 @@ const Spicmacay = () => {
             <div className="hindisamitiformat1">
               <div className="hindisamitiformat1_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranit}
                   name="Pranit Rastogi"
                   position="Secretary"
                 />
               </div>
               <div className="hindisamitiformat1_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Jeetu}
                   name="J.K.Yadav"
                   position="Literary Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyanka}
                   name="Priyanka Beniwal"
                   position="Design Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anand}
                   name="A.Rishikesh"
                   position="Poetry Director"
                 />
@@ -224,24 +227,24 @@ const Spicmacay = () => {
             <div className="hindisamitiformat2">
               <div className="hindisamitiformat2_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranit}
                   name="Pranit Rastogi"
                   position="Secretary"
                 />
               </div>
               <div className="hindisamitiformat2_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Jeetu}
                   name="J.K.Yadav"
                   position="Literary Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyanka}
                   name="Priyanka Beniwal"
                   position="Design Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anand}
                   name="A.Rishikesh"
                   position="Poetry Director"
                 />
@@ -322,26 +325,26 @@ const Spicmacay = () => {
             <div className="hindisamitiformat3">
               <div className="hindisamitiformat3_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranit}
                   name="Pranit Rastogi"
                   position="Secretary"
                 />
               </div>
               <div className="hindisamitiformat3_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Jeetu}
                   name="J.K.Yadav"
                   position="Literary Director"
                 />
               </div>
               <div className="hindisamitiformat3_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyanka}
                   name="Priyanka Beniwal"
                   position="Design Director"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Anand}
                   name="A.Rishikesh"
                   position="Poetry Director"
                 />
@@ -428,28 +431,28 @@ const Spicmacay = () => {
             <div className="hindisamitiformat4">
               <div className="hindisamitiformat4_1">
                 <Infocard
-                  image={DefaultPic}
+                  image={Pranit}
                   name="Pranit Rastogi"
                   position="Secretary"
                 />
               </div>
               <div className="hindisamitiformat4_2">
                 <Infocard
-                  image={DefaultPic}
+                  image={Jeetu}
                   name="J.K.Yadav"
                   position="Literary Director"
                 />
               </div>
               <div className="hindisamitiformat4_3">
                 <Infocard
-                  image={DefaultPic}
+                  image={Priyanka}
                   name="Priyanka Beniwal"
                   position="Design Director"
                 />
               </div>
               <div className="hindisamitiformat4_4">
                 <Infocard
-                  image={DefaultPic}
+                  image={Anand}
                   name="A.Rishikesh"
                   position="Poetry Director"
                 />

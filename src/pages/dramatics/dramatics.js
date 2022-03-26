@@ -9,9 +9,9 @@ import "./css/styleDramatics.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../dramatics/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/2.png";
+import image2 from "./images/1.png";
+import image3 from "./images/3.png";
 import DramaticsNavbar from "./Navbar/DramaticsNavbar";
 import DramaticsFooter from "./Footer/DramaticsFooter";
 import Infocard from "./Infocard/Infocard";
@@ -78,10 +78,9 @@ Looking forward to all the enthusiasm and love by the audience and of course the
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3> Interhostel Stage Play</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                 Interhostel group event where teams from all the hostel come and perform their production on a professional level stage at IIT Delhi campus and compete together
                   </p>
                 </div>
                 <img
@@ -95,10 +94,9 @@ Looking forward to all the enthusiasm and love by the audience and of course the
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Interhostel Street Play </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  Interhostel group event where teams from all the hostel come and perform a street play addressing a social issue. The energy is so high during this event that it witnesses one of the highest footfalls.
                   </p>
                 </div>
                 <img
@@ -112,10 +110,9 @@ Looking forward to all the enthusiasm and love by the audience and of course the
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3> Interhostel Monoact</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  Monoact is a solo event where each hostel sends certain amount of entries to further compete on stage at IIT Delhi campus
                   </p>
                 </div>
                 <img
