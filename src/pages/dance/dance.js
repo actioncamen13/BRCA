@@ -14,7 +14,7 @@ import image3 from "./images/Offbeat.png";
 import DanceNavbar from "./Navbar/DanceNavbar";
 import DanceFooter from "./Footer/DanceFooter";
 import Infocard from "./Infocard/Infocard";
-import DefaultPic from "./Infocard/Rectangle 103.png";
+// import DefaultPic from "./Infocard/Rectangle 103.png";
 import Akash from "./1.png";
 import Anukriti from "./2.png";
 import Vatsal from "./3.png";
@@ -28,6 +28,7 @@ import Franklin from "./10.png";
 import Pranjalee from "./11.png";
 import Rinish from "./12.png";
 import Sanjay from "./13.png";
+import Prasad from "./14.jpeg";
 
 const Dance = () => {
   const images = [{ image1 }];
@@ -192,7 +193,7 @@ const Dance = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasad}
                   name="Prasad Bhosale"
                   position="Representative"
                 />
@@ -274,7 +275,7 @@ const Dance = () => {
                   position="Representative"
                 />
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasad}
                   name="Prasad Bhosale"
                   position="Representative"
                 />
@@ -362,7 +363,7 @@ const Dance = () => {
               </div>
               <div className="danceformat3_8">
                 <Infocard
-                  image={DefaultPic}
+                  image={Prasad}
                   name="Prasad Bhosale"
                   position="Representative"
                 />

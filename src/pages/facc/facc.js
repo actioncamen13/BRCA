@@ -9,9 +9,9 @@ import "./css/styleFacc.css";
 import "../css/animate.css";
 import "react-slideshow-image/dist/styles.css";
 import imagee from "../facc/images/logo.png";
-import image1 from "./images/pfci1.png";
-import image2 from "./images/pfci2.png";
-import image3 from "./images/pfci3.png";
+import image1 from "./images/1.png";
+import image2 from "./images/2.jpeg";
+import image3 from "./images/3.png";
 import FaccNavbar from "./Navbar/FaccNavbar";
 import FaccFooter from "./Footer/FaccFooter";
 import Infocard from "./Infocard/Infocard";
@@ -55,10 +55,9 @@ const Facc = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name3</h3>
+                  <h3>Kirigami Competition</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                   Kirigami is a variation of origami, the Japanese art of folding paper. In kirigami, the paper is cut as well as being folded, resulting in a three-dimensional design that stands away from the page. Kirigami typically does not use glue. It is a paper craft competition. It is similar to origami but includes paper cutting and pasting too.
                   </p>
                 </div>
                 <img
@@ -72,10 +71,9 @@ const Facc = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name2</h3>
+                  <h3>Still Life Sketching</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+                  A still life is a drawing or painting that focuses on still objects. The subject matter is inanimate and never moves, typically with a focus on household objects, flowers, or fruits  
                   </p>
                 </div>
                 <img
@@ -89,10 +87,9 @@ const Facc = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>Event Name1</h3>
+                  <h3>    Charcoal sketching competition</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
+              Charcoal Sketching, use of charred sticks of wood to make finished drawings and preliminary studies. They are a great medium to create hyper realistic images.
                   </p>
                 </div>
                 <img
