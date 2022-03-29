@@ -21,7 +21,7 @@ function Home() {
               BRCA, <span className="iit"> IIT Delhi </span>
             </h1>
             <h3 className="shead">
-              Board for Recreational and Creative Activites
+              Board for Recreational and Creative Activities
             </h3>
             <p>
               BRCA stands for the Board For Recreational and Creative Activties.
@@ -41,9 +41,9 @@ function Home() {
         </div>
 
         <div className="s_icons text-right">
-          <a href="" target="blank" className="fa fa-twitter">
+          {/* <a href="" target="blank" className="fa fa-twitter">
             {" "}
-          </a>
+          </a> */}
           <a
             href="https://www.facebook.com/cultureIITD/?ref=page_internal"
             className=" fbhome fa fa-facebook "
