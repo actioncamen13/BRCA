@@ -39,13 +39,14 @@
 .infocard__bottom > a > .MuiSvgIcon-root {
   cursor: pointer;
 }
-.facebook__icon:hover {
-  color: #4267b2;
+.phone__icon:hover {
+  color: #007ee5;
   transform: scale(1.5);
 }
 .insta__icon:hover {
   color: #ffffff;
   background: #f09433;
+  border-radius: 5px;
   background: -moz-linear-gradient(
     45deg,
     #f09433 0%,
@@ -73,7 +74,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   transform: scale(1.2);
 }
-.linkedin__icon:hover {
-  color: #0e76a8;
+.email__icon:hover {
+  color: #ffd151;
   transform: scale(1.5);
 }

@@ -1,33 +1,34 @@
-.profinfocard {
-  width: 250px;
-  height: 350px;
-  padding: 1%;
+.infocard {
+  width: 160px;
+  height: 230px;
+  padding: 0.75%;
   display: flex;
   flex-direction: column;
   background-color: #fffbfb;
-  border-radius: 15px;
+  border-radius: calc(15 / 1918 * 100vw);
   margin-left: 0.75%;
 }
-.profphoto {
+.photo {
   width: 100%;
-  height: 80%;
+  height: calc(150 / 246.21 * 100%);
   display: flex;
   justify-content: center;
 }
-.profphoto > img {
+.photo > img {
   width: 100%;
   height: 100%;
 }
-.profinfocard > h2 {
-  font-size: 1.35em;
+.infocard > h2 {
+  font-size: 1em;
   color: #000;
+  margin-top: 10px;
 }
-.profinfocard > h3 {
-  font-size: 1.2em;
-  margin-top: -1%;
+.infocard > h3 {
+  font-size: 0.8em;
+  margin-top: -4%;
   color: #6a6565;
 }
-.profinfocard__bottom > .MuiSvgIcon-root {
+.infocard__bottom > .MuiSvgIcon-root {
   margin-top: -4%;
   height: 80%;
   width: 15%;
@@ -38,13 +39,14 @@
 .infocard__bottom > a > .MuiSvgIcon-root {
   cursor: pointer;
 }
-.proffacebook__icon:hover {
-  color: #4267b2;
+.phone__icon:hover {
+  color: #007ee5;
   transform: scale(1.5);
 }
-.profinsta__icon:hover {
+.insta__icon:hover {
   color: #ffffff;
   background: #f09433;
+  border-radius: 5px;
   background: -moz-linear-gradient(
     45deg,
     #f09433 0%,
@@ -72,23 +74,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   transform: scale(1.2);
 }
-.proflinkedin__icon:hover {
-  color: #0e76a8;
+.email__icon:hover {
+  color: #ffd151;
   transform: scale(1.5);
-}
-@media screen and (max-width: 630px) {
-  .profinfocard {
-    margin-bottom: 10vh;
-    padding: 1.5%;
-    margin-left: 0;
-    width: 200px;
-    height: 300px;
-    border-radius: 10px;
-  }
-  .profinfocard > h2 {
-    font-size: 0.95em;
-  }
-  .profinfocard > h3 {
-    font-size: 0.75em;
-  }
 }

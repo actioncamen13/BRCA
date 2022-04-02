@@ -48,9 +48,22 @@ const Dance = () => {
             <img src={imagee} alt="logo" />
             <h3>Dance Club</h3>
             <p>
-            In the words of Martha Graham,
-"Great dancers are not great because of their technique; they are great because of their passion", and we at Dance Club believe the same. Known for its glamorous performances and dedication, the club outperforms itself with popular events like Duo Dance and Group Dance every year. It's also a fresher inclusive club, providing them with the opportunity to start as a Novice and grow into a professional through various workshops and Fresher only event, Offbeat. V-Defyn, IIT Delhi's dance troupe, is a well-known dance group in the Delhi region that has made its legacy with a thread of glorified victories. Ensemble, the choreography society of IIT Delhi, having won several national podiums, can surely boast that they are the finest in their domain. The Institute Dance Production, organised towards the end of the year, is the magnum opus of the club, and it also provides aspiring students with a platform to improve their skills.
-{" "}
+              In the words of Martha Graham, "Great dancers are not great
+              because of their technique; they are great because of their
+              passion", and we at Dance Club believe the same. Known for its
+              glamorous performances and dedication, the club outperforms itself
+              with popular events like Duo Dance and Group Dance every year.
+              It's also a fresher inclusive club, providing them with the
+              opportunity to start as a Novice and grow into a professional
+              through various workshops and Fresher only event, Offbeat.
+              V-Defyn, IIT Delhi's dance troupe, is a well-known dance group in
+              the Delhi region that has made its legacy with a thread of
+              glorified victories. Ensemble, the choreography society of IIT
+              Delhi, having won several national podiums, can surely boast that
+              they are the finest in their domain. The Institute Dance
+              Production, organised towards the end of the year, is the magnum
+              opus of the club, and it also provides aspiring students with a
+              platform to improve their skills.{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -72,7 +85,12 @@ const Dance = () => {
                 <div className="eventname">
                   <h3>Group Dance</h3>
                   <p>
-                  The first event of the Dance club where freshers participate. It is the most awaited event of the year where the enthusiasm of newly incubated fache and the talent of their seniors combine to set the fire in the event. It is mostly conducted when freshers get free by their majors because in end of February.
+                    The first event of the Dance club where freshers
+                    participate. It is the most awaited event of the year where
+                    the enthusiasm of newly incubated fache and the talent of
+                    their seniors combine to set the fire in the event. It is
+                    mostly conducted when freshers get free by their majors
+                    because in end of February.
                   </p>
                 </div>
                 <img
@@ -88,7 +106,12 @@ const Dance = () => {
                 <div className="eventname">
                   <h3>Duo</h3>
                   <p>
-                  Looking for the chance to cheer for your hostel before the GC? In the month of December Duo+ is there for you, the first inter-hostel event everyone waits for. Where GD is by the freshers, duo+ is for the freshers. This is the event where freshers witness the dance culture of their hostel as well as the whole of the institute.
+                    Looking for the chance to cheer for your hostel before the
+                    GC? In the month of December Duo+ is there for you, the
+                    first inter-hostel event everyone waits for. Where GD is by
+                    the freshers, duo+ is for the freshers. This is the event
+                    where freshers witness the dance culture of their hostel as
+                    well as the whole of the institute.
                   </p>
                 </div>
                 <img
@@ -104,9 +127,12 @@ const Dance = () => {
                 <div className="eventname">
                   <h3>Offbeat</h3>
                   <p>
-                  Inspired by the seniors dancing in the duo+, now our freshers have a rush flowing to show off their dance skills too. Offbeat presented by the Dance Club IIT Delhi in January (mostly after the minors of freshers) is the only freshers event conducted by the club in which freshers give their solo performances.
-                 
-
+                    Inspired by the seniors dancing in the duo+, now our
+                    freshers have a rush flowing to show off their dance skills
+                    too. Offbeat presented by the Dance Club IIT Delhi in
+                    January (mostly after the minors of freshers) is the only
+                    freshers event conducted by the club in which freshers give
+                    their solo performances.
                   </p>
                 </div>
                 <img
@@ -116,7 +142,6 @@ const Dance = () => {
                 />
               </div>
             ))}
-       
           </Zoom>
         </div>
         <div className="danceteam">
@@ -130,6 +155,9 @@ const Dance = () => {
                   image={Dishant}
                   name="Dishant Dhiman"
                   position="Secretary"
+                  phone="7206435754"
+                  insta="https://www.instagram.com/dishant_.dhiman/"
+                  email="ddxdhiman@gmail.com"
                 />
               </div>
               <div className="danceformat1_2">
@@ -137,16 +165,25 @@ const Dance = () => {
                   image={Pranjalee}
                   name="Pranjalee"
                   position="Representative"
+                  phone="9930780046"
+                  insta="https://www.instagram.com/pranjalee_raj1208/"
+                  email="pranjalee123@gmail.com"
                 />
                 <Infocard
                   image={Anukriti}
                   name="Anukriti"
                   position="Representative"
+                  phone="9079194452"
+                  insta="https://www.instagram.com/anuuuuuukriti/"
+                  email="anukriti.ak21@gmail.com "
                 />
                 <Infocard
                   image={Bhavya}
                   name="Bhavya Shah"
                   position="Representative"
+                  phone="9310591282"
+                  insta="https://www.instagram.com/bhavyay.shah/"
+                  email="bhavya.shw@gmail.com"
                 />
               </div>
               <div className="danceformat1_3">
@@ -154,26 +191,41 @@ const Dance = () => {
                   image={Shlokh}
                   name="Shlokh Mohta"
                   position="Representative"
+                  phone="9460324454"
+                  insta="https://www.instagram.com/aspectratio09/"
+                  email="shlokhmohta23@gmail.com"
                 />
                 <Infocard
                   image={Mitanshu}
                   name="Mitanshu Kansal"
                   position="Representative"
+                  phone="9536191596"
+                  insta="https://www.instagram.com/mitanshu_kansal/"
+                  email="kansal.mitanshu@gmail.com"
                 />
                 <Infocard
                   image={Vatsal}
                   name="Vatsal Jingar"
                   position="Representative"
+                  phone="7727022731"
+                  insta="https://www.instagram.com/_vatsal_2709/"
+                  email="vatsaljingar2002@gmail.com"
                 />
                 <Infocard
                   image={Sanjay}
                   name="Sanjay Kumar"
                   position="Representative"
+                  phone="9821041925"
+                  insta="https://www.instagram.com/hyper._.bhola/"
+                  email="sanjayhreo@gmail.com"
                 />
                 <Infocard
                   image={Akash}
                   name="Akash Sinha"
                   position="Representative"
+                  phone="8707894644"
+                  insta="https://www.instagram.com/_akashsinha77/"
+                  email="akashsinha2503@gmail.com"
                 />
               </div>
               <div className="danceformat1_4">
@@ -181,26 +233,41 @@ const Dance = () => {
                   image={Franklin}
                   name="Franklin"
                   position="Representative"
+                  phone="7005529559"
+                  insta="https://www.instagram.com/barijuban_/"
+                  email="barijubansohliya@gmail.com"
                 />
                 <Infocard
                   image={Samarthya}
                   name="S.Gupta"
                   position="Representative"
+                  phone="9140594491"
+                  insta="https://www.instagram.com/_.samarthya/"
+                  email="samarthyaspectacular@gmail.com"
                 />
                 <Infocard
                   image={Madhav}
                   name="Madhav Goel"
                   position="Representative"
+                  phone="7015823744"
+                  insta="https://www.instagram.com/madhav_goel21/"
+                  email="madhav1234vasu@gmail.com"
                 />
                 <Infocard
                   image={Prasad}
                   name="Prasad Bhosale"
                   position="Representative"
+                  phone="9552246123"
+                  insta="https://www.instagram.com/_prasad_bhosale._/"
+                  email="prasadbhosale360@gmail.com"
                 />
                 <Infocard
                   image={Rinish}
                   name="Rinish Agrawal"
                   position="Representative"
+                  phone="9929505706"
+                  insta="https://www.instagram.com/rinish_01/"
+                  email="rinish2866jpr@gmail.com"
                 />
               </div>
             </div>
@@ -210,6 +277,8 @@ const Dance = () => {
                   image={Dishant}
                   name="Dishant Dhiman"
                   position="Secretary"
+                  phone="7206435754"
+                  email="ddxdhiman@gmail.com"
                 />
               </div>
               <div className="danceformat2_2">
@@ -217,16 +286,25 @@ const Dance = () => {
                   image={Pranjalee}
                   name="Pranjalee"
                   position="Representative"
+                  phone="9930780046"
+                  insta="https://www.instagram.com/pranjalee_raj1208/"
+                  email="pranjalee123@gmail.com"
                 />
                 <Infocard
                   image={Anukriti}
                   name="Anukriti"
                   position="Representative"
+                  phone="9079194452"
+                  insta="https://www.instagram.com/anuuuuuukriti/"
+                  email="anukriti.ak21@gmail.com "
                 />
                 <Infocard
                   image={Bhavya}
                   name="Bhavya Shah"
                   position="Representative"
+                  phone="9310591282"
+                  insta="https://www.instagram.com/bhavyay.shah/"
+                  email="bhavya.shw@gmail.com"
                 />
               </div>
               <div className="danceformat2_3">
@@ -234,16 +312,25 @@ const Dance = () => {
                   image={Shlokh}
                   name="Shlokh Mohta"
                   position="Representative"
+                  phone="9460324454"
+                  insta="https://www.instagram.com/aspectratio09/"
+                  email="shlokhmohta23@gmail.com"
                 />
                 <Infocard
                   image={Mitanshu}
                   name="Mitanshu Kansal"
                   position="Representative"
+                  phone="9536191596"
+                  insta="https://www.instagram.com/mitanshu_kansal/"
+                  email="kansal.mitanshu@gmail.com"
                 />
                 <Infocard
                   image={Vatsal}
                   name="Vatsal Jingar"
                   position="Representative"
+                  phone="7727022731"
+                  insta="https://www.instagram.com/_vatsal_2709/"
+                  email="vatsaljingar2002@gmail.com"
                 />
               </div>
               <div className="danceformat2_4">
@@ -251,16 +338,25 @@ const Dance = () => {
                   image={Sanjay}
                   name="Sanjay Kumar"
                   position="Representative"
+                  phone="9821041925"
+                  insta="https://www.instagram.com/hyper._.bhola/"
+                  email="sanjayhreo@gmail.com"
                 />
                 <Infocard
                   image={Akash}
                   name="Akash Sinha"
                   position="Representative"
+                  phone="8707894644"
+                  insta="https://www.instagram.com/_akashsinha77/"
+                  email="akashsinha2503@gmail.com"
                 />
                 <Infocard
                   image={Franklin}
                   name="Franklin"
                   position="Representative"
+                  phone="7005529559"
+                  insta="https://www.instagram.com/barijuban_/"
+                  email="barijubansohliya@gmail.com"
                 />
               </div>
               <div className="danceformat2_5">
@@ -268,21 +364,33 @@ const Dance = () => {
                   image={Samarthya}
                   name="S.Gupta"
                   position="Representative"
+                  phone="9140594491"
+                  insta="https://www.instagram.com/_.samarthya/"
+                  email="samarthyaspectacular@gmail.com"
                 />
                 <Infocard
                   image={Madhav}
                   name="Madhav Goel"
                   position="Representative"
+                  phone="7015823744"
+                  insta="https://www.instagram.com/madhav_goel21/"
+                  email="madhav1234vasu@gmail.com"
                 />
                 <Infocard
                   image={Prasad}
                   name="Prasad Bhosale"
                   position="Representative"
+                  phone="9552246123"
+                  insta="https://www.instagram.com/_prasad_bhosale._/"
+                  email="prasadbhosale360@gmail.com"
                 />
                 <Infocard
                   image={Rinish}
                   name="Rinish Agrawal"
                   position="Representative"
+                  phone="9929505706"
+                  insta="https://www.instagram.com/rinish_01/"
+                  email="rinish2866jpr@gmail.com"
                 />
               </div>
             </div>
@@ -292,6 +400,8 @@ const Dance = () => {
                   image={Dishant}
                   name="Dishant Dhiman"
                   position="Secretary"
+                  phone="7206435754"
+                  email="ddxdhiman@gmail.com"
                 />
               </div>
               <div className="danceformat3_2">
@@ -299,6 +409,9 @@ const Dance = () => {
                   image={Pranjalee}
                   name="Pranjalee"
                   position="Representative"
+                  phone="9930780046"
+                  insta="https://www.instagram.com/pranjalee_raj1208/"
+                  email="pranjalee123@gmail.com"
                 />
               </div>
               <div className="danceformat3_3">
@@ -306,11 +419,17 @@ const Dance = () => {
                   image={Anukriti}
                   name="Anukriti"
                   position="Representative"
+                  phone="9079194452"
+                  insta="https://www.instagram.com/anuuuuuukriti/"
+                  email="anukriti.ak21@gmail.com "
                 />
                 <Infocard
                   image={Bhavya}
                   name="Bhavya Shah"
                   position="Representative"
+                  phone="9310591282"
+                  insta="https://www.instagram.com/bhavyay.shah/"
+                  email="bhavya.shw@gmail.com"
                 />
               </div>
               <div className="danceformat3_4">
@@ -318,11 +437,17 @@ const Dance = () => {
                   image={Shlokh}
                   name="Shlokh Mohta"
                   position="Representative"
+                  phone="9460324454"
+                  insta="https://www.instagram.com/aspectratio09/"
+                  email="shlokhmohta23@gmail.com"
                 />
                 <Infocard
                   image={Mitanshu}
                   name="Mitanshu Kansal"
                   position="Representative"
+                  phone="9536191596"
+                  insta="https://www.instagram.com/mitanshu_kansal/"
+                  email="kansal.mitanshu@gmail.com"
                 />
               </div>
               <div className="danceformat3_5">
@@ -330,11 +455,17 @@ const Dance = () => {
                   image={Vatsal}
                   name="Vatsal Jingar"
                   position="Representative"
+                  phone="7727022731"
+                  insta="https://www.instagram.com/_vatsal_2709/"
+                  email="vatsaljingar2002@gmail.com"
                 />
                 <Infocard
                   image={Sanjay}
                   name="Sanjay Kumar"
                   position="Representative"
+                  phone="9821041925"
+                  insta="https://www.instagram.com/hyper._.bhola/"
+                  email="sanjayhreo@gmail.com"
                 />
               </div>
               <div className="danceformat3_6">
@@ -342,11 +473,17 @@ const Dance = () => {
                   image={Akash}
                   name="Akash Sinha"
                   position="Representative"
+                  phone="8707894644"
+                  insta="https://www.instagram.com/_akashsinha77/"
+                  email="akashsinha2503@gmail.com"
                 />
                 <Infocard
                   image={Franklin}
                   name="Franklin"
                   position="Representative"
+                  phone="7005529559"
+                  insta="https://www.instagram.com/barijuban_/"
+                  email="barijubansohliya@gmail.com"
                 />
               </div>
               <div className="danceformat3_7">
@@ -354,11 +491,17 @@ const Dance = () => {
                   image={Samarthya}
                   name="S.Gupta"
                   position="Representative"
+                  phone="9140594491"
+                  insta="https://www.instagram.com/_.samarthya/"
+                  email="samarthyaspectacular@gmail.com"
                 />
                 <Infocard
                   image={Madhav}
                   name="Madhav Goel"
                   position="Representative"
+                  phone="7015823744"
+                  insta="https://www.instagram.com/madhav_goel21/"
+                  email="madhav1234vasu@gmail.com"
                 />
               </div>
               <div className="danceformat3_8">
@@ -366,11 +509,17 @@ const Dance = () => {
                   image={Prasad}
                   name="Prasad Bhosale"
                   position="Representative"
+                  phone="9552246123"
+                  insta="https://www.instagram.com/_prasad_bhosale._/"
+                  email="prasadbhosale360@gmail.com"
                 />
                 <Infocard
                   image={Rinish}
                   name="Rinish Agrawal"
                   position="Representative"
+                  phone="9929505706"
+                  insta="https://www.instagram.com/rinish_01/"
+                  email="rinish2866jpr@gmail.com"
                 />
               </div>
             </div>

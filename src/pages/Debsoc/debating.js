@@ -192,6 +192,9 @@ const Spicmacay = () => {
                   image={Sarvagya}
                   name="S.Chhabra"
                   position="Secretary"
+                  phone="8383097658"
+                  insta="https://www.instagram.com/sarvagya28_/"
+                  email="sarvagya2809@gmail.com"
                 />
               </div>
               <div className="debatingformat1_2">
@@ -199,32 +202,50 @@ const Spicmacay = () => {
                   image={Rahul}
                   name="Rahul R. Shah"
                   position="Representative"
+                  phone="9717326180"
+                  insta="https://www.instagram.com/shah.rahul.r/"
+                  email="rahulranveershah2003@gmail.com"
                 />
 
                 <Infocard
                   image={Sara}
                   name="Sara Zareen"
                   position="Representative"
+                  phone="7339791049"
+                  insta="https://www.instagram.com/sarazrn021/"
+                  email="sar21zar@gmail.com"
                 />
                 <Infocard
                   image={Rishabh}
                   name="Rishabh Singh"
                   position="Representative"
+                  phone="8368188137"
+                  insta="https://www.instagram.com/notrishh/"
+                  email="notrishabhsingh@gmail.com"
                 />
                 <Infocard
                   image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
+                  phone="7065599677"
+                  insta="https://www.instagram.com/arushutkarsh"
+                  email="arush.utkarsh@gmail.com"
                 />
                 <Infocard
                   image={Adhiraj}
                   name="Adhiraj Goel"
                   position="Representative"
+                  phone="9811628870"
+                  insta="https://www.instagram.com/adhirajgoel_01/"
+                  email="adhiraj.iitd@@gmail.com"
                 />
                 <Infocard
                   image={Sanat}
                   name="Sanat Vohra"
                   position="Representative"
+                  phone="9818522929"
+                  insta="https://www.instagram.com/vohrasanat/"
+                  email="forsanat.sv@gmail.com"
                 />
               </div>
               <div className="debatingformat1_3">
@@ -232,36 +253,57 @@ const Spicmacay = () => {
                   image={Umayr}
                   name="Umayr Surti"
                   position="Representative"
+                  phone="9108854466"
+                  insta="https://www.instagram.com/theumayrsurti/"
+                  email="umayr478@gmail.com"
                 />
                 <Infocard
                   image={Himanshu}
                   name="H.Wadhwa"
                   position="Representative"
+                  phone="7703980256"
+                  insta="https://www.instagram.com/heeemanshoe/"
+                  email="hwadhwa.iitd@gmail.com"
                 />
                 <Infocard
                   image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
+                  phone="9205908861"
+                  insta="https://www.instagram.com/rishitaagrawal_/"
+                  email="20rishita02@gmail.com"
                 />
                 <Infocard
                   image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
+                  phone="9959117261"
+                  insta="https://www.instagram.com/random_errorer/"
+                  email="saplearyan@gmail.com"
                 />
                 <Infocard
                   image={Vibhor}
                   name="Vibhor Jain"
                   position="Representative"
+                  phone="8901917575"
+                  insta="https://www.instagram.com/vibhorjain.vbj/"
+                  email="vibhorjain0804@gmail.com"
                 />
                 <Infocard
                   image={Prakhar}
                   name="Prakhar Singhal"
                   position="Representative"
+                  phone="7409444981"
+                  insta="https://www.instagram.com/sprakhar2002/"
+                  email="sprakhar2002@gmail.com"
                 />
                 <Infocard
                   image={Anurag}
                   name="Anurag Yadav"
                   position="Representative"
+                  phone="7976118384"
+                  insta="https://www.instagram.com/anurag_yadav.ay"
+                  email="anurag.ay123@gmail.com"
                 />
               </div>
             </div>
@@ -271,6 +313,9 @@ const Spicmacay = () => {
                   image={Sarvagya}
                   name="S.Chhabra"
                   position="Secretary"
+                  phone="8383097658"
+                  insta="https://www.instagram.com/sarvagya28_/"
+                  email="sarvagya2809@gmail.com"
                 />
               </div>
               <div className="debatingformat2_2">
@@ -278,22 +323,34 @@ const Spicmacay = () => {
                   image={Rahul}
                   name="Rahul R. Shah"
                   position="Representative"
+                  phone="9717326180"
+                  insta="https://www.instagram.com/shah.rahul.r/"
+                  email="rahulranveershah2003@gmail.com"
                 />
 
                 <Infocard
                   image={Sara}
                   name="Sara Zareen"
                   position="Representative"
+                  phone="7339791049"
+                  insta="https://www.instagram.com/sarazrn021/"
+                  email="sar21zar@gmail.com"
                 />
                 <Infocard
                   image={Rishabh}
                   name="Rishabh Singh"
                   position="Representative"
+                  phone="8368188137"
+                  insta="https://www.instagram.com/notrishh/"
+                  email="notrishabhsingh@gmail.com"
                 />
                 <Infocard
                   image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
+                  phone="7065599677"
+                  insta="https://www.instagram.com/arushutkarsh"
+                  email="arush.utkarsh@gmail.com"
                 />
               </div>
               <div className="debatingformat2_3">
@@ -301,21 +358,33 @@ const Spicmacay = () => {
                   image={Adhiraj}
                   name="Adhiraj Goel"
                   position="Representative"
+                  phone="9811628870"
+                  insta="https://www.instagram.com/adhirajgoel_01/"
+                  email="adhiraj.iitd@@gmail.com"
                 />
                 <Infocard
                   image={Sanat}
                   name="Sanat Vohra"
                   position="Representative"
+                  phone="9818522929"
+                  insta="https://www.instagram.com/vohrasanat/"
+                  email="forsanat.sv@gmail.com"
                 />
                 <Infocard
                   image={Umayr}
                   name="Umayr Surti"
                   position="Representative"
+                  phone="9108854466"
+                  insta="https://www.instagram.com/theumayrsurti/"
+                  email="umayr478@gmail.com"
                 />
                 <Infocard
                   image={Himanshu}
                   name="H.Wadhwa"
                   position="Representative"
+                  phone="7703980256"
+                  insta="https://www.instagram.com/heeemanshoe/"
+                  email="hwadhwa.iitd@gmail.com"
                 />
               </div>
               <div className="debatingformat2_4">
@@ -323,26 +392,41 @@ const Spicmacay = () => {
                   image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
+                  phone="9205908861"
+                  insta="https://www.instagram.com/rishitaagrawal_/"
+                  email="20rishita02@gmail.com"
                 />
                 <Infocard
                   image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
+                  phone="9959117261"
+                  insta="https://www.instagram.com/random_errorer/"
+                  email="saplearyan@gmail.com"
                 />
                 <Infocard
                   image={Vibhor}
                   name="Vibhor Jain"
                   position="Representative"
+                  phone="8901917575"
+                  insta="https://www.instagram.com/vibhorjain.vbj/"
+                  email="vibhorjain0804@gmail.com"
                 />
                 <Infocard
                   image={Prakhar}
                   name="Prakhar Singhal"
                   position="Representative"
+                  phone="7409444981"
+                  insta="https://www.instagram.com/sprakhar2002/"
+                  email="sprakhar2002@gmail.com"
                 />
                 <Infocard
                   image={Anurag}
                   name="Anurag Yadav"
                   position="Representative"
+                  phone="7976118384"
+                  insta="https://www.instagram.com/anurag_yadav.ay"
+                  email="anurag.ay123@gmail.com"
                 />
               </div>
             </div>
@@ -352,6 +436,9 @@ const Spicmacay = () => {
                   image={Sarvagya}
                   name="S.Chhabra"
                   position="Secretary"
+                  phone="8383097658"
+                  insta="https://www.instagram.com/sarvagya28_/"
+                  email="sarvagya2809@gmail.com"
                 />
               </div>
               <div className="debatingformat3_2">
@@ -359,12 +446,18 @@ const Spicmacay = () => {
                   image={Rahul}
                   name="Rahul R. Shah"
                   position="Representative"
+                  phone="9717326180"
+                  insta="https://www.instagram.com/shah.rahul.r/"
+                  email="rahulranveershah2003@gmail.com"
                 />
 
                 <Infocard
                   image={Sara}
                   name="Sara Zareen"
                   position="Representative"
+                  phone="7339791049"
+                  insta="https://www.instagram.com/sarazrn021/"
+                  email="sar21zar@gmail.com"
                 />
               </div>
               <div className="debatingformat3_3">
@@ -372,11 +465,17 @@ const Spicmacay = () => {
                   image={Rishabh}
                   name="Rishabh Singh"
                   position="Representative"
+                  phone="8368188137"
+                  insta="https://www.instagram.com/notrishh/"
+                  email="notrishabhsingh@gmail.com"
                 />
                 <Infocard
                   image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
+                  phone="7065599677"
+                  insta="https://www.instagram.com/arushutkarsh"
+                  email="arush.utkarsh@gmail.com"
                 />
               </div>
               <div className="debatingformat3_4">
@@ -384,11 +483,17 @@ const Spicmacay = () => {
                   image={Adhiraj}
                   name="Adhiraj Goel"
                   position="Representative"
+                  phone="9811628870"
+                  insta="https://www.instagram.com/adhirajgoel_01/"
+                  email="adhiraj.iitd@@gmail.com"
                 />
                 <Infocard
                   image={Sanat}
                   name="Sanat Vohra"
                   position="Representative"
+                  phone="9818522929"
+                  insta="https://www.instagram.com/vohrasanat/"
+                  email="forsanat.sv@gmail.com"
                 />
               </div>
               <div className="debatingformat3_5">
@@ -396,11 +501,17 @@ const Spicmacay = () => {
                   image={Umayr}
                   name="Umayr Surti"
                   position="Representative"
+                  phone="9108854466"
+                  insta="https://www.instagram.com/theumayrsurti/"
+                  email="umayr478@gmail.com"
                 />
                 <Infocard
                   image={Himanshu}
                   name="H.Wadhwa"
                   position="Representative"
+                  phone="7703980256"
+                  insta="https://www.instagram.com/heeemanshoe/"
+                  email="hwadhwa.iitd@gmail.com"
                 />
               </div>
               <div className="debatingformat3_6">
@@ -408,11 +519,17 @@ const Spicmacay = () => {
                   image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
+                  phone="9205908861"
+                  insta="https://www.instagram.com/rishitaagrawal_/"
+                  email="20rishita02@gmail.com"
                 />
                 <Infocard
                   image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
+                  phone="9959117261"
+                  insta="https://www.instagram.com/random_errorer/"
+                  email="saplearyan@gmail.com"
                 />
               </div>
               <div className="debatingformat3_7">
@@ -420,16 +537,25 @@ const Spicmacay = () => {
                   image={Vibhor}
                   name="Vibhor Jain"
                   position="Representative"
+                  phone="8901917575"
+                  insta="https://www.instagram.com/vibhorjain.vbj/"
+                  email="vibhorjain0804@gmail.com"
                 />
                 <Infocard
                   image={Prakhar}
                   name="Prakhar Singhal"
                   position="Representative"
+                  phone="7409444981"
+                  insta="https://www.instagram.com/sprakhar2002/"
+                  email="sprakhar2002@gmail.com"
                 />
                 <Infocard
                   image={Anurag}
                   name="Anurag Yadav"
                   position="Representative"
+                  phone="7976118384"
+                  insta="https://www.instagram.com/anurag_yadav.ay"
+                  email="anurag.ay123@gmail.com"
                 />
               </div>
             </div>
@@ -439,6 +565,9 @@ const Spicmacay = () => {
                   image={Sarvagya}
                   name="S.Chhabra"
                   position="Secretary"
+                  phone="8383097658"
+                  insta="https://www.instagram.com/sarvagya28_/"
+                  email="sarvagya2809@gmail.com"
                 />
               </div>
               <div className="debatingformat4_2">
@@ -446,6 +575,9 @@ const Spicmacay = () => {
                   image={Rahul}
                   name="Rahul R. Shah"
                   position="Representative"
+                  phone="9717326180"
+                  insta="https://www.instagram.com/shah.rahul.r/"
+                  email="rahulranveershah2003@gmail.com"
                 />
               </div>
               <div className="debatingformat4_3">
@@ -453,11 +585,17 @@ const Spicmacay = () => {
                   image={Sara}
                   name="Sara Zareen"
                   position="Representative"
+                  phone="7339791049"
+                  insta="https://www.instagram.com/sarazrn021/"
+                  email="sar21zar@gmail.com"
                 />
                 <Infocard
                   image={Rishabh}
                   name="Rishabh Singh"
                   position="Representative"
+                  phone="8368188137"
+                  insta="https://www.instagram.com/notrishh/"
+                  email="notrishabhsingh@gmail.com"
                 />
               </div>
               <div className="debatingformat4_4">
@@ -465,11 +603,17 @@ const Spicmacay = () => {
                   image={Arush}
                   name="Arush Utkarsh"
                   position="Representative"
+                  phone="7065599677"
+                  insta="https://www.instagram.com/arushutkarsh"
+                  email="arush.utkarsh@gmail.com"
                 />
                 <Infocard
                   image={Adhiraj}
                   name="Adhiraj Goel"
                   position="Representative"
+                  phone="9811628870"
+                  insta="https://www.instagram.com/adhirajgoel_01/"
+                  email="adhiraj.iitd@@gmail.com"
                 />
               </div>
               <div className="debatingformat4_5">
@@ -477,11 +621,17 @@ const Spicmacay = () => {
                   image={Sanat}
                   name="Sanat Vohra"
                   position="Representative"
+                  phone="9818522929"
+                  insta="https://www.instagram.com/vohrasanat/"
+                  email="forsanat.sv@gmail.com"
                 />
                 <Infocard
                   image={Umayr}
                   name="Umayr Surti"
                   position="Representative"
+                  phone="9108854466"
+                  insta="https://www.instagram.com/theumayrsurti/"
+                  email="umayr478@gmail.com"
                 />
               </div>
               <div className="debatingformat4_6">
@@ -489,11 +639,17 @@ const Spicmacay = () => {
                   image={Himanshu}
                   name="H.Wadhwa"
                   position="Representative"
+                  phone="7703980256"
+                  insta="https://www.instagram.com/heeemanshoe/"
+                  email="hwadhwa.iitd@gmail.com"
                 />
                 <Infocard
                   image={Rishita}
                   name="Rishita Agrawal"
                   position="Representative"
+                  phone="9205908861"
+                  insta="https://www.instagram.com/rishitaagrawal_/"
+                  email="20rishita02@gmail.com"
                 />
               </div>
               <div className="debatingformat4_7">
@@ -501,11 +657,17 @@ const Spicmacay = () => {
                   image={Aryan}
                   name="Aryan Saple"
                   position="Representative"
+                  phone="9959117261"
+                  insta="https://www.instagram.com/random_errorer/"
+                  email="saplearyan@gmail.com"
                 />
                 <Infocard
                   image={Vibhor}
                   name="Vibhor Jain"
                   position="Representative"
+                  phone="8901917575"
+                  insta="https://www.instagram.com/vibhorjain.vbj/"
+                  email="vibhorjain0804@gmail.com"
                 />
               </div>
               <div className="debatingformat4_8">
@@ -513,11 +675,17 @@ const Spicmacay = () => {
                   image={Prakhar}
                   name="Prakhar Singhal"
                   position="Representative"
+                  phone="7409444981"
+                  insta="https://www.instagram.com/sprakhar2002/"
+                  email="sprakhar2002@gmail.com"
                 />
                 <Infocard
                   image={Anurag}
                   name="Anurag Yadav"
                   position="Representative"
+                  phone="7976118384"
+                  insta="https://www.instagram.com/anurag_yadav.ay"
+                  email="anurag.ay123@gmail.com"
                 />
               </div>
             </div>

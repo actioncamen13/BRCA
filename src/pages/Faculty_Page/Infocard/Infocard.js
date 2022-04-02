@@ -1,29 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Infocard.css";
 // import Photo from "./Rectangle 103.png";
-import FacebookIcon from "@mui/icons-material/Facebook";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import { Link } from "react-router-dom";
+import PhoneIcon from "@mui/icons-material/Phone";
+import Popup from "./Popup";
 
 function Infocard(props) {
+  const [isOpen1, setIsOpen1] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
+
+  const togglePopup1 = () => {
+    setIsOpen1(!isOpen1);
+  };
+  const togglePopup2 = () => {
+    setIsOpen2(!isOpen2);
+  };
   return (
-    <div className="profinfocard">
-      <div className="profphoto">
+    <div className="infocard">
+      <div className="photo">
         <img src={props.image} alt="Team Member" />
       </div>
       <h2>{props.name}</h2>
       <h3>{props.position}</h3>
-      <div className="profinfocard__bottom">
-      <a href={props.fb} style={{ color: "#6a6565", marginRight: "5%" }}>
-          <FacebookIcon className="facebook__icon" />
-        </a>
+      <div className="infocard__bottom">
+        <div
+          className="phone_container"
+          style={{ color: "#6a6565", marginRight: "5%" }}
+        >
+          <PhoneIcon className="phone__icon" onClick={togglePopup1} />
+          {isOpen1 && (
+            <Popup content={props.phone} handleClose={togglePopup1} />
+          )}
+        </div>
         <a href={props.insta} style={{ color: "#6a6565", marginRight: "5%" }}>
           <InstagramIcon className="insta__icon" />
         </a>
-        <a href={props.linkedin} style={{ color: "#6a6565" }}>
-          <LinkedInIcon className="linkedin__icon" />
-        </a>
+        <div className="email_container" style={{ color: "#6a6565" }}>
+          <EmailIcon className="email__icon" onClick={togglePopup2} />
+          {isOpen2 && (
+            <Popup content={props.email} handleClose={togglePopup2} />
+          )}
+        </div>
       </div>
     </div>
   );
