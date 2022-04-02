@@ -19,11 +19,13 @@ function Faculty() {
             image={Sandeep}
             name="Prof. Sandeep K. Jha"
             position="President, BRCA"
+            email="sandeepjha@cbme.iitd.ac.in"
           />
           <Infocard
             image={Rajendra}
             name="Prof. Rajendra Dhaka"
             position="Vice-President, BRCA"
+            email="rsingh@physics.iitd.ac.in"
           />
         </div>
       </div>

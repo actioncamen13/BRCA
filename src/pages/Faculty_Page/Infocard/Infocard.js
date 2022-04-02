@@ -19,13 +19,13 @@ function Infocard(props) {
     setIsOpen2(!isOpen2);
   };
   return (
-    <div className="infocard">
+    <div className="infocard" style={{ width: "175px", height: "250px" }}>
       <div className="photo">
         <img src={props.image} alt="Team Member" />
       </div>
       <h2>{props.name}</h2>
       <h3>{props.position}</h3>
-      <div className="infocard__bottom">
+      <div className="infocard__bottom" style={{ marginTop: "5%" }}>
         <div
           className="phone_container"
           style={{ color: "#6a6565", marginRight: "5%" }}
