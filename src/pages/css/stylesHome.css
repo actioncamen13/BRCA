@@ -100,9 +100,20 @@ button:hover {
   display: flex;
 }
 .images{
+  width: 43.26vw;
+  height: 36.6vw;
+  margin: 10.78vw 0 0 54vw;
+}
+.default-nav:first-of-type{
+display: none !important;
+}
+.default-nav:last-of-type{
+  display: none !important;
+}
+.imag{
   width: 40.26vw;
   height: 28.6vw;
-  margin: 10.78vw 0 0 54vw;
+
 }
 .image2{
   width: 39.26vw;
@@ -124,6 +135,13 @@ button:hover {
   }
 
 }
+@media(max-width:822px){
+  .images {
+    width: 53.26vw;
+    height: 36.6vw;
+    margin: 130px 0 0 46vw;
+}
+}
 @media only screen and (max-width: 768px) {
   .mainSecHome{
     height: 100%;
@@ -135,7 +153,12 @@ button:hover {
 
   .section2{
     flex-direction: row;
+    display: contents;
   }
+  .imag {
+    width: 65.26vw;
+    height: 50.6vw;
+}
   .s_icons{
     margin: 0 0 0 76%;
     position: static;
@@ -164,25 +187,25 @@ button:hover {
     font-size: 7vw;
   }
   .images {
-    width: 80%;
+    width: 100%;
     height: 40%;
-    margin: 80vw 0 0 5vw;
+    margin: 70vw 0 0 -5vw;
 }
 }
 @media only screen and (max-width: 635px) {
   .images{
     
-    margin: 88vw 0 0 2vw;
+    margin: 75vw 0 0 -5vw;
   }
   .s_icons{
     margin: 0 0 0 69%;
     position: inherit;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .images{
  
-    margin: 98vw 0 0 2vw;
+    margin: 85vw 0 0 -5vw;
    
   }
   .s_icons{
@@ -198,7 +221,7 @@ button:hover {
 }
 @media only screen and (max-width: 403px) {
   .images{
-    margin:110vw 0 0 2vw;
+    margin:92vw 0 0 -5vw;
   }
   .s_icons{
     margin: 15% 0 0 70%;
@@ -210,8 +233,8 @@ button:hover {
     margin-top: 15px !important;
   }
 }
-@media only screen and (max-width: 303px) {
+@media only screen and (max-width: 333px) {
 .images{
-  margin-top:125vw ;
+  margin-top:100vw ;
 }
 }

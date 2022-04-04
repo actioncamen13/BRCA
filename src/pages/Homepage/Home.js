@@ -5,12 +5,23 @@ import "../css/stylesHome.css";
 import "../css/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import vector from "../images/Vector.png";
+import vector2 from "../images/1.png";
+import vector3 from "../images/2.png";
+import vector4 from "../images/3.png";
+import { Zoom } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 // import girl from "../images/girl.jpg";
 import HomeNavbar from "./Navbar/HomeNavbar";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTwitter,faFacebook,faInstagram } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
+  const images = [{ vector }];
+
+  const zoomOutProperties = {
+    indicators: true,
+    scale: 0.4,
+  };
   return (
     <div className="mainSecHome animate__animated animate__fadeIn">
       <HomeNavbar />
@@ -35,8 +46,47 @@ function Home() {
             </a>
           </div>
           <div>
-            <img className="images" src={vector} />
-            {/* <img className="image2" src={girl} /> */}
+            {/* <img className="images" src={vector} /> */}
+            <Zoom  className="images"
+            {...zoomOutProperties}
+            style={{}}>
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <img
+                  className="imag"
+                  style={{ objectFit: "cover" }}
+                  src={vector}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <img
+                  className="imag"
+                  style={{ objectFit: "cover" }}
+                  src={vector2}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <img
+                  className="imag"
+                  style={{ objectFit: "cover" }}
+                  src={vector3}
+                />
+              </div>
+            ))}
+            {images.map((each, index) => (
+              <div key={index} className="carousel">
+                <img
+                  className="imag"
+                  style={{ objectFit: "cover" }}
+                  src={vector4}
+                />
+              </div>
+            ))}
+            </Zoom>
           </div>
         </div>
 
