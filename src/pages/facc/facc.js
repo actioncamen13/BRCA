@@ -35,7 +35,14 @@ const Facc = () => {
             <img src={imagee} alt="logo" />
             <h3>Fine Arts Club</h3>
             <p>
-            FACC is the perfect platform for you to showcase your artistic capabilities and also learn a various new art-forms. With events like Oil Painting, Charcoal Painting, Mask Painting and workshops on artistic activities like Origami, there is a lot to fulfill your creative appetite. The club also organizes various events such as Street Painting, Graffiti, Face Painting etc during Rendezvous. The FAC junta is renowned for its untiring efforts, and is one of closest knit communities on campus.{" "}
+              FACC is the perfect platform for you to showcase your artistic
+              capabilities and also learn a various new art-forms. With events
+              like Oil Painting, Charcoal Painting, Mask Painting and workshops
+              on artistic activities like Origami, there is a lot to fulfill
+              your creative appetite. The club also organizes various events
+              such as Street Painting, Graffiti, Face Painting etc during
+              Rendezvous. The FAC junta is renowned for its untiring efforts,
+              and is one of closest knit communities on campus.{" "}
             </p>
             <div class="social_icons">
               <a href="" className=" fbpfc fa fa-facebook" target="blank"></a>
@@ -57,7 +64,12 @@ const Facc = () => {
                 <div className="eventname">
                   <h3>Kirigami Competition</h3>
                   <p>
-                   Kirigami is a variation of origami, the Japanese art of folding paper. In kirigami, the paper is cut as well as being folded, resulting in a three-dimensional design that stands away from the page. Kirigami typically does not use glue. It is a paper craft competition. It is similar to origami but includes paper cutting and pasting too.
+                    Kirigami is a variation of origami, the Japanese art of
+                    folding paper. In kirigami, the paper is cut as well as
+                    being folded, resulting in a three-dimensional design that
+                    stands away from the page. Kirigami typically does not use
+                    glue. It is a paper craft competition. It is similar to
+                    origami but includes paper cutting and pasting too.
                   </p>
                 </div>
                 <img
@@ -73,7 +85,10 @@ const Facc = () => {
                 <div className="eventname">
                   <h3>Still Life Sketching</h3>
                   <p>
-                  A still life is a drawing or painting that focuses on still objects. The subject matter is inanimate and never moves, typically with a focus on household objects, flowers, or fruits  
+                    A still life is a drawing or painting that focuses on still
+                    objects. The subject matter is inanimate and never moves,
+                    typically with a focus on household objects, flowers, or
+                    fruits
                   </p>
                 </div>
                 <img
@@ -87,9 +102,11 @@ const Facc = () => {
             {images.map((each, index) => (
               <div key={index} className="carousel">
                 <div className="eventname">
-                  <h3>    Charcoal sketching competition</h3>
+                  <h3> Charcoal sketching competition</h3>
                   <p>
-              Charcoal Sketching, use of charred sticks of wood to make finished drawings and preliminary studies. They are a great medium to create hyper realistic images.
+                    Charcoal Sketching, use of charred sticks of wood to make
+                    finished drawings and preliminary studies. They are a great
+                    medium to create hyper realistic images.
                   </p>
                 </div>
                 <img
@@ -112,6 +129,8 @@ const Facc = () => {
                   image={DefaultPic}
                   name="Manish Yadav"
                   position="Secretary"
+                  phone="9467977491"
+                  email="manish005yadav008@gmail.com"
                 />
               </div>
               <div className="faccformat1_2">
@@ -212,6 +231,8 @@ const Facc = () => {
                   image={DefaultPic}
                   name="Manish Yadav"
                   position="Secretary"
+                  phone="9467977491"
+                  email="manish005yadav008@gmail.com"
                 />
               </div>
               <div className="faccformat2_2">
@@ -314,6 +335,8 @@ const Facc = () => {
                   image={DefaultPic}
                   name="Manish Yadav"
                   position="Secretary"
+                  phone="9467977491"
+                  email="manish005yadav008@gmail.com"
                 />
               </div>
               <div className="faccformat3_2">
@@ -424,6 +447,8 @@ const Facc = () => {
                   image={DefaultPic}
                   name="Manish Yadav"
                   position="Secretary"
+                  phone="9467977491"
+                  email="manish005yadav008@gmail.com"
                 />
               </div>
               <div className="faccformat4_2">
