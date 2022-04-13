@@ -131,7 +131,7 @@ function ClubsApp() {
             </div>
           </Link>
           <Link
-            to="spicmacay"
+            to="/spicmacay"
             className="spicmacayclub"
             style={{ textDecoration: "none" }}
           >
@@ -266,7 +266,7 @@ function ClubsApp() {
               </div>
             </Link>
             <Link
-              to="spicmacay"
+              to="/spicmacay"
               className="spicmacayclub"
               style={{ textDecoration: "none" }}
             >
