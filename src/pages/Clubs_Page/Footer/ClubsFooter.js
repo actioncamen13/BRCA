@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 function ClubsFooter() {
   return (
     <div className="clubsfooter">
-      <a
+      <Link
+        to="/"
         className="clubsfooter__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       <div className="clubsfooter__text1">
         <h3>Contact us on</h3>
         <h3>enter email</h3>

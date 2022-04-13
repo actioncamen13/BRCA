@@ -6,13 +6,13 @@ function FaccNavbar() {
   return (
     <div className="faccnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="faccnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="faccnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function FaccNavbar() {
       <div className="faccnavbarcontainer">
         <div className="faccnavbarbutton">☰</div>
         <div className="faccnavbardropdown">
-          <a href="/" className="faccnavbardropdowncontent">
+          <Link to="/" className="faccnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="faccnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="faccnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="faccnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="faccnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="faccnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="faccnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="faccnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="faccnavbardropdowncontent"
             id="faccspecialcontainer"
           >
             <div className="faccdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

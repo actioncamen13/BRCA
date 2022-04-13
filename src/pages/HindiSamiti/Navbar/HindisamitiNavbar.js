@@ -6,13 +6,13 @@ function HindisamitiNavbar() {
   return (
     <div className="hindisamitinavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="hindisamitinavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="hindisamitinavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -44,32 +44,32 @@ function HindisamitiNavbar() {
       <div className="hindisamitinavbarcontainer">
         <div className="hindisamitinavbarbutton">☰</div>
         <div className="hindisamitinavbardropdown">
-          <a href="/" className="hindisamitinavbardropdowncontent">
+          <Link to="/" className="hindisamitinavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="hindisamitinavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="hindisamitinavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="hindisamitinavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="hindisamitinavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="hindisamitinavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="hindisamitinavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="hindisamitinavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="hindisamitinavbardropdowncontent"
             id="hindisamitispecialcontainer"
           >
             <div className="hindisamitidropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

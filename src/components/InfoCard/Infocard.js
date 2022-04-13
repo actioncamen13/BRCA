@@ -15,9 +15,9 @@ function Infocard() {
       <h2>Name</h2>
       <h3>Position</h3>
       <div className="infocard__bottom">
-        <a href=""><FacebookIcon /></a>
-        <a href=""> <InstagramIcon /> </a>
-        <a href=""><LinkedInIcon /></a>
+        <Link to=""><FacebookIcon /></a>
+        <Link to=""> <InstagramIcon /> </a>
+        <Link to=""><LinkedInIcon /></a>
       </div>
     </div>
   );

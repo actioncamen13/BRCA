@@ -6,13 +6,13 @@ function ClubsNavbar() {
   return (
     <div className="clubsnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="clubsnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="clubsnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function ClubsNavbar() {
       <div className="clubsnavbarcontainer">
         <div className="clubsnavbarbutton">☰</div>
         <div className="clubsnavbardropdown">
-          <a href="/" className="clubsnavbardropdowncontent">
+          <Link to="/" className="clubsnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="clubsnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="clubsnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="clubsnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="clubsnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="clubsnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="clubsnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="clubsnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="clubsnavbardropdowncontent"
             id="clubsspecialcontainer"
           >
             <div className="clubsdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

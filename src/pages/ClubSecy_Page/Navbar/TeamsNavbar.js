@@ -6,13 +6,13 @@ function TeamsNavbar() {
   return (
     <div className="teamsnavbar" style={{ position: "relative" }}>
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="teamsnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="teamsnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function TeamsNavbar() {
       <div className="teamsnavbarcontainer">
         <div className="teamsnavbarbutton">☰</div>
         <div className="teamsnavbardropdown">
-          <a href="/" className="teamsnavbardropdowncontent">
+          <Link to="/" className="teamsnavbardropdowncontent">
             HOME
-          </a>
-          <a
-            href="/teams"
+          </Link>
+          <Link
+            to="/teams"
             className="teamsnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             TEAMS
-          </a>
-          <a href="/clubs" className="teamsnavbardropdowncontent">
+          </Link>
+          <Link to="/clubs" className="teamsnavbardropdowncontent">
             CLUBS
-          </a>
-          <a href="/recognitions" className="teamsnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="teamsnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="teamsnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="teamsnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="teamsnavbardropdowncontent"
             id="teamsspecialcontainer"
           >
             <div className="teamsdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

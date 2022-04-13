@@ -6,13 +6,13 @@ function DesignNavbar() {
   return (
     <div className="designnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="designnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="designnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function DesignNavbar() {
       <div className="designnavbarcontainer">
         <div className="designnavbarbutton">☰</div>
         <div className="designnavbardropdown">
-          <a href="/" className="designnavbardropdowncontent">
+          <Link to="/" className="designnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="designnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="designnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="designnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="designnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="designnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="designnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="designnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="designnavbardropdowncontent"
             id="designspecialcontainer"
           >
             <div className="designdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

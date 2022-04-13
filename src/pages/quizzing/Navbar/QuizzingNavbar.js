@@ -6,13 +6,13 @@ function QuizzingNavbar() {
   return (
     <div className="quizzingnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="quizzingnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="quizzingnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function QuizzingNavbar() {
       <div className="quizzingnavbarcontainer">
         <div className="quizzingnavbarbutton">☰</div>
         <div className="quizzingnavbardropdown">
-          <a href="/" className="quizzingnavbardropdowncontent">
+          <Link to="/" className="quizzingnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="quizzingnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="quizzingnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="quizzingnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="quizzingnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="quizzingnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="quizzingnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="quizzingnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="quizzingnavbardropdowncontent"
             id="quizzingspecialcontainer"
           >
             <div className="quizzingdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

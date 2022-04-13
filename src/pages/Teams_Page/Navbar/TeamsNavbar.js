@@ -41,9 +41,9 @@ function TeamsNavbar() {
       <div className="teamsnavbarcontainer">
         <div className="teamsnavbarbutton">☰</div>
         <div className="teamsnavbardropdown">
-          <a href="/" className="teamsnavbardropdowncontent">
+          <Link to="/" className="teamsnavbardropdowncontent">
             HOME
-          </a>
+          </Link>
           <a
             href="/teams"
             className="teamsnavbardropdowncontent"
@@ -51,15 +51,15 @@ function TeamsNavbar() {
           >
             TEAMS
           </a>
-          <a href="/clubs" className="teamsnavbardropdowncontent">
+          <Link to="/clubs" className="teamsnavbardropdowncontent">
             CLUBS
-          </a>
-          <a href="/recognitions" className="teamsnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="teamsnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="teamsnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="teamsnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
+          </Link>
           <a
             href="/"
             className="teamsnavbardropdowncontent"

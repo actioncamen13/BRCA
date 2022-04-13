@@ -6,13 +6,13 @@ function LiteratiNavbar() {
   return (
     <div className="literatinavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="literatinavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="literatinavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function LiteratiNavbar() {
       <div className="literatinavbarcontainer">
         <div className="literatinavbarbutton">☰</div>
         <div className="literatinavbardropdown">
-          <a href="/" className="literatinavbardropdowncontent">
+          <Link to="/" className="literatinavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="literatinavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="literatinavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="literatinavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="literatinavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="literatinavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="literatinavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="literatinavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="literatinavbardropdowncontent"
             id="literatispecialcontainer"
           >
             <div className="literatidropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -6,13 +6,13 @@ function SacNavbar() {
   return (
     <div className="sacnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="sacnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="sacnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function SacNavbar() {
       <div className="sacnavbarcontainer">
         <div className="sacnavbarbutton">☰</div>
         <div className="sacnavbardropdown">
-          <a href="/" className="sacnavbardropdowncontent">
+          <Link to="/" className="sacnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="sacnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="sacnavbardropdowncontent">
             TEAMS
-          </a>
-          <a href="/clubs" className="sacnavbardropdowncontent">
+          </Link>
+          <Link to="/clubs" className="sacnavbardropdowncontent">
             CLUBS
-          </a>
-          <a href="/recognitions" className="sacnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="sacnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a
-            href="/sacbooking"
+          </Link>
+          <Link
+            to="/sacbooking"
             className="sacnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="sacnavbardropdowncontent"
             id="sacspecialcontainer"
           >
             <div className="sacdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

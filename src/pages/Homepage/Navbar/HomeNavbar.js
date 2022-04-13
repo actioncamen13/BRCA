@@ -6,13 +6,13 @@ function HomeNavbar() {
   return (
     <div className="homenavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="homenavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="homenavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function HomeNavbar() {
       <div className="homenavbarcontainer">
         <div className="homenavbarbutton">☰</div>
         <div className="homenavbardropdown">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="homenavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             HOME
-          </a>
-          <a href="/teams" className="homenavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="homenavbardropdowncontent">
             TEAMS
-          </a>
-          <a href="/clubs" className="homenavbardropdowncontent">
+          </Link>
+          <Link to="/clubs" className="homenavbardropdowncontent">
             CLUBS
-          </a>
-          <a href="/recognitions" className="homenavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="homenavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="homenavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="homenavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="homenavbardropdowncontent"
             id="homespecialcontainer"
           >
             <div className="homedropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

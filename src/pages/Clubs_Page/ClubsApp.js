@@ -3,6 +3,7 @@ import React from "react";
 import "../css/animate.css";
 import ClubsNavbar from "./Navbar/ClubsNavbar";
 import ClubsFooter from "./Footer/ClubsFooter";
+import { Link } from "react-router-dom";
 // import BRCA_CLUBS from "./BRCA CLUBS-min.png";
 
 function ClubsApp() {
@@ -12,8 +13,8 @@ function ClubsApp() {
       <div className="clubsapp__body ">
         <div className="clubsapp__body__title">BRCA CLUBS</div>
         <div className=" animate__animated animate__slideInLeft clubsapp__body__row1">
-          <a
-            href="/dance"
+          <Link
+            to="/dance"
             className="danceclub"
             style={{ textDecoration: "none" }}
           >
@@ -24,10 +25,10 @@ function ClubsApp() {
               ></div>
               <div className="club__content__text">DANCE</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/literati"
             className="litclub"
-            href="/literati"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
@@ -37,72 +38,76 @@ function ClubsApp() {
               ></div>
               <div className="club__content__text">LIT</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/design"
             className="designclub"
-            href="/design"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">DESIGN</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/debating"
             className="debateclub"
-            href="/debating"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">DEBSOC</div>
             </div>
-          </a>
-          <a className="pfcclub" href="/pfc" style={{ textDecoration: "none" }}>
+          </Link>
+          <Link
+            to="/pfc"
+            className="pfcclub"
+            style={{ textDecoration: "none" }}
+          >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">PFC</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/facc"
             className="faccclub"
-            href="/facc"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">FACC</div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="clubsapp__body__text">
           {/* <img src={BRCA_CLUBS} alt="Text saying BRCA Clubs" /> */}
           <h1>BRCA CLUBS</h1>
         </div>
         <div className=" animate__animated animate__slideInRight clubsapp__body__row2">
-          <a
+          <Link
+            to="/music"
             className="musicclub"
-            href="/music"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">MUSIC</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/dramatics"
             className="dramaclub"
-            href="/dramatics"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">DRAMA</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/hindisamiti"
             className="hindisamiticlub"
-            href="/hindisamiti"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
@@ -114,20 +119,20 @@ function ClubsApp() {
                 HINDI SAMITI
               </div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="/quizzing"
             className="quizclub"
-            href="/quizzing"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
               <div className="circular__container"></div>
               <div className="club__content__text">QC</div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
+            to="spicmacay"
             className="spicmacayclub"
-            href="/spicmacay"
             style={{ textDecoration: "none" }}
           >
             <div className="club__content">
@@ -139,12 +144,12 @@ function ClubsApp() {
                 SPIC MACAY
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="smallview">
           <div className=" animate__animated animate__slideInLeft clubsapp__body__row3">
-            <a
-              href="/dance"
+            <Link
+              to="/dance"
               className="danceclub"
               style={{ textDecoration: "none" }}
             >
@@ -155,10 +160,10 @@ function ClubsApp() {
                 ></div>
                 <div className="club__content__text">DANCE</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/literati"
               className="litclub"
-              href="/literati"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
@@ -168,74 +173,74 @@ function ClubsApp() {
                 ></div>
                 <div className="club__content__text">LIT</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/design"
               className="designclub"
-              href="/design"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">DESIGN</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInRight clubsapp__body__row4">
-            <a
+            <Link
+              to="/debating"
               className="debateclub"
-              href="/debating"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">DEBSOC</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/pfc"
               className="pfcclub"
-              href="/pfc"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">PFC</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/facc"
               className="faccclub"
-              href="/facc"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">FACC</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInLeft clubsapp__body__row5">
-            <a
+            <Link
+              to="/music"
               className="musicclub"
-              href="/music"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">MUSIC</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/dramatics"
               className="dramaclub"
-              href="/dramatics"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">DRAMA</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/hindisamiti"
               className="hindisamiticlub"
-              href="/hindisamiti"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
@@ -247,22 +252,22 @@ function ClubsApp() {
                   HINDI SAMITI
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInLeft clubsapp__body__row6">
-            <a
+            <Link
+              to="/quizzing"
               className="quizclub"
-              href="/quizzing"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">QC</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="spicmacay"
               className="spicmacayclub"
-              href="/spicmacay"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
@@ -274,13 +279,13 @@ function ClubsApp() {
                   SPIC MACAY
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="smallerview">
           <div className=" animate__animated animate__slideInLeft clubsapp__body__row7">
-            <a
-              href="/dance"
+            <Link
+              to="/dance"
               className="danceclub"
               style={{ textDecoration: "none" }}
             >
@@ -291,10 +296,10 @@ function ClubsApp() {
                 ></div>
                 <div className="club__content__text">DANCE</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/literati"
               className="litclub"
-              href="/literati"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
@@ -304,78 +309,78 @@ function ClubsApp() {
                 ></div>
                 <div className="club__content__text">LIT</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInRight clubsapp__body__row8">
-            <a
+            <Link
+              to="/design"
               className="designclub"
-              href="/design"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">DESIGN</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/debating"
               className="debateclub"
-              href="/debating"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">DEBSOC</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInLeft clubsapp__body__row9">
-            <a
+            <Link
+              to="/pfc"
               className="pfcclub"
-              href="/pfc"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">PFC</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/facc"
               className="faccclub"
-              href="/facc"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">FACC</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInRight clubsapp__body__row10">
-            <a
+            <Link
+              to="/music"
               className="musicclub"
-              href="/music"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">MUSIC</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/dramatics"
               className="dramaclub"
-              href="/dramatics"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">DRAMA</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInLeft clubsapp__body__row11">
-            <a
+            <Link
+              to="/hindisamiti"
               className="hindisamiticlub"
-              href="/hindisamiti"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
@@ -387,22 +392,22 @@ function ClubsApp() {
                   HINDI SAMITI
                 </div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/quizzing"
               className="quizclub"
-              href="/quizzing"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
                 <div className="circular__container"></div>
                 <div className="club__content__text">QC</div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className=" animate__animated animate__slideInRight clubsapp__body__row12">
-            <a
+            <Link
+              to="spicmacay"
               className="spicmacayclub"
-              href="/spicmacay"
               style={{ textDecoration: "none" }}
             >
               <div className="club__content">
@@ -414,7 +419,7 @@ function ClubsApp() {
                   SPIC MACAY
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

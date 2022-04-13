@@ -6,13 +6,13 @@ function DramaticsNavbar() {
   return (
     <div className="dramaticsnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="dramaticsnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="dramaticsnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -44,32 +44,32 @@ function DramaticsNavbar() {
       <div className="dramaticsnavbarcontainer">
         <div className="dramaticsnavbarbutton">☰</div>
         <div className="dramaticsnavbardropdown">
-          <a href="/" className="dramaticsnavbardropdowncontent">
+          <Link to="/" className="dramaticsnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="dramaticsnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="dramaticsnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="dramaticsnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="dramaticsnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="dramaticsnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="dramaticsnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="dramaticsnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="dramaticsnavbardropdowncontent"
             id="dramaticsspecialcontainer"
           >
             <div className="dramaticsdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

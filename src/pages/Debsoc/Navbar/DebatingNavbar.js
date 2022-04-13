@@ -6,11 +6,13 @@ function DebatingNavbar() {
   return (
     <div className="debatingnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="debatingnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
-      > </a>
+      >
+        {" "}
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="debatingnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -39,32 +41,32 @@ function DebatingNavbar() {
       <div className="debatingnavbarcontainer">
         <div className="debatingnavbarbutton">☰</div>
         <div className="debatingnavbardropdown">
-          <a href="/" className="debatingnavbardropdowncontent">
+          <Link to="/" className="debatingnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="debatingnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="debatingnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="debatingnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="debatingnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="debatingnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="debatingnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="debatingnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="debatingnavbardropdowncontent"
             id="debatingspecialcontainer"
           >
             <div className="debatingdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

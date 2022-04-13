@@ -6,13 +6,13 @@ function PFCNavbar() {
   return (
     <div className="pfcnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="pfcnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="pfcnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,32 +41,32 @@ function PFCNavbar() {
       <div className="pfcnavbarcontainer">
         <div className="pfcnavbarbutton">☰</div>
         <div className="pfcnavbardropdown">
-          <a href="/" className="pfcnavbardropdowncontent">
+          <Link to="/" className="pfcnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="pfcnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="pfcnavbardropdowncontent">
             TEAMS
-          </a>
-          <a
-            href="/clubs"
+          </Link>
+          <Link
+            to="/clubs"
             className="pfcnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             CLUBS
-          </a>
-          <a href="/recognitions" className="pfcnavbardropdowncontent">
+          </Link>
+          <Link to="/recognitions" className="pfcnavbardropdowncontent">
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="pfcnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="pfcnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="pfcnavbardropdowncontent"
             id="pfcspecialcontainer"
           >
             <div className="pfcdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

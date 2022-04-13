@@ -6,13 +6,13 @@ function RecognitionsNavbar() {
   return (
     <div className="recognitionsnavbar">
       {/* <img src={BRCA_Logo} alt="BRCA Logo" /> */}
-      <a
+      <Link
+        to="/"
         className="recognitionsnavbar__logo"
-        href="/"
         style={{ textDecoration: "none" }}
       >
         {" "}
-      </a>
+      </Link>
       {/* <img src={BRCA_Logo} className="logo__image" alt="BRCA Logo" /> */}
       <div className="recognitionsnavbar__right">
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -47,32 +47,32 @@ function RecognitionsNavbar() {
       <div className="recognitionsnavbarcontainer">
         <div className="recognitionsnavbarbutton">☰</div>
         <div className="recognitionsnavbardropdown">
-          <a href="/" className="recognitionsnavbardropdowncontent">
+          <Link to="/" className="recognitionsnavbardropdowncontent">
             HOME
-          </a>
-          <a href="/teams" className="recognitionsnavbardropdowncontent">
+          </Link>
+          <Link to="/teams" className="recognitionsnavbardropdowncontent">
             TEAMS
-          </a>
-          <a href="/clubs" className="recognitionsnavbardropdowncontent">
+          </Link>
+          <Link to="/clubs" className="recognitionsnavbardropdowncontent">
             CLUBS
-          </a>
-          <a
-            href="/recognitions"
+          </Link>
+          <Link
+            to="/recognitions"
             className="recognitionsnavbardropdowncontent"
             style={{ color: "#f76d6d" }}
           >
             BRCA RECOGNITIONS
-          </a>
-          <a href="/sacbooking" className="recognitionsnavbardropdowncontent">
+          </Link>
+          <Link to="/sacbooking" className="recognitionsnavbardropdowncontent">
             SAC BOOKINGS
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/"
             className="recognitionsnavbardropdowncontent"
             id="recognitionsspecialcontainer"
           >
             <div className="recognitionsdropdownrendezvous">RENDEZVOUS</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
