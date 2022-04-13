@@ -406,7 +406,7 @@ function ClubsApp() {
           </div>
           <div className=" animate__animated animate__slideInRight clubsapp__body__row12">
             <Link
-              to="spicmacay"
+              to="/spicmacay"
               className="spicmacayclub"
               style={{ textDecoration: "none" }}
             >
