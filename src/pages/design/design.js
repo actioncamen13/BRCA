@@ -18,7 +18,7 @@ import DesignNavbar from "./Navbar/DesignNavbar";
 import DesignFooter from "./Footer/DesignFooter";
 import Infocard from "./Infocard/Infocard";
 // import DefaultPic from "./Infocard/Rectangle 103.png";
-import atharva from "./atharva.png";
+import Atharva from "./Atharva.png";
 import sahil from "./sahil.png";
 import aryan from "./aryan.png";
 import devansh from "./devansh.png";
@@ -192,7 +192,7 @@ const Design = () => {
             <div className="designformat1">
               <div className="designformat1_1">
                 <Infocard
-                  image={atharva}
+                  image={Atharva}
                   name="Atharva Agarwal"
                   position="Secretary"
                   phone="9891190100"
@@ -354,7 +354,7 @@ const Design = () => {
             <div className="designformat2">
               <div className="designformat2_1">
                 <Infocard
-                  image={atharva}
+                  image={Atharva}
                   name="Atharva Agarwal"
                   position="Secretary"
                   phone="9891190100"
@@ -522,7 +522,7 @@ const Design = () => {
             <div className="designformat3">
               <div className="designformat3_1">
                 <Infocard
-                  image={atharva}
+                  image={Atharva}
                   name="Atharva Agarwal"
                   position="Secretary"
                   phone="9891190100"

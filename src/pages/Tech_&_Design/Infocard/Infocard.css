@@ -1,0 +1,80 @@
+.infocard {
+  width: 160px;
+  height: 230px;
+  padding: 0.75%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffbfb;
+  border-radius: calc(15 / 1918 * 100vw);
+  margin-left: 0.75%;
+}
+.photo {
+  width: 100%;
+  height: calc(150 / 246.21 * 100%);
+  display: flex;
+  justify-content: center;
+}
+.photo > img {
+  width: 100%;
+  height: 100%;
+}
+.infocard > h2 {
+  font-size: 1em;
+  color: #000;
+  margin-top: 10px;
+}
+.infocard > h3 {
+  font-size: 0.8em;
+  margin-top: -4%;
+  color: #6a6565;
+}
+.infocard__bottom > .MuiSvgIcon-root {
+  margin-top: -4%;
+  height: 80%;
+  width: 15%;
+  margin-right: 7.5%;
+  cursor: pointer;
+  color: #6a6565;
+}
+.infocard__bottom > a > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+.phone__icon:hover {
+  color: #007ee5;
+  transform: scale(1.5);
+}
+.insta__icon:hover {
+  color: #ffffff;
+  background: #f09433;
+  border-radius: 5px;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  transform: scale(1.2);
+}
+.email__icon:hover {
+  color: #ffd151;
+  transform: scale(1.5);
+}

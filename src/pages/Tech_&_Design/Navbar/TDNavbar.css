@@ -1,0 +1,188 @@
+.tdnavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(138 / 1621 * 100vh);
+  /* background-image: url("Onboarding Investment App.png"); */
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10000;
+}
+.tdnavbar::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: calc(3 / 1412 * 100vh) solid #ffffff;
+  width: calc(953.34 / 1921 * 100%);
+}
+.tdnavbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 12%;
+  margin-left: 1.5%;
+  margin-top: 0.02%;
+  cursor: pointer;
+  background-image: url("Front Design-01 6.png");
+  background-size: 100% 100%;
+}
+.tdnavbar__logo:hover {
+  background-image: url("BRCA Logo New.png");
+  background-size: 100% 100%;
+}
+/* .logo__image {
+    height: 100%;
+    width: 100%;
+  } */
+/* .navbar > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(20 / 1918 * 100vw);
+    cursor: pointer;
+  } */
+/* .navbar > img:hover {
+    background-color: yellowgreen;
+  } */
+.tdnavbar__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tdnavbar__text {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  height: 100%;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: calc(40 / 1921 * 100vw);
+  padding-right: calc(40 / 1921 * 100vw);
+}
+#tdnavbar__rightmost {
+  margin-right: calc(60 / 1921 * 100vw);
+}
+.tdrendezvous__inner {
+  display: flex;
+  height: 20%;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f76d6d;
+}
+.tdnavbar__text:hover {
+  color: #f76d6d;
+}
+#tdnavbar__rightmost:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.tdnavbarcontainer {
+  display: none;
+}
+@media screen and (max-width: 1080px) {
+  .tdnavbar__text {
+    font-size: 0.85em;
+  }
+  .tdnavbar__logo {
+    height: 80%;
+    margin-top: 0.55%;
+  }
+}
+@media screen and (max-width: 940px) {
+  .tdnavbar__text {
+    font-size: 0.65em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tdnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tdnavbar__logo {
+    height: 100%;
+    width: 25%;
+  }
+  .tdnavbar__right {
+    display: none;
+  }
+  .tdnavbarbutton {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 16px 30px 16px 30px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .tdnavbarcontainer {
+    position: relative;
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: -1.5%;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .tdnavbardropdown {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    min-width: 160px;
+    border-radius: 20px 0px 20px 20px;
+    z-index: 10001;
+  }
+
+  /* Links inside the dropdown */
+  .tdnavbardropdown > a {
+    color: #24315e;
+    font-weight: 600;
+    font-family: Poppins;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .tdnavbardropdown > div > a {
+    color: #24315e;
+    font-weight: 600;
+    font-family: Poppins;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .tddropdownrendezvous {
+    height: 60%;
+    width: 90%;
+    background-color: #f76d6d;
+  }
+
+  /* Change color of dropdown links on hover */
+  .tdnavbardropdowncontent:hover {
+    color: #f76d6d;
+  }
+
+  /* Show the dropdown menu on hover */
+  .tdnavbarcontainer:hover .tdnavbardropdown {
+    display: block;
+    background-color: #ffffff;
+    right: 0px;
+  }
+  /* .facultynavbardropdown:hover .facultynavbarbutton{
+    background-color: #ffffff;
+  } */
+  .tdnavbarbutton:hover {
+    background-color: #ffffff;
+    color: #f76d6d;
+  }
+  #tdspecialcontainer:hover {
+    color: #24315e;
+  }
+}

@@ -22,36 +22,38 @@ import Spicmacay from "./pages/spicmacay/spicmacay";
 import Teams from "./pages/Secy_Page/Teams";
 import Faculty from "./pages/Faculty_Page/Faculty";
 import Hindisamiti from "./pages/HindiSamiti/hindisamiti";
+import TD from "./pages/Tech_&_Design/TD";
 
 function App() {
-	return (
-		<Router>
-			<div className='App'>
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/clubs' element={<ClubsApp />} />
-					<Route path='/teamsecy' element={<LayoutApp />} />
-					<Route path='/clubsecy' element={<ClubSecy />} />
-					<Route path='/teams' element={<Teams />} />
-					<Route path='/faculty' element={<Faculty />} />
-					<Route path='/recognitions' element={<Recognitions />} />
-					<Route path='/home' element={<Home />} />
-					<Route path='/sacbooking' element={<SacBooking />} />
-					<Route path='/pfc' element={<PFC />} />
-					<Route path='/dance' element={<Dance />} />
-					<Route path='/design' element={<Design />} />
-					<Route path='/music' element={<Music />} />
-					<Route path='/quizzing' element={<Quizzing />} />
-					<Route path='/literati' element={<Literati />} />
-					<Route path='/dramatics' element={<Dramatics />} />
-					<Route path='/facc' element={<Facc />} />
-					<Route path='/spicmacay' element={<Spicmacay />} />
-					<Route path='/debating' element={<Debsoc />} />
-					<Route path='/hindisamiti' element={<Hindisamiti />} />
-				</Routes>
-			</div>
-		</Router>
-	);
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/clubs" element={<ClubsApp />} />
+          <Route path="/teamsecy" element={<LayoutApp />} />
+          <Route path="/clubsecy" element={<ClubSecy />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/faculty" element={<Faculty />} />
+          <Route path="/recognitions" element={<Recognitions />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/sacbooking" element={<SacBooking />} />
+          <Route path="/pfc" element={<PFC />} />
+          <Route path="/dance" element={<Dance />} />
+          <Route path="/design" element={<Design />} />
+          <Route path="/music" element={<Music />} />
+          <Route path="/quizzing" element={<Quizzing />} />
+          <Route path="/literati" element={<Literati />} />
+          <Route path="/dramatics" element={<Dramatics />} />
+          <Route path="/facc" element={<Facc />} />
+          <Route path="/spicmacay" element={<Spicmacay />} />
+          <Route path="/debating" element={<Debsoc />} />
+          <Route path="/hindisamiti" element={<Hindisamiti />} />
+          <Route path="/techanddesign" element={<TD />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

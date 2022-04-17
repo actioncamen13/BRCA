@@ -1,0 +1,104 @@
+.tdfooter {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(235 / 1621 * 100vh);
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid #ffffff;
+}
+.tdfooter__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 21%;
+  background-image: url("Front Design-01 6.png");
+  background-size: 100% 100%;
+  margin-left: -5vw;
+  cursor: pointer;
+  /* transition: 0.3s; */
+}
+.tdfooter__logo:hover {
+  background-image: url("BRCA Logo New.png");
+  background-size: 100% 100%;
+}
+/* .footer > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(-130 / 1918 * 100vw);
+    cursor: pointer;
+  } */
+@media screen and (max-width: 1100px) {
+  .tdfooter__logo {
+    height: 70%;
+    margin-top: 2%;
+    margin-left: calc(-80 / 1921 * 100%);
+  }
+}
+/* .footer > img:hover {
+    background-color: yellowgreen;
+  } */
+.tdfooter__text1 > h3,
+.tdfooter__text2 > h3,
+.tdfooter__text3 > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.81em;
+  margin-bottom: 0.8%;
+}
+.tdfooter__text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.tdfooter__text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.tdfooter__text3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1%;
+}
+.footerinnertext {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.81em;
+  margin-bottom: 0.8%;
+}
+.footerinnertext:hover {
+  color: #f76d6d;
+}
+@media screen and (max-width: 900px) {
+  .tdfooter__text1,
+  .tdfooter__text2,
+  .tdfooter__text3 {
+    font-size: 0.81em;
+  }
+}
+@media screen and (max-width: 820px) {
+  .tdfooter__logo {
+    display: none;
+  }
+}
+@media screen and (max-height: 800px) {
+  .tdfooter__text1 > h3,
+  .tdfooter__text2 > h3,
+  .tdfooter__text3 > h3 {
+    font-size: 0.7em;
+  }
+  .footerinnertext {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 630px) {
+  .tdfooter {
+    position: relative;
+    top: 5vh;
+  }
+}
