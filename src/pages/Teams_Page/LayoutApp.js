@@ -35,6 +35,9 @@ function LayoutApp() {
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
+              phone="9829758262"
+              insta="https://www.instagram.com/aman._lohia/"
+              email="lohiaaman1@gmail.com"
             />
           </div>
           <div className="layoutappsecond__row1">
@@ -42,26 +45,41 @@ function LayoutApp() {
               image={Rishi}
               name="Rishi Shah"
               position="Aravali"
+              phone="9636731715"
+              insta="https://www.instagram.com/_rishi_1001/"
+              email="rishi.shah10122001@gmail.com"
             />
             <Infocard
               image={Keshav}
               name="Keshav Gupta"
               position="Shivalik"
+              phone="9541583322"
+              insta="https://instagram.com/kesshhaavvv?utm_medium=copy_link"
+              email="keshavg732@gmail.com"
             />
             <Infocard
               image={Priyanshu}
               name="Priyanshu Jangid"
               position="Girnar"
+              phone="8930072725"
+              insta="https://instagram.com/two_eyedraven?utm_medium=copy_link"
+              email="priyanshu18j@gmail.com"
             />
             <Infocard
               image={Somya}
               name="S.Maheshwari"
               position="Udaigiri"
+              phone="7014165797"
+              insta="https://www.instagram.com/_somya51_/"
+              email="somya51@icloud.com"
             />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
               position="Karakoram"
+              phone="9997531004"
+              insta="https://www.instagram.com/diwakar_singh712/"
+              email="diwakarsingh712@gmail.com"
             />
           </div>
           <div className="layoutappthird__row1">
@@ -69,41 +87,64 @@ function LayoutApp() {
               image={Nishant}
               name="Nishant Bansal"
               position="Jwalamukhi "
+              phone="7042345171"
+              insta="https://www.instagram.com/cosmicnishu/"
+              email="bansalnishant2110@gmail.com"
             />
             <Infocard
               image={Sagar}
               name="Sagar"
               position="Vindhyachal"
+              phone="7061590522"
+              insta="https://www.instagram.com/sagar.jaiswal_._/"
+              email="sagar.jaiswal.iitd@gmail.com"
             />
             <Infocard
               image={Aditya}
               name="Aditya Vishal"
               position="Nilgiri"
+              phone="7339906320"
+              email="adityavishal100401@gmail.com"
             />
             <Infocard
               image={Tarun}
               name="Tarun Gaur"
               position="Zanskar"
+              phone="6378181638"
+              insta="https://instagram.com/tarungaur13?utm_medium=copy_link"
+              email="tarungaur81@gmail.com"
             />
             <Infocard
               image={Anisha}
               name="Anisha Banthia"
               position="Kailash"
+              phone="9406607077"
+              insta="https://www.instagram.com/anisha__banthia/?r=nametag"
+              email="anishabanthia149@gmail.com"
             />
             <Infocard
               image={Ritik}
               name="Ritik Yadav"
               position="Satpura"
+              phone="8882367230"
+              insta="https://www.instagram.com/ritik_5701/"
+              email="ritik05072001@gmail.com"
             />
             <Infocard
               image={Prem}
               name="Prem Khandelwal"
               position="Kumaon"
+              phone="6350300554"
+              insta="https://instagram.com/prem.kh.02?utm_medium=copy_link"
+              email="premkhandelwal530@gmail.com"
             />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
               position="Himadri"
+              phone="9810465757"
+              insta="https://www.instagram.com/_aashitagupta/"
+              email="ce1190204@iitd.ac.in"
             />
           </div>
         </div>
@@ -113,6 +154,9 @@ function LayoutApp() {
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
+              phone="9829758262"
+              insta="https://www.instagram.com/aman._lohia/"
+              email="lohiaaman1@gmail.com"
             />
           </div>
           <div className="layoutappsecond__row2">
@@ -120,16 +164,25 @@ function LayoutApp() {
               image={Rishi}
               name="Rishi Shah"
               position="Aravali"
+              phone="9636731715"
+              insta="https://www.instagram.com/_rishi_1001/"
+              email="rishi.shah10122001@gmail.com"
             />
             <Infocard
               image={Keshav}
               name="Keshav Gupta"
               position="Shivalik"
+              phone="9541583322"
+              insta="https://instagram.com/kesshhaavvv?utm_medium=copy_link"
+              email="keshavg732@gmail.com"
             />
             <Infocard
               image={Priyanshu}
               name="Priyanshu Jangid"
               position="Girnar"
+              phone="8930072725"
+              insta="https://instagram.com/two_eyedraven?utm_medium=copy_link"
+              email="priyanshu18j@gmail.com"
             />
           </div>
           <div className="layoutappthird__row2">
@@ -137,26 +190,40 @@ function LayoutApp() {
               image={Somya}
               name="S.Maheshwari"
               position="Udaigiri"
+              phone="7014165797"
+              insta="https://www.instagram.com/_somya51_/"
+              email="somya51@icloud.com"
             />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
               position="Karakoram"
+              phone="9997531004"
+              insta="https://www.instagram.com/diwakar_singh712/"
+              email="diwakarsingh712@gmail.com"
             />
             <Infocard
               image={Nishant}
               name="Nishant Bansal"
-              position="Jwalamukhi"
+              position="Jwalamukhi "
+              phone="7042345171"
+              insta="https://www.instagram.com/cosmicnishu/"
+              email="bansalnishant2110@gmail.com"
             />
             <Infocard
               image={Sagar}
               name="Sagar"
               position="Vindhyachal"
+              phone="7061590522"
+              insta="https://www.instagram.com/sagar.jaiswal_._/"
+              email="sagar.jaiswal.iitd@gmail.com"
             />
             <Infocard
               image={Aditya}
               name="Aditya Vishal"
               position="Nilgiri"
+              phone="7339906320"
+              email="adityavishal100401@gmail.com"
             />
           </div>
           <div className="layoutappfourth__row2">
@@ -164,26 +231,41 @@ function LayoutApp() {
               image={Tarun}
               name="Tarun Gaur"
               position="Zanskar"
+              phone="6378181638"
+              insta="https://instagram.com/tarungaur13?utm_medium=copy_link"
+              email="tarungaur81@gmail.com"
             />
             <Infocard
               image={Anisha}
               name="Anisha Banthia"
               position="Kailash"
+              phone="9406607077"
+              insta="https://www.instagram.com/anisha__banthia/?r=nametag"
+              email="anishabanthia149@gmail.com"
             />
             <Infocard
               image={Ritik}
               name="Ritik Yadav"
               position="Satpura"
+              phone="8882367230"
+              insta="https://www.instagram.com/ritik_5701/"
+              email="ritik05072001@gmail.com"
             />
             <Infocard
               image={Prem}
               name="Prem Khandelwal"
               position="Kumaon"
+              phone="6350300554"
+              insta="https://instagram.com/prem.kh.02?utm_medium=copy_link"
+              email="premkhandelwal530@gmail.com"
             />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
-              position="Himdari"
+              position="Himadri"
+              phone="9810465757"
+              insta="https://www.instagram.com/_aashitagupta/"
+              email="ce1190204@iitd.ac.in"
             />
           </div>
         </div>
@@ -193,18 +275,27 @@ function LayoutApp() {
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
+              phone="9829758262"
+              insta="https://www.instagram.com/aman._lohia/"
+              email="lohiaaman1@gmail.com"
             />
           </div>
           <div className="layoutappsecond__row3">
             <Infocard
               image={Rishi}
               name="Rishi Shah"
-              position="Satpura"
+              position="Aravali"
+              phone="9636731715"
+              insta="https://www.instagram.com/_rishi_1001/"
+              email="rishi.shah10122001@gmail.com"
             />
             <Infocard
               image={Keshav}
               name="Keshav Gupta"
               position="Shivalik"
+              phone="9541583322"
+              insta="https://instagram.com/kesshhaavvv?utm_medium=copy_link"
+              email="keshavg732@gmail.com"
             />
           </div>
           <div className="layoutappthird__row3">
@@ -212,38 +303,58 @@ function LayoutApp() {
               image={Priyanshu}
               name="Priyanshu Jangid"
               position="Girnar"
+              phone="8930072725"
+              insta="https://instagram.com/two_eyedraven?utm_medium=copy_link"
+              email="priyanshu18j@gmail.com"
             />
             <Infocard
               image={Somya}
               name="S.Maheshwari"
               position="Udaigiri"
+              phone="7014165797"
+              insta="https://www.instagram.com/_somya51_/"
+              email="somya51@icloud.com"
             />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
               position="Karakoram"
+              phone="9997531004"
+              insta="https://www.instagram.com/diwakar_singh712/"
+              email="diwakarsingh712@gmail.com"
             />
           </div>
           <div className="layoutappfourth__row3">
             <Infocard
               image={Nishant}
               name="Nishant Bansal"
-              position="Jwalamukhi"
+              position="Jwalamukhi "
+              phone="7042345171"
+              insta="https://www.instagram.com/cosmicnishu/"
+              email="bansalnishant2110@gmail.com"
             />
             <Infocard
               image={Sagar}
               name="Sagar"
               position="Vindhyachal"
+              phone="7061590522"
+              insta="https://www.instagram.com/sagar.jaiswal_._/"
+              email="sagar.jaiswal.iitd@gmail.com"
             />
             <Infocard
               image={Aditya}
               name="Aditya Vishal"
               position="Nilgiri"
+              phone="7339906320"
+              email="adityavishal100401@gmail.com"
             />
             <Infocard
               image={Tarun}
               name="Tarun Gaur"
               position="Zanskar"
+              phone="6378181638"
+              insta="https://instagram.com/tarungaur13?utm_medium=copy_link"
+              email="tarungaur81@gmail.com"
             />
           </div>
           <div className="layoutappfifth__row3">
@@ -251,21 +362,33 @@ function LayoutApp() {
               image={Anisha}
               name="Anisha Banthia"
               position="Kailash"
+              phone="9406607077"
+              insta="https://www.instagram.com/anisha__banthia/?r=nametag"
+              email="anishabanthia149@gmail.com"
             />
             <Infocard
               image={Ritik}
               name="Ritik Yadav"
               position="Satpura"
+              phone="8882367230"
+              insta="https://www.instagram.com/ritik_5701/"
+              email="ritik05072001@gmail.com"
             />
             <Infocard
               image={Prem}
               name="Prem Khandelwal"
               position="Kumaon"
+              phone="6350300554"
+              insta="https://instagram.com/prem.kh.02?utm_medium=copy_link"
+              email="premkhandelwal530@gmail.com"
             />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
               position="Himadri"
+              phone="9810465757"
+              insta="https://www.instagram.com/_aashitagupta/"
+              email="ce1190204@iitd.ac.in"
             />
           </div>
         </div>
@@ -275,6 +398,9 @@ function LayoutApp() {
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
+              phone="9829758262"
+              insta="https://www.instagram.com/aman._lohia/"
+              email="lohiaaman1@gmail.com"
             />
           </div>
           <div className="layoutappsecond__row4">
@@ -282,11 +408,17 @@ function LayoutApp() {
               image={Rishi}
               name="Rishi Shah"
               position="Aravali"
+              phone="9636731715"
+              insta="https://www.instagram.com/_rishi_1001/"
+              email="rishi.shah10122001@gmail.com"
             />
             <Infocard
               image={Keshav}
               name="Keshav Gupta"
               position="Shivalik"
+              phone="9541583322"
+              insta="https://instagram.com/kesshhaavvv?utm_medium=copy_link"
+              email="keshavg732@gmail.com"
             />
           </div>
           <div className="layoutappthird__row4">
@@ -294,11 +426,17 @@ function LayoutApp() {
               image={Priyanshu}
               name="Priyanshu Jangid"
               position="Girnar"
+              phone="8930072725"
+              insta="https://instagram.com/two_eyedraven?utm_medium=copy_link"
+              email="priyanshu18j@gmail.com"
             />
             <Infocard
               image={Somya}
               name="S.Maheshwari"
               position="Udaigiri"
+              phone="7014165797"
+              insta="https://www.instagram.com/_somya51_/"
+              email="somya51@icloud.com"
             />
           </div>
           <div className="layoutappfourth__row4">
@@ -306,11 +444,17 @@ function LayoutApp() {
               image={Diwakar}
               name="Diwakar Singh"
               position="Karakoram"
+              phone="9997531004"
+              insta="https://www.instagram.com/diwakar_singh712/"
+              email="diwakarsingh712@gmail.com"
             />
             <Infocard
               image={Nishant}
               name="Nishant Bansal"
-              position="Jwalamukhi"
+              position="Jwalamukhi "
+              phone="7042345171"
+              insta="https://www.instagram.com/cosmicnishu/"
+              email="bansalnishant2110@gmail.com"
             />
           </div>
           <div className="layoutappfifth__row4">
@@ -318,11 +462,16 @@ function LayoutApp() {
               image={Sagar}
               name="Sagar"
               position="Vindhyachal"
+              phone="7061590522"
+              insta="https://www.instagram.com/sagar.jaiswal_._/"
+              email="sagar.jaiswal.iitd@gmail.com"
             />
             <Infocard
               image={Aditya}
               name="Aditya Vishal"
               position="Nilgiri"
+              phone="7339906320"
+              email="adityavishal100401@gmail.com"
             />
           </div>
           <div className="layoutappsixth__row4">
@@ -330,11 +479,17 @@ function LayoutApp() {
               image={Tarun}
               name="Tarun Gaur"
               position="Zanskar"
+              phone="6378181638"
+              insta="https://instagram.com/tarungaur13?utm_medium=copy_link"
+              email="tarungaur81@gmail.com"
             />
             <Infocard
               image={Anisha}
               name="Anisha Banthia"
               position="Kailash"
+              phone="9406607077"
+              insta="https://www.instagram.com/anisha__banthia/?r=nametag"
+              email="anishabanthia149@gmail.com"
             />
           </div>
           <div className="layoutappseventh__row4">
@@ -342,16 +497,25 @@ function LayoutApp() {
               image={Ritik}
               name="Ritik Yadav"
               position="Satpura"
+              phone="8882367230"
+              insta="https://www.instagram.com/ritik_5701/"
+              email="ritik05072001@gmail.com"
             />
             <Infocard
               image={Prem}
               name="Prem Khandelwal"
               position="Kumaon"
+              phone="6350300554"
+              insta="https://instagram.com/prem.kh.02?utm_medium=copy_link"
+              email="premkhandelwal530@gmail.com"
             />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
               position="Himadri"
+              phone="9810465757"
+              insta="https://www.instagram.com/_aashitagupta/"
+              email="ce1190204@iitd.ac.in"
             />
           </div>
         </div>
@@ -361,6 +525,9 @@ function LayoutApp() {
               image={Aman}
               name="Aman Lohia"
               position="General Secretary"
+              phone="9829758262"
+              insta="https://www.instagram.com/aman._lohia/"
+              email="lohiaaman1@gmail.com"
             />
           </div>
           <div className="layoutappsecond__row5">
@@ -368,6 +535,9 @@ function LayoutApp() {
               image={Rishi}
               name="Rishi Shah"
               position="Aravali"
+              phone="9636731715"
+              insta="https://www.instagram.com/_rishi_1001/"
+              email="rishi.shah10122001@gmail.com"
             />
           </div>
           <div className="layoutappthird__row5">
@@ -375,11 +545,17 @@ function LayoutApp() {
               image={Keshav}
               name="Keshav Gupta"
               position="Shivalik"
+              phone="9541583322"
+              insta="https://instagram.com/kesshhaavvv?utm_medium=copy_link"
+              email="keshavg732@gmail.com"
             />
             <Infocard
               image={Priyanshu}
               name="Priyanshu Jangid"
               position="Girnar"
+              phone="8930072725"
+              insta="https://instagram.com/two_eyedraven?utm_medium=copy_link"
+              email="priyanshu18j@gmail.com"
             />
           </div>
           <div className="layoutappfourth__row5">
@@ -387,23 +563,35 @@ function LayoutApp() {
               image={Somya}
               name="S.Maheshwari"
               position="Udaigiri"
+              phone="7014165797"
+              insta="https://www.instagram.com/_somya51_/"
+              email="somya51@icloud.com"
             />
             <Infocard
               image={Diwakar}
               name="Diwakar Singh"
               position="Karakoram"
+              phone="9997531004"
+              insta="https://www.instagram.com/diwakar_singh712/"
+              email="diwakarsingh712@gmail.com"
             />
           </div>
           <div className="layoutappfifth__row5">
             <Infocard
               image={Nishant}
               name="Nishant Bansal"
-              position="Jwalamukhi"
+              position="Jwalamukhi "
+              phone="7042345171"
+              insta="https://www.instagram.com/cosmicnishu/"
+              email="bansalnishant2110@gmail.com"
             />
             <Infocard
               image={Sagar}
               name="Sagar"
               position="Vindhyachal"
+              phone="7061590522"
+              insta="https://www.instagram.com/sagar.jaiswal_._/"
+              email="sagar.jaiswal.iitd@gmail.com"
             />
           </div>
           <div className="layoutappsixth__row5">
@@ -411,11 +599,16 @@ function LayoutApp() {
               image={Aditya}
               name="Aditya Vishal"
               position="Nilgiri"
+              phone="7339906320"
+              email="adityavishal100401@gmail.com"
             />
             <Infocard
               image={Tarun}
               name="Tarun Gaur"
               position="Zanskar"
+              phone="6378181638"
+              insta="https://instagram.com/tarungaur13?utm_medium=copy_link"
+              email="tarungaur81@gmail.com"
             />
           </div>
           <div className="layoutappseventh__row5">
@@ -423,11 +616,17 @@ function LayoutApp() {
               image={Anisha}
               name="Anisha Banthia"
               position="Kailash"
+              phone="9406607077"
+              insta="https://www.instagram.com/anisha__banthia/?r=nametag"
+              email="anishabanthia149@gmail.com"
             />
             <Infocard
               image={Ritik}
               name="Ritik Yadav"
               position="Satpura"
+              phone="8882367230"
+              insta="https://www.instagram.com/ritik_5701/"
+              email="ritik05072001@gmail.com"
             />
           </div>
           <div className="layoutappeighth__row5">
@@ -435,11 +634,17 @@ function LayoutApp() {
               image={Prem}
               name="Prem Khandelwal"
               position="Kumaon"
+              phone="6350300554"
+              insta="https://instagram.com/prem.kh.02?utm_medium=copy_link"
+              email="premkhandelwal530@gmail.com"
             />
             <Infocard
               image={Aashita}
               name="Aashita Gupta"
               position="Himadri"
+              phone="9810465757"
+              insta="https://www.instagram.com/_aashitagupta/"
+              email="ce1190204@iitd.ac.in"
             />
           </div>
         </div>

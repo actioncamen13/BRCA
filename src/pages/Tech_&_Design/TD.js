@@ -9,6 +9,8 @@ import Ibrahim from "./Ibrahim Khan_Design Executive_.jpg";
 import Sara from "./Sara Roshen_Creative and Design Executive.jpg";
 import Khushbu from "./Khushbu.jpg";
 import Satya from "./Satya.jpeg";
+import Tamanna from "./Tamanna.jpeg";
+import Munaz from "./Munaz.jpg";
 
 function TD() {
   return (
@@ -24,7 +26,7 @@ function TD() {
           <div className="tdformat1">
             <div className="tdformat1_1">
               <Infocard
-                image={DefaultPic}
+                image={Tamanna}
                 name="Tamanna Tanwar"
                 position="Technical Coordinator"
               />
@@ -47,7 +49,7 @@ function TD() {
                 email="satyakar2019@gmail.com"
               />
               <Infocard
-                image={DefaultPic}
+                image={Munaz}
                 name="Munazzil Anwar"
                 position="Technical Executive"
               />
@@ -78,7 +80,7 @@ function TD() {
           <div className="tdformat2">
             <div className="tdformat2_1">
               <Infocard
-                image={DefaultPic}
+                image={Tamanna}
                 name="Tamanna Tanwar"
                 position="Technical Coordinator"
               />
@@ -105,7 +107,7 @@ function TD() {
             </div>
             <div className="tdformat2_4">
               <Infocard
-                image={DefaultPic}
+                image={Munaz}
                 name="Munazzil Anwar"
                 position="Technical Executive"
               />

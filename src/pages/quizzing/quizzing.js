@@ -157,6 +157,9 @@ const Quizzing = () => {
                   image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
+                  phone="9910377165"
+                  insta="https://www.instagram.com/attila_the_rehun/"
+                  email="bhatia.rehan4@icloud.com"
                 />
               </div>
               <div className="quizzingformat1_2">
@@ -164,32 +167,50 @@ const Quizzing = () => {
                   image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
+                  phone="9643108902"
+                  insta="https://www.instagram.com/akshit_._bhardwaj4/"
+                  email="akshitbhardwaj4@gmail.com"
                 />
 
                 <Infocard
                   image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
+                  phone="9490598801"
+                  insta="https://www.instagram.com/varun__vaidyanathan/"
+                  email="varunvaidyanathan02@gmail.com"
                 />
                 <Infocard
                   image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
+                  phone="9953893090"
+                  insta="https://www.instagram.com/srijan920/"
+                  email="srijang10@gmail.com"
                 />
                 <Infocard
                   image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
+                  phone="7018239758"
+                  insta="https://www.instagram.com/utkarshdogra14/"
+                  email="utkarshdogra14@gmail.com"
                 />
                 <Infocard
                   image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
+                  phone="9123326525"
+                  insta="https://www.instagram.com/_apple_crab_/"
+                  email="afreenhaider07@gmail.com"
                 />
                 <Infocard
                   image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
+                  phone="8851546215"
+                  insta="https://www.instagram.com/pris_peralta/"
+                  email="priyansita@gmail.com"
                 />
               </div>
               <div className="quizzingformat1_3">
@@ -197,36 +218,57 @@ const Quizzing = () => {
                   image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
+                  phone="9311204717"
+                  insta="https://www.instagram.com/cooldudeaaghaz/"
+                  email="aaghazaman@gmail.com"
                 />
                 <Infocard
                   image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
+                  phone="8554816257"
+                  insta="https://www.instagram.com/iitdqc"
+                  email="aniruddha.deb.2002@gmail.com"
                 />
                 <Infocard
                   image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
+                  phone="9910994282"
+                  insta="https://www.instagram.com/soumilaggarwal_01/"
+                  email="soumilaggarwal95@gmail.com"
                 />
                 <Infocard
                   image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
+                  phone="8826334285"
+                  insta="https://www.instagram.com/aryan.sinha01/"
+                  email="sinhaaryan88@gmail.com"
                 />
                 <Infocard
                   image={Anish}
                   name="Anish Roy"
                   position="Representative"
+                  phone="7903610615"
+                  insta="https://www.instagram.com/anish.roy.42/"
+                  email="aroy.tom23@gmail.com"
                 />
                 <Infocard
                   image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
+                  phone="9326681227"
+                  insta="https://www.instagram.com/prasun_nayak22/"
+                  email="prasun.nayak4@gmail.com"
                 />
                 <Infocard
                   image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
+                  phone="8376008812"
+                  insta="https://www.instagram.com/j.gautam09/"
+                  email="j9gautam@gmail.com"
                 />
               </div>
             </div>
@@ -236,6 +278,9 @@ const Quizzing = () => {
                   image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
+                  phone="9910377165"
+                  insta="https://www.instagram.com/attila_the_rehun/"
+                  email="bhatia.rehan4@icloud.com"
                 />
               </div>
               <div className="quizzingformat2_2">
@@ -243,22 +288,34 @@ const Quizzing = () => {
                   image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
+                  phone="9643108902"
+                  insta="https://www.instagram.com/akshit_._bhardwaj4/"
+                  email="akshitbhardwaj4@gmail.com"
                 />
 
                 <Infocard
                   image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
+                  phone="9490598801"
+                  insta="https://www.instagram.com/varun__vaidyanathan/"
+                  email="varunvaidyanathan02@gmail.com"
                 />
                 <Infocard
                   image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
+                  phone="9953893090"
+                  insta="https://www.instagram.com/srijan920/"
+                  email="srijang10@gmail.com"
                 />
                 <Infocard
                   image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
+                  phone="7018239758"
+                  insta="https://www.instagram.com/utkarshdogra14/"
+                  email="utkarshdogra14@gmail.com"
                 />
               </div>
               <div className="quizzingformat2_3">
@@ -266,21 +323,33 @@ const Quizzing = () => {
                   image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
+                  phone="9123326525"
+                  insta="https://www.instagram.com/_apple_crab_/"
+                  email="afreenhaider07@gmail.com"
                 />
                 <Infocard
                   image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
+                  phone="8851546215"
+                  insta="https://www.instagram.com/pris_peralta/"
+                  email="priyansita@gmail.com"
                 />
                 <Infocard
                   image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
+                  phone="9311204717"
+                  insta="https://www.instagram.com/cooldudeaaghaz/"
+                  email="aaghazaman@gmail.com"
                 />
                 <Infocard
                   image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
+                  phone="8554816257"
+                  insta="https://www.instagram.com/iitdqc"
+                  email="aniruddha.deb.2002@gmail.com"
                 />
               </div>
               <div className="quizzingformat2_4">
@@ -288,26 +357,41 @@ const Quizzing = () => {
                   image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
+                  phone="9910994282"
+                  insta="https://www.instagram.com/soumilaggarwal_01/"
+                  email="soumilaggarwal95@gmail.com"
                 />
                 <Infocard
                   image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
+                  phone="8826334285"
+                  insta="https://www.instagram.com/aryan.sinha01/"
+                  email="sinhaaryan88@gmail.com"
                 />
                 <Infocard
                   image={Anish}
                   name="Anish Roy"
                   position="Representative"
+                  phone="7903610615"
+                  insta="https://www.instagram.com/anish.roy.42/"
+                  email="aroy.tom23@gmail.com"
                 />
                 <Infocard
                   image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
+                  phone="9326681227"
+                  insta="https://www.instagram.com/prasun_nayak22/"
+                  email="prasun.nayak4@gmail.com"
                 />
                 <Infocard
                   image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
+                  phone="8376008812"
+                  insta="https://www.instagram.com/j.gautam09/"
+                  email="j9gautam@gmail.com"
                 />
               </div>
             </div>
@@ -317,6 +401,9 @@ const Quizzing = () => {
                   image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
+                  phone="9910377165"
+                  insta="https://www.instagram.com/attila_the_rehun/"
+                  email="bhatia.rehan4@icloud.com"
                 />
               </div>
               <div className="quizzingformat3_2">
@@ -324,12 +411,18 @@ const Quizzing = () => {
                   image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
+                  phone="9643108902"
+                  insta="https://www.instagram.com/akshit_._bhardwaj4/"
+                  email="akshitbhardwaj4@gmail.com"
                 />
 
                 <Infocard
                   image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
+                  phone="9490598801"
+                  insta="https://www.instagram.com/varun__vaidyanathan/"
+                  email="varunvaidyanathan02@gmail.com"
                 />
               </div>
               <div className="quizzingformat3_3">
@@ -337,11 +430,17 @@ const Quizzing = () => {
                   image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
+                  phone="9953893090"
+                  insta="https://www.instagram.com/srijan920/"
+                  email="srijang10@gmail.com"
                 />
                 <Infocard
                   image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
+                  phone="7018239758"
+                  insta="https://www.instagram.com/utkarshdogra14/"
+                  email="utkarshdogra14@gmail.com"
                 />
               </div>
               <div className="quizzingformat3_4">
@@ -349,11 +448,17 @@ const Quizzing = () => {
                   image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
+                  phone="9123326525"
+                  insta="https://www.instagram.com/_apple_crab_/"
+                  email="afreenhaider07@gmail.com"
                 />
                 <Infocard
                   image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
+                  phone="8851546215"
+                  insta="https://www.instagram.com/pris_peralta/"
+                  email="priyansita@gmail.com"
                 />
               </div>
               <div className="quizzingformat3_5">
@@ -361,11 +466,17 @@ const Quizzing = () => {
                   image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
+                  phone="9311204717"
+                  insta="https://www.instagram.com/cooldudeaaghaz/"
+                  email="aaghazaman@gmail.com"
                 />
                 <Infocard
                   image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
+                  phone="8554816257"
+                  insta="https://www.instagram.com/iitdqc"
+                  email="aniruddha.deb.2002@gmail.com"
                 />
               </div>
               <div className="quizzingformat3_6">
@@ -373,11 +484,17 @@ const Quizzing = () => {
                   image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
+                  phone="9910994282"
+                  insta="https://www.instagram.com/soumilaggarwal_01/"
+                  email="soumilaggarwal95@gmail.com"
                 />
                 <Infocard
                   image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
+                  phone="8826334285"
+                  insta="https://www.instagram.com/aryan.sinha01/"
+                  email="sinhaaryan88@gmail.com"
                 />
               </div>
               <div className="quizzingformat3_7">
@@ -385,11 +502,17 @@ const Quizzing = () => {
                   image={Anish}
                   name="Anish Roy"
                   position="Representative"
+                  phone="7903610615"
+                  insta="https://www.instagram.com/anish.roy.42/"
+                  email="aroy.tom23@gmail.com"
                 />
                 <Infocard
                   image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
+                  phone="9326681227"
+                  insta="https://www.instagram.com/prasun_nayak22/"
+                  email="prasun.nayak4@gmail.com"
                 />
                 <Infocard
                   image={Gautam}
@@ -404,6 +527,9 @@ const Quizzing = () => {
                   image={Rehan}
                   name="Rehan Bhatia"
                   position="Secretary"
+                  phone="9910377165"
+                  insta="https://www.instagram.com/attila_the_rehun/"
+                  email="bhatia.rehan4@icloud.com"
                 />
               </div>
               <div className="quizzingformat4_2">
@@ -411,6 +537,9 @@ const Quizzing = () => {
                   image={Akshit}
                   name="Akshit Bhardwaj"
                   position="Representative"
+                  phone="9643108902"
+                  insta="https://www.instagram.com/akshit_._bhardwaj4/"
+                  email="akshitbhardwaj4@gmail.com"
                 />
               </div>
               <div className="quizzingformat4_3">
@@ -418,11 +547,17 @@ const Quizzing = () => {
                   image={Varun}
                   name="V.Vaidyanathan"
                   position="Representative"
+                  phone="9490598801"
+                  insta="https://www.instagram.com/varun__vaidyanathan/"
+                  email="varunvaidyanathan02@gmail.com"
                 />
                 <Infocard
                   image={Srijan}
                   name="Srijan Gupta"
                   position="Representative"
+                  phone="9953893090"
+                  insta="https://www.instagram.com/srijan920/"
+                  email="srijang10@gmail.com"
                 />
               </div>
               <div className="quizzingformat4_4">
@@ -430,11 +565,17 @@ const Quizzing = () => {
                   image={Utkarsh}
                   name="Utkarsh Dogra"
                   position="Representative"
+                  phone="7018239758"
+                  insta="https://www.instagram.com/utkarshdogra14/"
+                  email="utkarshdogra14@gmail.com"
                 />
                 <Infocard
                   image={Afreen}
                   name="Afreen Haider"
                   position="Representative"
+                  phone="9123326525"
+                  insta="https://www.instagram.com/_apple_crab_/"
+                  email="afreenhaider07@gmail.com"
                 />
               </div>
               <div className="quizzingformat4_5">
@@ -442,11 +583,17 @@ const Quizzing = () => {
                   image={Priyansita}
                   name="P.Agarwalla"
                   position="Representative"
+                  phone="8851546215"
+                  insta="https://www.instagram.com/pris_peralta/"
+                  email="priyansita@gmail.com"
                 />
                 <Infocard
                   image={Aaghaz}
                   name="Aaghaz Mahajan"
                   position="Representative"
+                  phone="9311204717"
+                  insta="https://www.instagram.com/cooldudeaaghaz/"
+                  email="aaghazaman@gmail.com"
                 />
               </div>
               <div className="quizzingformat4_6">
@@ -454,11 +601,17 @@ const Quizzing = () => {
                   image={Aniruddha}
                   name="Aniruddha Deb"
                   position="Representative"
+                  phone="8554816257"
+                  insta="https://www.instagram.com/iitdqc"
+                  email="aniruddha.deb.2002@gmail.com"
                 />
                 <Infocard
                   image={Soumil}
                   name="Soumil Aggarwal"
                   position="Representative"
+                  phone="9910994282"
+                  insta="https://www.instagram.com/soumilaggarwal_01/"
+                  email="soumilaggarwal95@gmail.com"
                 />
               </div>
               <div className="quizzingformat4_7">
@@ -466,11 +619,17 @@ const Quizzing = () => {
                   image={Aryan}
                   name="Aryan Sinha"
                   position="Representative"
+                  phone="8826334285"
+                  insta="https://www.instagram.com/aryan.sinha01/"
+                  email="sinhaaryan88@gmail.com"
                 />
                 <Infocard
                   image={Anish}
                   name="Anish Roy"
                   position="Representative"
+                  phone="7903610615"
+                  insta="https://www.instagram.com/anish.roy.42/"
+                  email="aroy.tom23@gmail.com"
                 />
               </div>
               <div className="quizzingformat4_8">
@@ -478,11 +637,17 @@ const Quizzing = () => {
                   image={Prasun}
                   name="Prasun Nayak"
                   position="Representative"
+                  phone="9326681227"
+                  insta="https://www.instagram.com/prasun_nayak22/"
+                  email="prasun.nayak4@gmail.com"
                 />
                 <Infocard
                   image={Gautam}
                   name="Gautam Jha"
                   position="Representative"
+                  phone="8376008812"
+                  insta="https://www.instagram.com/j.gautam09/"
+                  email="j9gautam@gmail.com"
                 />
               </div>
             </div>
