@@ -18,7 +18,7 @@ import DesignNavbar from "./Navbar/DesignNavbar";
 import DesignFooter from "./Footer/DesignFooter";
 import Infocard from "./Infocard/Infocard";
 // import DefaultPic from "./Infocard/Rectangle 103.png";
-import Atharva from "./Atharva.png";
+import Atharva from "./atharva.png";
 import sahil from "./sahil.png";
 import aryan from "./aryan.png";
 import devansh from "./devansh.png";
